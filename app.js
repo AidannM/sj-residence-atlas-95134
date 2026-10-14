@@ -46729,6 +46729,9 @@ function fitMapToApartmentRoute(apt) {
     ...(apt.transitRideCoords || []),
     ...(apt.transitWalkEndCoords || [])
   ];
+  if (apt.transitStops?.boardCoords) coords.push(apt.transitStops.boardCoords);
+  if (apt.transitStops?.exitCoords) coords.push(apt.transitStops.exitCoords);
+
   let minLng = Infinity, maxLng = -Infinity, minLat = Infinity, maxLat = -Infinity;
   coords.forEach(([lng, lat]) => {
     if (lng < minLng) minLng = lng;
@@ -46739,7 +46742,7 @@ function fitMapToApartmentRoute(apt) {
   if (isFinite(minLng) && isFinite(maxLng)) {
     map.fitBounds(
       [[minLng, minLat], [maxLng, maxLat]],
-      { padding: { top: 68, bottom: 78, left: 68, right: 68 }, maxZoom: 14.4, pitch: state.is3DPitched ? 48 : 0, duration: 750 }
+      { padding: { top: 76, bottom: 96, left: 112, right: 112 }, maxZoom: 14.1, pitch: state.is3DPitched ? 48 : 0, duration: 750 }
     );
   }
 }

@@ -1343,9 +1343,9 @@ html[data-theme="dark"] .route-badge-walk {
             <label for="budget-filter" class="field-label">Max Monthly Budget</label>
             <select id="budget-filter" class="select-input">
               <option value="9999">No Cap (Show All)</option>
-              <option value="3500" selected>Up to $3,500 / mo (Hard Cap)</option>
+              <option value="3500" selected>Up to $3,500 / mo</option>
               <option value="3250">Up to $3,250 / mo</option>
-              <option value="3000">Up to $3,000 / mo (Preferred Goal)</option>
+              <option value="3000">Up to $3,000 / mo</option>
               <option value="2850">Up to $2,850 / mo</option>
             </select>
           </div>
@@ -1353,21 +1353,21 @@ html[data-theme="dark"] .route-badge-walk {
           <div class="input-group">
             <label for="unit-filter" class="field-label">Unit Layout</label>
             <select id="unit-filter" class="select-input">
-              <option value="ANY">Studios &amp; 1-Bedrooms</option>
+              <option value="ANY">Studios &amp; 1-Beds</option>
               <option value="STUDIO">Must Offer Studios</option>
-              <option value="1BR_UNDER_3K">1-Bedroom &le; $3,000</option>
-              <option value="1BR_UNDER_3500">1-Bedroom &le; $3,500</option>
+              <option value="1BR_UNDER_3K">1-Bed &le; $3,000</option>
+              <option value="1BR_UNDER_3500">1-Bed &le; $3,500</option>
             </select>
           </div>
 
           <div class="input-group">
             <label for="sort-select" class="field-label">Sort Order</label>
             <select id="sort-select" class="select-input">
-              <option value="priority-score" selected>Personal Priority Match (%)</option>
+              <option value="priority-score" selected>Priority Match (%)</option>
               <option value="rent-asc">Lowest Base Rent</option>
-              <option value="true-asc">Lowest True All-In Cost</option>
-              <option value="commute-asc">Shortest Commute to Cisco</option>
-              <option value="rating-desc">Highest Resident Rating</option>
+              <option value="true-asc">Lowest True Cost</option>
+              <option value="commute-asc">Shortest Commute</option>
+              <option value="rating-desc">Highest Rating</option>
             </select>
           </div>
         </div>
@@ -48411,6 +48411,9 @@ function fitMapToApartmentRoute(apt) {
     ...(apt.transitRideCoords || []),
     ...(apt.transitWalkEndCoords || [])
   ];
+  if (apt.transitStops?.boardCoords) coords.push(apt.transitStops.boardCoords);
+  if (apt.transitStops?.exitCoords) coords.push(apt.transitStops.exitCoords);
+
   let minLng = Infinity, maxLng = -Infinity, minLat = Infinity, maxLat = -Infinity;
   coords.forEach(([lng, lat]) => {
     if (lng < minLng) minLng = lng;
@@ -48421,7 +48424,7 @@ function fitMapToApartmentRoute(apt) {
   if (isFinite(minLng) && isFinite(maxLng)) {
     map.fitBounds(
       [[minLng, minLat], [maxLng, maxLat]],
-      { padding: { top: 68, bottom: 78, left: 68, right: 68 }, maxZoom: 14.4, pitch: state.is3DPitched ? 48 : 0, duration: 750 }
+      { padding: { top: 76, bottom: 96, left: 112, right: 112 }, maxZoom: 14.1, pitch: state.is3DPitched ? 48 : 0, duration: 750 }
     );
   }
 }
