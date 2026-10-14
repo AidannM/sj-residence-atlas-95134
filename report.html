@@ -617,7 +617,7 @@ html[data-theme="dark"] .chip.active {
 .dot-warn { background-color: #b91c1c; }
 
 .line-swatch {
-  width: 18px;
+  width: 20px;
   height: 4px;
   border-radius: 2px;
   display: inline-block;
@@ -626,21 +626,27 @@ html[data-theme="dark"] .chip.active {
   background-color: #d94e28;
 }
 .swatch-transit {
-  background: repeating-linear-gradient(90deg, #2563eb 0, #2563eb 5px, transparent 5px, transparent 8px);
+  background-color: #2563eb;
+}
+.swatch-walk {
+  background: repeating-linear-gradient(90deg, #d97706 0, #d97706 3px, transparent 3px, transparent 6px);
 }
 
 .map-vta-marker {
-  padding: 3px 8px;
+  padding: 3px 9px;
   border-radius: 999px;
   background-color: #1d4ed8;
   color: #ffffff;
   font-size: 0.69rem;
   font-weight: 700;
   border: 1.5px solid #ffffff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   white-space: nowrap;
   pointer-events: auto;
   cursor: pointer;
+}
+.map-vta-marker.is-board-stop {
+  background-color: #0f766e;
 }
 
 .route-comparison-box {
@@ -686,6 +692,19 @@ html[data-theme="dark"] .route-badge-car {
 html[data-theme="dark"] .route-badge-transit {
   color: #60a5fa;
 }
+.route-badge-walk {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background-color: rgba(217, 119, 6, 0.15);
+  color: #b45309;
+  font-weight: 700;
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+html[data-theme="dark"] .route-badge-walk {
+  color: #fbbf24;
+}
 
 /* MapLibre Custom Price Markers */
 .map-price-marker {
@@ -702,13 +721,8 @@ html[data-theme="dark"] .route-badge-transit {
   color: #ffffff;
   border: 1.5px solid #ffffff;
   cursor: pointer;
-  transition: transform 150ms ease;
+  transition: transform 160ms ease, opacity 160ms ease, filter 160ms ease, box-shadow 160ms ease;
   white-space: nowrap;
-}
-.map-price-marker:hover,
-.map-price-marker.is-selected {
-  transform: scale(1.12);
-  z-index: 50 !important;
 }
 .map-price-marker.is-under3k {
   background-color: #1b5e49;
@@ -718,6 +732,28 @@ html[data-theme="dark"] .route-badge-transit {
 }
 .map-price-marker.is-warn {
   background-color: #b91c1c;
+}
+.map-price-marker.is-dimmed {
+  background-color: #71767d !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  outline: none !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  opacity: 0.34;
+  filter: grayscale(100%);
+  transform: scale(0.88);
+  z-index: 5 !important;
+}
+.map-price-marker.is-dimmed:hover {
+  opacity: 0.9;
+  filter: grayscale(15%);
+  transform: scale(1.06);
+  z-index: 45 !important;
+}
+.map-price-marker:hover,
+.map-price-marker.is-selected {
+  transform: scale(1.18);
+  z-index: 60 !important;
+  box-shadow: 0 0 0 3px rgba(217, 78, 40, 0.45), 0 4px 14px rgba(0, 0, 0, 0.35);
 }
 
 .map-cisco-marker {
