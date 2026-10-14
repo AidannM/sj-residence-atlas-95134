@@ -46374,6 +46374,7 @@ function renderCards() {
   container.innerHTML = state.filtered.map((apt) => {
     const isFav = state.favorites.has(apt.id);
     const isCompared = state.compareIds.has(apt.id);
+    const isSelected = apt.id === state.selectedId;
     const isSVP = String(apt.utilityProvider).includes("Silicon Valley Power");
 
     const studioPrice = state.pricingMode === "true"
@@ -46387,11 +46388,12 @@ function renderCards() {
     const priceCaption = state.pricingMode === "true" ? "True all-in/mo" : "Base rent/mo";
 
     return `
-      <article class="residence-card ${!apt.meetsAllCriteria ? "is-warn-card" : ""}" role="listitem" data-apt-id="${escapeHtml(apt.id)}">
+      <article class="residence-card ${!apt.meetsAllCriteria ? "is-warn-card" : ""} ${isSelected ? "is-selected-card" : ""}" role="listitem" data-apt-id="${escapeHtml(apt.id)}" title="Click anywhere on card to display next to the 3D Map">
         <div>
           <div class="card-top-row">
             <div class="tag-row">
               <span class="tag tag-match">${apt.matchScore}% Match</span>
+              ${isSelected ? `<span class="tag tag-route">📍 Shown Next to Map</span>` : ""}
               ${apt.under3000Option && apt.meetsAllCriteria ? `<span class="tag tag-match">≤ $3,000 Option</span>` : ""}
               ${isSVP ? `<span class="tag tag-svp">⚡ Santa Clara SVP Power</span>` : ""}
               ${!apt.meetsAllCriteria ? `<span class="tag tag-warn">⚠ ${escapeHtml(apt.highlightTag)}</span>` : ""}
@@ -46470,7 +46472,7 @@ function renderCards() {
 
         <div class="card-footer-btns">
           <button type="button" class="btn btn-primary" data-action="inspect" data-id="${escapeHtml(apt.id)}">Full Dossier</button>
-          <button type="button" class="btn btn-secondary" data-action="focus-map" data-id="${escapeHtml(apt.id)}">Show on 3D Map</button>
+          <button type="button" class="btn btn-secondary ${isSelected ? "active" : ""}" data-action="focus-map" data-id="${escapeHtml(apt.id)}">${isSelected ? "✓ Next to Map" : "Show on 3D Map"}</button>
           <button type="button" class="btn btn-secondary ${isCompared ? "active" : ""}" data-action="compare" data-id="${escapeHtml(apt.id)}" aria-pressed="${isCompared}">
             ${isCompared ? "✓ Comparing" : "+ Compare"}
           </button>
@@ -46883,10 +46885,12 @@ function updateMapMarkersAndArcs() {
       if (state.selectedId === apt.id) {
         // Clicking the already-selected pin returns to overview mode ("Show All Pins")
         state.selectedId = null;
+        renderCards();
         renderMapInspector(apt);
         updateMapMarkersAndArcs();
       } else {
         state.selectedId = apt.id;
+        renderCards();
         renderMapInspector(apt);
         updateMapMarkersAndArcs();
         fitMapToApartmentRoute(apt);
@@ -46980,8 +46984,8 @@ function renderMapInspector(apt) {
           <span class="tag tag-route">🚗 ${apt.driveMins}m Car &middot; 🚇 ${transitMins}m Transit</span>
         </div>
         ${isIsolated
-          ? `<span class="tag" style="background:var(--bg-elevated); color:var(--text-secondary); border:1px solid var(--border-color);">Focused Pin (Others Dimmed)</span>`
-          : `<span class="tag" style="background:var(--bg-elevated); color:var(--text-secondary); border:1px solid var(--border-color);">Overview Mode (All Pins Active)</span>`
+          ? `<span class="tag" style="background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-color);">Focused Pin (Others Dimmed)</span>`
+          : `<span class="tag" style="background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-color);">Overview Mode (All Pins Active)</span>`
         }
       </div>
 
@@ -47037,6 +47041,7 @@ function renderMapInspector(apt) {
       Open Complete Review &amp; Cost Dossier
     </button>
   `;
+  setTimeout(() => map?.resize(), 30);
 }
 
 // --- Render Live Editable Comparison Sheet ---
@@ -47474,6 +47479,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("clear-selection-btn")?.addEventListener("click", () => {
     state.selectedId = null;
+    renderCards();
     updateMapMarkersAndArcs();
     const firstApt = state.filtered[0] || state.apartments[0];
     if (firstApt) renderMapInspector(firstApt);
@@ -47486,32 +47492,57 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  function selectApartmentAndSpotlight(apt, shouldScrollToMap = true) {
+    if (!apt) return;
+    state.selectedId = apt.id;
+    renderCards();
+    renderMapInspector(apt);
+    updateMapMarkersAndArcs();
+    if (shouldScrollToMap) {
+      const mapEl = document.getElementById("map-section-title") || document.getElementById("maplibre-canvas");
+      const rect = mapEl?.getBoundingClientRect();
+      if (rect && (rect.top < -40 || rect.top > window.innerHeight * 0.55)) {
+        mapEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+    fitMapToApartmentRoute(apt);
+  }
+
   // Delegated Card & Table Actions
   document.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-action]");
-    if (!btn) return;
-    const action = btn.getAttribute("data-action");
-    const id = btn.getAttribute("data-id");
-    if (!id) return;
+    if (btn) {
+      const action = btn.getAttribute("data-action");
+      const id = btn.getAttribute("data-id");
+      if (!id) return;
 
-    if (action === "inspect") {
-      openDetailModal(id);
-    } else if (action === "focus-map") {
-      const apt = state.apartments.find((a) => a.id === id);
-      if (apt && map) {
-        state.selectedId = apt.id;
-        renderMapInspector(apt);
-        updateMapMarkersAndArcs();
-        document.getElementById("maplibre-canvas")?.scrollIntoView({ behavior: "smooth", block: "center" });
-        fitMapToApartmentRoute(apt);
+      if (action === "inspect") {
+        openDetailModal(id);
+      } else if (action === "focus-map") {
+        const apt = state.apartments.find((a) => a.id === id);
+        if (apt) selectApartmentAndSpotlight(apt, true);
+      } else if (action === "toggle-fav") {
+        if (state.favorites.has(id)) state.favorites.delete(id);
+        else state.favorites.add(id);
+        saveAllToStorage("Favorites saved");
+        runFilterAndRender();
+      } else if (action === "compare") {
+        toggleCompare(id);
       }
-    } else if (action === "toggle-fav") {
-      if (state.favorites.has(id)) state.favorites.delete(id);
-      else state.favorites.add(id);
-      saveAllToStorage("Favorites saved");
-      runFilterAndRender();
-    } else if (action === "compare") {
-      toggleCompare(id);
+      return;
+    }
+
+    // Ignore clicks on external links or personal note input fields inside a card
+    if (e.target.closest("a, input, textarea, select, label")) return;
+
+    // Clicking anywhere on a residence card in the directory selects it and loads it next to the map
+    const card = e.target.closest(".residence-card[data-apt-id]");
+    if (card) {
+      const aptId = card.getAttribute("data-apt-id");
+      const apt = state.apartments.find((a) => a.id === aptId);
+      if (apt) {
+        selectApartmentAndSpotlight(apt, true);
+      }
     }
   });
 
