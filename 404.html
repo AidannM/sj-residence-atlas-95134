@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.arcgisonline.com https://*.basemaps.cartocdn.com; connect-src 'self' https://*.arcgisonline.com https://unpkg.com; worker-src 'self' blob:;" />
+  <title>San Jose Residence Finder — 3625 Cisco Way Commute &amp; Priority Planner</title>
+  <meta name="description" content="Refined apartment search, priority scorer, interactive map, and live spreadsheet tracker for working at Cisco (3625 Cisco Way, San Jose, CA 95134)." />
+
+  <!-- MapLibre GL JS (100% Free OpenGL 3D Pitch/Bearing Map — Zero API Key Needed) -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!--
+    THESIS: A warm, tactile architectural residence workbench where priority weights, true monthly cost math, and verified resident feedback replace generic real-estate listing clutter.
+    OWN-WORLD: Alabaster warm stone (#F7F5F0) and Espresso slate (#141518) with forest sage (#1E5E4A) for verified value and terracotta (#B85435) for commute routes; crisp 1px structural borders and clean system UI typography.
+    STORY: A graduating SJSU student heading to Cisco HQ (3625 Cisco Way) dials in personal priorities, compares true all-in costs (including Santa Clara's 60% cheaper SVP electricity), inspects real resident reviews, and saves notes and edits automatically.
+    FIRST VIEWPORT: Top workspace bar with Light/Dark toggle and Auto-Save indicator, immediate Priority Weight Tuner + Search & Filter workbench on the left, and an interactive 3D pitchable vector map + live ranked apartment cards on the right.
+    FORM: Architectural Field Workbench (Operate Mode).
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance.
+  -->
+
+  <a href="#main-workbench" class="skip-link">Skip to apartment listings</a>
+  <a href="#spreadsheet-section" class="skip-link">Skip to live spreadsheet</a>
+  <div id="a11y-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Refined Top Workspace Bar -->
+  <header class="topbar">
+    <div class="topbar-brand">
+      <h1 class="site-title">San Jose Residence Finder</h1>
+      <span class="site-subtitle">Target Workplace: <strong>3625 Cisco Way, San Jose, CA 95134</strong></span>
+    </div>
+
+    <nav class="topbar-nav" aria-label="Primary sections">
+      <a href="#main-workbench" class="nav-link">Map &amp; Residences <span id="results-counter" class="counter-pill">30</span></a>
+      <a href="#spreadsheet-section" class="nav-link">Live Spreadsheet</a>
+      <a href="report.html" target="_blank" class="nav-link">Full Written Report</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <!-- Auto-Save Status Indicator -->
+      <div class="save-indicator" id="save-indicator" role="status" aria-live="polite">
+        <svg class="icon-svg" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>
+        <span id="save-status-text">All changes saved</span>
+      </div>
+
+      <!-- Base Rent vs True Monthly Cost Switch -->
+      <button type="button" id="cost-mode-btn" class="btn btn-secondary" aria-pressed="false" title="Switch between advertised Base Rent and True Monthly Cost (including parking, utilities, and Santa Clara SVP savings)">
+        <span id="cost-mode-label">Showing: <strong>Base Rent</strong></span>
+      </button>
+
+      <!-- Add New Listing -->
+      <button type="button" id="open-add-btn" class="btn btn-primary">
+        <svg class="icon-svg" viewBox="0 0 16 16" aria-hidden="true"><path d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z"/></svg>
+        Add Listing
+      </button>
+
+      <!-- Light / Dark Theme Toggle -->
+      <button type="button" id="theme-toggle-btn" class="btn btn-icon" aria-label="Toggle Light and Dark Mode" title="Switch between Light and Dark theme">
+        <svg id="theme-icon-sun" class="icon-svg" viewBox="0 0 16 16" aria-hidden="true" hidden><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0Zm0 13a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13ZM2.343 2.343a.75.75 0 0 1 1.061 0l1.06 1.061a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06Zm9.193 9.193a.75.75 0 0 1 1.06 0l1.061 1.06a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 0-1.061ZM16 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8ZM3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8Zm10.657-5.657a.75.75 0 0 1 0 1.061l-1.061 1.06a.75.75 0 1 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0Zm-9.193 9.193a.75.75 0 0 1 0 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061a.75.75 0 0 1 1.061 0Z"/></svg>
+        <svg id="theme-icon-moon" class="icon-svg" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.598 1.591a.75.75 0 0 1 .785-.175 7 7 0 1 1-8.967 8.967.75.75 0 0 1 .961-.96 5.5 5.5 0 0 0 7.046-7.046.75.75 0 0 1 .175-.786"/></svg>
+        <span id="theme-toggle-text">Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-workbench" class="workspace-shell">
+    <!-- LEFT SIDEBAR: SEARCH, FILTERS & INTERACTIVE PRIORITY WEIGHTS -->
+    <aside class="controls-sidebar" aria-label="Search, filters, and priority weights">
+      <!-- Search & Quick Filter Presets -->
+      <section class="panel-block">
+        <h2 class="panel-heading">Search &amp; Filter</h2>
+
+        <div class="input-group">
+          <label for="search-input" class="field-label">Keyword Search <span class="hint-text">(Press / to focus)</span></label>
+          <input type="search" id="search-input" class="text-input" placeholder="Name, street, 'gas stove', 'Trader Joe's', 'BART'..." autocomplete="off" />
+        </div>
+
+        <div class="preset-pills" role="group" aria-label="Quick filter views">
+          <button type="button" class="chip active" data-preset="all">All Qualified</button>
+          <button type="button" class="chip" data-preset="under3000">Under $3,000 Goal</button>
+          <button type="button" class="chip" data-preset="favorites">Saved Favorites ★</button>
+          <button type="button" class="chip" data-preset="walk-to-cisco">Walk / Bike (&le;1.3 mi)</button>
+          <button type="button" class="chip" data-preset="svp-power">Santa Clara Cheap A/C</button>
+          <button type="button" class="chip" data-preset="free-parking">$0 Included Parking</button>
+          <button type="button" class="chip" data-preset="warnings">Show Eliminated / Warnings</button>
+        </div>
+
+        <div class="filter-grid">
+          <div class="input-group">
+            <label for="region-filter" class="field-label">Neighborhood Corridor</label>
+            <select id="region-filter" class="select-input">
+              <option value="ALL">All 5 Corridors</option>
+              <option value="North San Jose">North SJ / River Oaks (0.4–1.3 mi)</option>
+              <option value="Santa Clara (SVP Utility)">Santa Clara / SVP Utility (1.9–5.8 mi)</option>
+              <option value="Milpitas Corridor">Milpitas / BART / VTA (1.8–3.5 mi)</option>
+              <option value="Japantown & Downtown">Japantown &amp; Downtown (5.1–7.0 mi)</option>
+              <option value="Midtown & West SJ">Midtown / Alameda / Santana Row</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="budget-filter" class="field-label">Max Monthly Budget</label>
+            <select id="budget-filter" class="select-input">
+              <option value="9999">No Cap (Show All)</option>
+              <option value="3500" selected>Up to $3,500 / mo (Hard Cap)</option>
+              <option value="3250">Up to $3,250 / mo</option>
+              <option value="3000">Up to $3,000 / mo (Preferred Goal)</option>
+              <option value="2850">Up to $2,850 / mo</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="unit-filter" class="field-label">Unit Layout</label>
+            <select id="unit-filter" class="select-input">
+              <option value="ANY">Studios &amp; 1-Bedrooms</option>
+              <option value="STUDIO">Must Offer Studios</option>
+              <option value="1BR_UNDER_3K">1-Bedroom &le; $3,000</option>
+              <option value="1BR_UNDER_3500">1-Bedroom &le; $3,500</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="sort-select" class="field-label">Sort Order</label>
+            <select id="sort-select" class="select-input">
+              <option value="priority-score" selected>Personal Priority Match (%)</option>
+              <option value="rent-asc">Lowest Base Rent</option>
+              <option value="true-asc">Lowest True All-In Cost</option>
+              <option value="commute-asc">Shortest Commute to Cisco</option>
+              <option value="rating-desc">Highest Resident Rating</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="checklist-filters">
+          <label class="check-row">
+            <input type="checkbox" id="filter-strict" checked />
+            <span>Require In-Unit Laundry, Central A/C &amp; Pool</span>
+          </label>
+          <label class="check-row">
+            <input type="checkbox" id="filter-svp-only" />
+            <span>Only Santa Clara SVP Electric (60% cheaper A/C)</span>
+          </label>
+          <label class="check-row">
+            <input type="checkbox" id="filter-free-parking" />
+            <span>Only $0 Included Garage Parking</span>
+          </label>
+        </div>
+      </section>
+
+      <!-- Interactive Priority Scorer -->
+      <section class="panel-block priority-panel" aria-labelledby="priority-heading">
+        <div class="panel-header-inline">
+          <h2 id="priority-heading" class="panel-heading">Select Your Priorities</h2>
+          <button type="button" id="reset-weights-btn" class="text-btn">Reset</button>
+        </div>
+        <p class="panel-note">Adjust how much each factor matters to you. Every apartment's <strong>Match Score (0–100%)</strong> updates live and saves automatically.</p>
+
+        <div class="slider-stack">
+          <div class="slider-row">
+            <div class="slider-labels">
+              <label for="weight-budget">Staying Under $3,000 / Low Rent</label>
+              <span id="val-budget" class="tabular-num">9 / 10</span>
+            </div>
+            <input type="range" id="weight-budget" min="0" max="10" value="9" class="range-slider" />
+          </div>
+
+          <div class="slider-row">
+            <div class="slider-labels">
+              <label for="weight-commute">Short Commute to 3625 Cisco Way</label>
+              <span id="val-commute" class="tabular-num">8 / 10</span>
+            </div>
+            <input type="range" id="weight-commute" min="0" max="10" value="8" class="range-slider" />
+          </div>
+
+          <div class="slider-row">
+            <div class="slider-labels">
+              <label for="weight-rating">Resident Reviews &amp; Quiet Quality</label>
+              <span id="val-rating" class="tabular-num">8 / 10</span>
+            </div>
+            <input type="range" id="weight-rating" min="0" max="10" value="8" class="range-slider" />
+          </div>
+
+          <div class="slider-row">
+            <div class="slider-labels">
+              <label for="weight-utility">Low Utilities (SVP Power &amp; $0 Parking)</label>
+              <span id="val-utility" class="tabular-num">7 / 10</span>
+            </div>
+            <input type="range" id="weight-utility" min="0" max="10" value="7" class="range-slider" />
+          </div>
+
+          <div class="slider-row">
+            <div class="slider-labels">
+              <label for="weight-space">Larger Floor Plan (Sq. Ft.)</label>
+              <span id="val-space" class="tabular-num">6 / 10</span>
+            </div>
+            <input type="range" id="weight-space" min="0" max="10" value="6" class="range-slider" />
+          </div>
+        </div>
+
+        <div class="utility-insight-box">
+          <strong>Santa Clara SVP vs. PG&amp;E Note:</strong> Crossing Coyote Creek into Santa Clara (<code>95054</code> — <em>Estancia</em>, <em>Passero</em>, <em>River Terrace</em>) cuts electricity from $0.44/kWh (PG&amp;E) to <strong>$0.18/kWh (Silicon Valley Power)</strong>—saving ~$120/mo on summer A/C.
+        </div>
+      </section>
+    </aside>
+
+    <!-- RIGHT WORKSPACE: 3D VECTOR MAP + RESIDENCE CARDS -->
+    <div class="content-column">
+      <!-- Interactive 3D Map & Selected Apartment Spotlight -->
+      <section class="map-module" aria-labelledby="map-section-title">
+        <div class="module-bar">
+          <div>
+            <h2 id="map-section-title" class="module-title">Interactive 3D Commute Map</h2>
+            <p class="module-subtitle">Anchored on <strong>3625 Cisco Way</strong>. Right-click + drag (or use the 3D Tilt button) to pitch and rotate the camera.</p>
+          </div>
+          <div class="map-toolbar" role="group" aria-label="Map camera controls">
+            <button type="button" id="toggle-3d-pitch-btn" class="btn btn-secondary active" aria-pressed="true">3D Perspective (50°)</button>
+            <button type="button" id="toggle-arcs-btn" class="btn btn-secondary active" aria-pressed="true">Commute Lines</button>
+            <button type="button" id="center-cisco-btn" class="btn btn-secondary">Center on Cisco HQ</button>
+          </div>
+        </div>
+
+        <div class="map-split-layout">
+          <div class="map-canvas-wrap">
+            <div id="maplibre-canvas" class="map-canvas" role="application" aria-label="3D interactive map of apartments near 3625 Cisco Way"></div>
+            <div class="map-legend">
+              <span class="legend-chip"><i class="dot dot-cisco"></i> 3625 Cisco Way</span>
+              <span class="legend-chip"><i class="dot dot-under3k"></i> &le; $3,000 Option</span>
+              <span class="legend-chip"><i class="dot dot-under3500"></i> $3,001–$3,500</span>
+              <span class="legend-chip"><i class="dot dot-svp"></i> Santa Clara SVP Power</span>
+              <span class="legend-chip"><i class="dot dot-warn"></i> Eliminated / Warning</span>
+            </div>
+          </div>
+
+          <aside id="map-inspector" class="map-inspector" aria-live="polite">
+            <!-- Populated dynamically by app.js -->
+          </aside>
+        </div>
+      </section>
+
+      <!-- Ranked Residence Cards -->
+      <section class="listings-module" aria-labelledby="listings-title">
+        <div class="module-bar">
+          <div>
+            <h2 id="listings-title" class="module-title">Verified Apartment Directory <span id="shown-count-label" class="muted-count">(25 residences)</span></h2>
+            <p class="module-subtitle">Every card includes direct links to <strong>Google Maps</strong>, <strong>Driving Directions to Cisco</strong>, <strong>Apartments.com Listings</strong>, and the <strong>Official Property Site</strong>.</p>
+          </div>
+        </div>
+
+        <div id="cards-container" class="cards-grid" role="list">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- LIVE SPREADSHEET & PERSISTENCE SECTION -->
+  <section id="spreadsheet-section" class="spreadsheet-shell" aria-labelledby="sheet-title">
+    <div class="module-bar">
+      <div>
+        <h2 id="sheet-title" class="module-title">Live Editable Comparison Sheet</h2>
+        <p class="module-subtitle">Double-click any rent, status, or personal notes cell to edit inline. All edits save automatically to your browser and can be exported to CSV or Excel anytime.</p>
+      </div>
+
+      <div class="sheet-toolbar">
+        <label for="import-file-input" class="btn btn-secondary" tabindex="0">
+          Import CSV / JSON
+          <input type="file" id="import-file-input" accept=".csv,.json" hidden />
+        </label>
+        <button type="button" id="export-csv-btn" class="btn btn-primary">Export Saved CSV</button>
+        <a href="San_Jose_Apartments_Tracker.xlsx" download class="btn btn-secondary">Download Excel (.xlsx)</a>
+        <button type="button" id="reset-storage-btn" class="btn btn-secondary" title="Clear local edits and restore original researched dataset">Restore Defaults</button>
+      </div>
+    </div>
+
+    <div id="dropzone-area" class="sheet-dropzone">
+      <span><strong>Two-Way Sync:</strong> Drag and drop an edited <code>apartments.csv</code> or <code>apartments.json</code> file here, or edit cells directly in the table below.</span>
+      <span id="sheet-sync-badge" class="tabular-num">Auto-saved locally</span>
+    </div>
+
+    <div class="table-wrapper" role="region" aria-labelledby="sheet-title" tabindex="0">
+      <table class="data-table" id="apartments-table">
+        <thead>
+          <tr>
+            <th scope="col">Match</th>
+            <th scope="col">Fav</th>
+            <th scope="col">Apartment &amp; Address</th>
+            <th scope="col">Corridor</th>
+            <th scope="col">Commute</th>
+            <th scope="col">Studio</th>
+            <th scope="col">1-Bed</th>
+            <th scope="col">Parking</th>
+            <th scope="col">Electric</th>
+            <th scope="col">True Total</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Your Personal Notes (Click to Edit &amp; Save)</th>
+            <th scope="col">Direct Links</th>
+          </tr>
+        </thead>
+        <tbody id="sheet-tbody">
+          <!-- Populated dynamically by app.js -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FLOATING COMPARISON BAR -->
+  <aside id="compare-bar" class="compare-bar" aria-label="Comparison tray" hidden>
+    <div class="compare-bar-inner">
+      <div class="compare-bar-info">
+        <strong id="compare-counter">0 apartments selected</strong>
+        <div id="compare-pills" class="compare-pills"></div>
+      </div>
+      <div class="compare-bar-btns">
+        <button type="button" id="open-compare-btn" class="btn btn-primary">Compare Side-by-Side</button>
+        <button type="button" id="clear-compare-btn" class="btn btn-secondary">Clear</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- NATIVE ACCESSIBLE DETAIL MODAL (<dialog closedby="any">) -->
+  <dialog id="detail-dialog" class="modal-dialog" closedby="any" aria-labelledby="detail-modal-title">
+    <div class="modal-inner" id="detail-modal-body"></div>
+  </dialog>
+
+  <!-- NATIVE ACCESSIBLE COMPARE MODAL (<dialog closedby="any">) -->
+  <dialog id="compare-dialog" class="modal-dialog modal-wide" closedby="any" aria-labelledby="compare-modal-title">
+    <div class="modal-inner">
+      <div class="modal-header">
+        <h2 id="compare-modal-title" class="modal-title">Side-by-Side Apartment Comparison</h2>
+        <button type="button" class="btn btn-icon" data-close-modal="compare-dialog" aria-label="Close comparison dialog">✕</button>
+      </div>
+      <div id="compare-grid" class="compare-grid"></div>
+    </div>
+  </dialog>
+
+  <!-- NATIVE ACCESSIBLE ADD LISTING MODAL (<dialog closedby="any">) -->
+  <dialog id="add-dialog" class="modal-dialog" closedby="any" aria-labelledby="add-modal-title">
+    <div class="modal-inner">
+      <div class="modal-header">
+        <h2 id="add-modal-title" class="modal-title">Add New Apartment Listing</h2>
+        <button type="button" class="btn btn-icon" data-close-modal="add-dialog" aria-label="Close add listing dialog">✕</button>
+      </div>
+
+      <form id="add-listing-form" class="modal-form">
+        <div class="form-grid">
+          <div class="input-group">
+            <label class="field-label">Apartment Name *</label>
+            <input type="text" name="name" required class="text-input" placeholder="e.g., Avalon Morrison Park" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Neighborhood Corridor *</label>
+            <select name="region" required class="select-input">
+              <option value="North San Jose">North San Jose</option>
+              <option value="Santa Clara (SVP Utility)">Santa Clara (SVP Utility)</option>
+              <option value="Milpitas Corridor">Milpitas Corridor</option>
+              <option value="Japantown & Downtown">Japantown &amp; Downtown</option>
+              <option value="Midtown & West SJ">Midtown &amp; West SJ</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="field-label">Street Address *</label>
+            <input type="text" name="address" required class="text-input" placeholder="355 Stockton Ave, San Jose, CA 95126" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Summary Highlight</label>
+            <input type="text" name="highlightTag" class="text-input" placeholder="e.g., Walkable to Diridon Station" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Distance to Cisco (mi) *</label>
+            <input type="number" step="0.1" name="distanceMiles" required class="text-input" value="2.0" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Drive Time (mins) *</label>
+            <input type="number" name="driveMins" required class="text-input" value="7" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Studio Base Rent ($/mo)</label>
+            <input type="number" name="studioMin" class="text-input" placeholder="Optional" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">1-Bedroom Base Rent ($/mo) *</label>
+            <input type="number" name="oneBedMin" required class="text-input" value="2950" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Parking Fee ($/mo)</label>
+            <input type="number" name="parkingFee" class="text-input" value="0" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Est. Utilities &amp; RUBS ($/mo)</label>
+            <input type="number" name="estUtilitiesAndFees" class="text-input" value="200" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Latitude</label>
+            <input type="number" step="0.0001" name="lat" class="text-input" value="37.4045" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Longitude</label>
+            <input type="number" step="0.0001" name="lng" class="text-input" value="-121.9328" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Resident Rating (1–5)</label>
+            <input type="number" step="0.1" min="1" max="5" name="rating" class="text-input" value="4.1" />
+          </div>
+          <div class="input-group">
+            <label class="field-label">Official Property Website URL</label>
+            <input type="url" name="website" class="text-input" placeholder="https://..." />
+          </div>
+        </div>
+
+        <div class="checklist-filters horizontal">
+          <label class="check-row"><input type="checkbox" name="inUnitLaundry" checked /> In-Unit Laundry</label>
+          <label class="check-row"><input type="checkbox" name="centralAC" checked /> Central A/C</label>
+          <label class="check-row"><input type="checkbox" name="poolAndGym" checked /> Pool &amp; Gym</label>
+        </div>
+
+        <div class="input-group">
+          <label class="field-label">Resident Praise &amp; Pros</label>
+          <textarea name="praise" rows="2" class="text-input" placeholder="What residents praise..."></textarea>
+        </div>
+        <div class="input-group">
+          <label class="field-label">Resident Complaints &amp; Watch-outs</label>
+          <textarea name="complaints" rows="2" class="text-input" placeholder="Noise, fees, or parking notes..."></textarea>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-close-modal="add-dialog">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save &amp; Add to Map</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
