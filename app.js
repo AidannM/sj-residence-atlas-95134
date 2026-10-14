@@ -2411,8 +2411,12 @@ document.addEventListener("DOMContentLoaded", () => {
     runFilterAndRender();
   });
 
-  init3DMap();
   runFilterAndRender();
+  try {
+    init3DMap();
+  } catch (err) {
+    console.error("3D Map init error:", err);
+  }
 
   // Theme Toggle
   document.getElementById("theme-toggle-btn")?.addEventListener("click", () => {

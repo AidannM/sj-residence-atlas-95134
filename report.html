@@ -1,55 +1,1416 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
   <title>San Jose Apartment Research Report — 3625 Cisco Way</title>
-  <link rel="stylesheet" href="styles.css" />
   <style>
+/* ==========================================================================
+   SAN JOSE RESIDENCE FINDER — ARCHITECTURAL WORKBENCH STYLES
+   Operate Mode: Clean system UI typography, tactile Alabaster/Espresso themes,
+   smooth 180ms state transitions, zero futuristic/neon AI tropes.
+   ========================================================================== */
+
+:root,
+html[data-theme="light"] {
+  --bg-page: #f6f4ef;
+  --bg-surface: #ffffff;
+  --bg-subtle: #edeae2;
+  --bg-muted: #e3dfd5;
+
+  --text-primary: #17191c;
+  --text-secondary: #464c54;
+  --text-muted: #68707a;
+
+  --border-color: #d8d3c8;
+  --border-strong: #b8b1a3;
+
+  --accent-primary: #1b5e49;
+  --accent-primary-hover: #144938;
+  --accent-primary-soft: #e3f1ec;
+
+  --accent-route: #b85435;
+  --accent-route-soft: #f9ebe6;
+
+  --accent-svp: #1565c0;
+  --accent-svp-soft: #e6f0fa;
+
+  --accent-warn: #b91c1c;
+  --accent-warn-soft: #fde8e8;
+
+  --accent-gold: #b45309;
+  --accent-gold-soft: #fef3c7;
+
+  --shadow-overlay: 0 18px 40px -10px rgba(23, 25, 28, 0.16);
+}
+
+html[data-theme="dark"] {
+  --bg-page: #121417;
+  --bg-surface: #1a1d22;
+  --bg-subtle: #22262d;
+  --bg-muted: #2c313a;
+
+  --text-primary: #f1EFEA;
+  --text-secondary: #b5bcc6;
+  --text-muted: #848d99;
+
+  --border-color: #2e333d;
+  --border-strong: #454c59;
+
+  --accent-primary: #34a882;
+  --accent-primary-hover: #2b8f6e;
+  --accent-primary-soft: rgba(52, 168, 130, 0.15);
+
+  --accent-route: #e07a5f;
+  --accent-route-soft: rgba(224, 122, 95, 0.16);
+
+  --accent-svp: #60a5fa;
+  --accent-svp-soft: rgba(96, 165, 250, 0.16);
+
+  --accent-warn: #f87171;
+  --accent-warn-soft: rgba(248, 113, 113, 0.16);
+
+  --accent-gold: #fbbf24;
+  --accent-gold-soft: rgba(251, 191, 36, 0.15);
+
+  --shadow-overlay: 0 22px 48px -12px rgba(0, 0, 0, 0.65);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+}
+
+html {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  caret-color: var(--accent-primary);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.tabular-num {
+  font-variant-numeric: tabular-nums;
+}
+
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  z-index: 9999;
+  background: var(--accent-primary);
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 12px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.icon-svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   TOP WORKSPACE BAR
+   ========================================================================== */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 24px;
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.topbar-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-subtitle {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.topbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.nav-link:hover {
+  background-color: var(--bg-subtle);
+  color: var(--text-primary);
+}
+
+.counter-pill {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+}
+
+.topbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.save-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Unified Button System */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease, transform 150ms ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-primary {
+  background-color: var(--accent-primary);
+  color: #ffffff;
+}
+html[data-theme="dark"] .btn-primary {
+  color: #0b1713;
+}
+.btn-primary:hover {
+  background-color: var(--accent-primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+.btn-secondary:hover {
+  background-color: var(--bg-subtle);
+  border-color: var(--border-strong);
+}
+.btn-secondary.active,
+.btn-secondary[aria-pressed="true"] {
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.btn-icon {
+  background-color: var(--bg-subtle);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+  padding: 7px 11px;
+}
+.btn-icon:hover {
+  border-color: var(--border-strong);
+}
+
+.text-btn {
+  background: none;
+  border: none;
+  color: var(--accent-primary);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.text-btn:hover {
+  background-color: var(--accent-primary-soft);
+}
+
+/* ==========================================================================
+   MAIN TWO-COLUMN WORKBENCH LAYOUT
+   ========================================================================== */
+.workspace-shell {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 20px 24px;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.controls-sidebar {
+  position: sticky;
+  top: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.panel-block {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.panel-heading {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.panel-header-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.panel-header-inline .panel-heading {
+  margin: 0;
+}
+
+.panel-note {
+  margin: 0 0 14px;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.field-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.hint-text {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.text-input,
+.select-input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.875rem;
+  transition: border-color 150ms ease;
+}
+
+.text-input:focus,
+.select-input:focus {
+  border-color: var(--accent-primary);
+  outline: none;
+}
+
+.preset-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.chip {
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-page);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.chip.active {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: #ffffff;
+}
+html[data-theme="dark"] .chip.active {
+  color: #0b1713;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.checklist-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-color);
+}
+.checklist-filters.horizontal {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.check-row input[type="checkbox"] {
+  accent-color: var(--accent-primary);
+  width: 15px;
+  height: 15px;
+}
+
+/* Priority Weight Sliders */
+.slider-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.slider-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.range-slider {
+  width: 100%;
+  accent-color: var(--accent-primary);
+  cursor: pointer;
+}
+
+.utility-insight-box {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: var(--accent-svp-soft);
+  border: 1px solid var(--border-color);
+  font-size: 0.78rem;
+  color: var(--text-primary);
+}
+
+/* ==========================================================================
+   RIGHT CONTENT COLUMN: 3D VECTOR MAP + RESIDENCE CARDS
+   ========================================================================== */
+.content-column {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  min-width: 0;
+}
+
+.module-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.module-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.muted-count {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.module-subtitle {
+  margin: 2px 0 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.map-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.map-split-layout {
+  display: grid;
+  grid-template-columns: 1fr 370px;
+  gap: 16px;
+}
+
+.map-canvas-wrap {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-subtle);
+  min-height: 460px;
+}
+
+.map-canvas {
+  width: 100%;
+  height: 460px;
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-cisco { background-color: #b85435; }
+.dot-under3k { background-color: #1b5e49; }
+.dot-under3500 { background-color: #3b6e8c; }
+.dot-svp { background-color: transparent; border: 2px solid #d97706; }
+.dot-warn { background-color: #b91c1c; }
+
+/* MapLibre Custom Price Markers */
+.map-price-marker {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-family: inherit;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.74rem;
+  font-weight: 700;
+  background-color: #2f5d7c;
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  cursor: pointer;
+  transition: transform 150ms ease;
+  white-space: nowrap;
+}
+.map-price-marker:hover,
+.map-price-marker.is-selected {
+  transform: scale(1.12);
+  z-index: 50 !important;
+}
+.map-price-marker.is-under3k {
+  background-color: #1b5e49;
+}
+.map-price-marker.is-svp {
+  outline: 2.5px solid #d97706;
+}
+.map-price-marker.is-warn {
+  background-color: #b91c1c;
+}
+
+.map-cisco-marker {
+  padding: 6px 11px;
+  border-radius: 999px;
+  background-color: #b85435;
+  color: #ffffff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.map-inspector {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ==========================================================================
+   VERIFIED RESIDENCE CARDS GRID
+   ========================================================================== */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.residence-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.residence-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+}
+
+.residence-card.is-warn-card {
+  opacity: 0.85;
+}
+
+.card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+.tag-match {
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+  font-variant-numeric: tabular-nums;
+}
+.tag-svp {
+  background-color: var(--accent-svp-soft);
+  color: var(--accent-svp);
+}
+.tag-route {
+  background-color: var(--accent-route-soft);
+  color: var(--accent-route);
+}
+.tag-warn {
+  background-color: var(--accent-warn-soft);
+  color: var(--accent-warn);
+}
+
+.fav-btn {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+.fav-btn.is-fav {
+  background-color: var(--accent-gold-soft);
+  color: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+.card-title-group h3 {
+  margin: 4px 0 2px;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.card-address-line {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.card-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.metric-box {
+  padding: 9px 10px;
+  border-radius: 8px;
+  background-color: var(--bg-page);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-caption {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.metric-number {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 1px;
+}
+.metric-number.good {
+  color: var(--accent-primary);
+}
+
+.metric-subtext {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+}
+
+.amenities-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.amenity-pill {
+  font-size: 0.72rem;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+}
+.amenity-pill.missing {
+  background-color: var(--accent-warn-soft);
+  color: var(--accent-warn);
+  font-weight: 600;
+}
+
+.review-summary-block {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-color);
+}
+
+.review-line {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Direct External Links Row (Google Maps, Directions, Listing, Official Site) */
+.external-links-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-color);
+}
+
+.ext-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: var(--bg-page);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-size: 0.73rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+.ext-link:hover {
+  background-color: var(--bg-subtle);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+/* Personal Note Input Inside Card */
+.card-note-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.card-note-input {
+  width: 100%;
+  padding: 6px 9px;
+  border-radius: 6px;
+  border: 1px dashed var(--border-color);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.78rem;
+}
+.card-note-input:focus {
+  border-style: solid;
+  border-color: var(--accent-primary);
+  outline: none;
+}
+
+.card-footer-btns {
+  display: flex;
+  gap: 6px;
+}
+.card-footer-btns .btn {
+  flex: 1;
+}
+
+/* ==========================================================================
+   LIVE EDITABLE SPREADSHEET SECTION
+   ========================================================================== */
+.spreadsheet-shell {
+  max-width: 1640px;
+  margin: 20px auto 80px;
+  padding: 0 24px;
+}
+
+.sheet-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sheet-dropzone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background-color: var(--bg-surface);
+  border: 1px dashed var(--border-strong);
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+.sheet-dropzone.is-dragover {
+  background-color: var(--accent-primary-soft);
+  border-color: var(--accent-primary);
+}
+
+.table-wrapper {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+  font-weight: 700;
+  padding: 11px 10px;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+}
+
+.data-table tr:hover td {
+  background-color: var(--bg-page);
+}
+
+.cell-editable {
+  cursor: text;
+  border-radius: 4px;
+}
+.cell-editable:hover,
+.cell-editable:focus {
+  background-color: var(--accent-primary-soft);
+  outline: 1px solid var(--accent-primary);
+}
+
+/* ==========================================================================
+   MODALS & FLOATING COMPARISON BAR
+   ========================================================================== */
+.modal-dialog {
+  width: min(820px, 92vw);
+  max-height: 88vh;
+  padding: 0;
+  border-radius: 14px;
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-overlay);
+}
+.modal-dialog.modal-wide {
+  width: min(1140px, 95vw);
+}
+.modal-dialog::backdrop {
+  background-color: rgba(15, 17, 20, 0.55);
+  backdrop-filter: blur(4px);
+}
+
+.modal-inner {
+  padding: 24px;
+  overflow-y: auto;
+  max-height: 86vh;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-color);
+}
+
+.modal-form .form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.compare-bar {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  width: min(900px, 94vw);
+  padding: 10px 18px;
+  border-radius: 12px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--accent-primary);
+  box-shadow: var(--shadow-overlay);
+}
+
+.compare-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.compare-bar-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.compare-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.compare-column {
+  padding: 14px;
+  border-radius: 10px;
+  background-color: var(--bg-page);
+  border: 1px solid var(--border-color);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1180px) {
+  .workspace-shell {
+    grid-template-columns: 1fr;
+  }
+  .controls-sidebar {
+    position: static;
+    max-height: none;
+  }
+  .map-split-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
     .report-container {
-      max-width: 980px;
-      margin: 32px auto 80px;
-      padding: 32px;
+      max-width: 1040px;
+      margin: 28px auto 80px;
+      padding: 36px 40px;
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
       border-radius: 12px;
+      box-shadow: var(--shadow-sm);
     }
-    .report-container h1, .report-container h2, .report-container h3 {
-      margin-top: 1.6em;
-      margin-bottom: 0.5em;
-    }
-    .report-container h1 { margin-top: 0; font-size: 1.75rem; }
-    .report-container pre, .report-container code {
-      background: var(--bg-subtle);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.85em;
-    }
-    .markdown-body {
-      white-space: pre-wrap;
-      font-family: inherit;
-      line-height: 1.65;
-    }
+    .report-container h1 { margin-top: 0; font-size: 1.75rem; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; }
+    .report-container h2 { margin-top: 1.8em; margin-bottom: 0.6em; font-size: 1.3rem; color: var(--accent-primary); }
+    .report-container h3 { margin-top: 1.4em; margin-bottom: 0.4em; font-size: 1.05rem; }
+    .report-container p, .report-container li { line-height: 1.65; color: var(--text-primary); font-size: 0.94rem; }
+    .report-container ul { padding-left: 22px; margin: 8px 0 16px; }
+    .report-container li { margin-bottom: 6px; }
+    .report-container hr { border: none; border-top: 1px solid var(--border-color); margin: 24px 0; }
+    .report-container code { background: var(--bg-subtle); padding: 2px 6px; border-radius: 4px; font-size: 0.85em; }
+    .report-container a { color: var(--accent-primary); font-weight: 600; }
   </style>
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-brand">
       <h1 class="site-title">San Jose Residence Finder — Full Written Report</h1>
-      <span class="site-subtitle">Companion guide for 3625 Cisco Way</span>
+      <span class="site-subtitle">Target Workplace: <strong>3625 Cisco Way, San Jose, CA 95134</strong></span>
     </div>
     <div class="topbar-actions">
-      <a href="index.html" class="btn btn-primary">← Back to Interactive 3D Map &amp; Finder</a>
+      <a href="app.html" class="btn btn-primary">← Back to Interactive 3D Map &amp; Finder</a>
       <a href="San_Jose_Apartments_Tracker.xlsx" download class="btn btn-secondary">Download Excel (.xlsx)</a>
     </div>
   </header>
   <main class="report-container">
-    <div id="report-content" class="markdown-body"></div>
+    <h1>San Jose &amp; Silicon Valley Apartment Search Guide (SJSU Grad -&gt; Cisco HQ)</h1>
+<p><strong>Target Workplace:</strong> Cisco HQ — Building 14, 3625 Cisco Way, San Jose, CA 95134</p>
+<p><strong>Budget Target:</strong> Under <strong>$3,500/mo</strong> (Strongly prioritizing options <strong>at or below $3,000/mo</strong>)</p>
+<p><strong>Unit Types:</strong> Studios &amp; 1-Bedrooms (1BR/1BA)</p>
+<p><strong>Required Amenities:</strong> In-Unit Washer/Dryer, Central A/C, 1 Parking Space, On-Site Pool &amp; Fitness Center (No Pets)</p>
+<p><strong>Companion Files in Folder:</strong></p>
+<ul>
+<li>Interactive Web Suite: <a href="index.html" target="_blank" rel="noopener"><code>index.html</code></a></li>
+<li>Multi-Tab Excel Workbook: <a href="San_Jose_Apartments_Tracker.xlsx" target="_blank" rel="noopener"><code>San_Jose_Apartments_Tracker.xlsx</code></a></li>
+<li>Live Spreadsheet CSV &amp; JSON: <a href="apartments.csv" target="_blank" rel="noopener"><code>apartments.csv</code></a> | [<code>apartments.json</code>](apartments.json)</li>
+</ul>
+<hr />
+<h2>1. Executive Summary: Top 8 Overall Recommendations</h2>
+<p>If you want to skip straight to touring the highest-value, verified communities that check every single box (In-Unit W/D, Central A/C, Garage Parking, Pool &amp; Gym, Legitimate Management), start with these eight:</p>
+<div class="table-wrapper"><table class="data-table"><thead><tr>
+<th>Rank</th>
+<th>Apartment Community</th>
+<th>Corridor</th>
+<th>Distance / Commute to Cisco</th>
+<th>Studio Rent</th>
+<th>1BR Rent</th>
+<th>Parking Fee</th>
+<th>Electric Utility</th>
+<th>True Monthly (Est.)</th>
+<th>Why It Wins</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>North Park Apartment Village</strong></td>
+<td>North SJ (River Oaks)</td>
+<td><strong>0.8 mi</strong> (14 min walk / 3 min drive)</td>
+<td><strong>$2,750</strong></td>
+<td><strong>$2,915</strong></td>
+<td><strong>$0</strong> (1 incl.)</td>
+<td>PG&amp;E</td>
+<td>~$2,975 (Studio) / ~$3,140 (1BR)</td>
+<td><strong>Best Walk-to-Cisco Under $3k:</strong> Both Studios &amp; entry 1BRs start under $3,000, free garage spot, 10 pools, indoor basketball court, 5-acre park &amp; Starbucks on-site.</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><strong>Crescent Village</strong></td>
+<td>North SJ (Zanker Rd)</td>
+<td><strong>0.4 mi</strong> (8 min walk / 2 min bike)</td>
+<td><strong>$2,855</strong></td>
+<td><strong>$3,250</strong></td>
+<td><strong>$0</strong> (1 incl.)</td>
+<td>PG&amp;E</td>
+<td>~$3,085 (Studio) / ~$3,480 (1BR)</td>
+<td><strong>Closest to 3625 Cisco Way:</strong> Literally across Zanker Rd from Cisco. Large 574–640 sq ft studios under $3k, 7 resort pools, 4 gyms.</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>Estancia at Santa Clara</strong></td>
+<td>North Santa Clara (Rivermark)</td>
+<td><strong>1.9 mi</strong> (6 min drive / 8 min bike)</td>
+<td>N/A</td>
+<td><strong>$3,210</strong> (790 sq ft)</td>
+<td><strong>$0</strong> (1 incl.)</td>
+<td><strong>Silicon Valley Power ($0.18/kWh)</strong></td>
+<td><strong>~$3,370</strong> (1BR)</td>
+<td><strong>The SVP Utility Sweet Spot:</strong> Crossing Coyote Creek into Santa Clara slashes summer A/C electricity bills by 60% and includes 1 free garage spot + Rivermark walkability.</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td><strong>Anton Aspire</strong></td>
+<td>Milpitas Transit Center</td>
+<td><strong>3.5 mi</strong> (9 min drive / <strong>7 min VTA train</strong>)</td>
+<td><strong>$2,380</strong></td>
+<td><strong>$2,800</strong></td>
+<td>$150/mo</td>
+<td>PG&amp;E</td>
+<td>~$2,745 (Studio) / ~$3,165 (1BR)</td>
+<td><strong>Best Sub-$2,900 Modern 1BR:</strong> 2021 luxury build with rooftop pool &amp; gas stoves. Walk across the street to VTA Orange Line and ride 4 stops (7 mins) to Cisco Way Station.</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td><strong>Sixth and Jackson</strong></td>
+<td>Japantown (San Jose)</td>
+<td><strong>5.4 mi</strong> (12 min reverse drive)</td>
+<td><strong>$2,750</strong></td>
+<td><strong>$3,150</strong></td>
+<td>$125/mo</td>
+<td>PG&amp;E</td>
+<td>~$3,085 (Studio) / ~$3,485 (1BR)</td>
+<td><strong>Highest Rated in San Jose (4.8★):</strong> Brand-new Shea Properties build in safe, walkable Japantown (sushi, bakeries, farmers market) with an easy 12-min reverse commute.</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td><strong>Passero Apartments</strong></td>
+<td>North Santa Clara (Tasman)</td>
+<td><strong>2.4 mi</strong> (6 min drive on Tasman Dr)</td>
+<td><strong>$2,895</strong></td>
+<td><strong>$3,300</strong></td>
+<td>$100/mo</td>
+<td><strong>Silicon Valley Power ($0.18/kWh)</strong></td>
+<td>~$3,160 (Studio) / ~$3,565 (1BR)</td>
+<td><strong>4.7★ New Build + Cheap SVP Electric:</strong> 2023 Class-A luxury with golf simulator, coworking pods, resort pool, and 60% cheaper Santa Clara electricity.</td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td><strong>Centria Condominiums</strong></td>
+<td>Milpitas (Great Mall)</td>
+<td><strong>2.3 mi</strong> (7 min drive / 5 min VTA)</td>
+<td><strong>$2,300</strong></td>
+<td><strong>$2,350–$2,800</strong></td>
+<td><strong>$0</strong> (1 incl.)</td>
+<td>PG&amp;E (<strong>Water/Trash FREE</strong>)</td>
+<td><strong>~$2,445–$2,645</strong> (1BR)</td>
+<td><strong>Lowest True Monthly Cost:</strong> Private condo owners include 1 gated garage spot plus HOA water &amp; garbage, saving $350+/mo over corporate complexes.</td>
+</tr>
+<tr>
+<td><strong>8</strong></td>
+<td><strong>Patina at Midtown</strong></td>
+<td>Midtown (Del Monte Park)</td>
+<td><strong>10.2 mi</strong> (18 min reverse commute)</td>
+<td><strong>$2,850</strong></td>
+<td><strong>$2,995</strong></td>
+<td>$75/mo</td>
+<td>PG&amp;E</td>
+<td>~$3,140 (Studio) / ~$3,285 (1BR)</td>
+<td><strong>Best Midtown/West SJ Value &lt;$3k:</strong> Borders Del Monte Park, two-story gym, rooftop deck, and hits &lt;=$3,000 for both Studios and 1BRs.</td>
+</tr>
+</tbody></table></div>
+<hr />
+<h2>2. Insider Financial Insight: The Santa Clara &quot;SVP&quot; Utility Loophole</h2>
+<p>Because <strong>Central A/C</strong> is a priority for you, where your apartment sits relative to the San Jose / Santa Clara city boundary line (Coyote Creek / Lafayette St) changes your monthly bill dramatically:</p>
+<ul>
+<li><strong>San Jose &amp; Milpitas (<code>PG&amp;E</code>):</strong> Residential electricity costs <strong>$0.42 to $0.45 per kWh</strong> plus a 5% city utility tax. Running central A/C in a studio or 1BR from June through October typically costs <strong>$150 to $230/month</strong>.</li>
+<li><strong>City of Santa Clara (<code>Silicon Valley Power - SVP</code>):</strong> Santa Clara owns its municipal electric utility, charging roughly <strong>$0.182 per kWh</strong> with no city electric tax—<strong>57% to 60% cheaper than PG&amp;E</strong>. Running the exact same central A/C in Santa Clara costs <strong>$50 to $75/month</strong>, saving you <strong>$800 to $1,500 per year</strong>.</li>
+<li><strong>Where this matters most:</strong> <strong>Estancia at Santa Clara</strong> (<code>1650 Hope Dr</code>), <strong>Passero</strong> (<code>2230 Calle Del Mundo</code>), and <strong>River Terrace</strong> (<code>730 Agnew Rd</code>) are only <strong>1.9 to 2.4 miles (5–8 mins)</strong> from 3625 Cisco Way and qualify for <strong>Silicon Valley Power</strong>. Meanwhile, <strong>Vista 99</strong> (<code>99 Vista Montana</code>) sits just across the creek on the San Jose side and pays full PG&amp;E rates.</li>
+</ul>
+<hr />
+<h2>3. Corridor-by-Corridor Deep Dive &amp; Resident Reviews</h2>
+<h3>Corridor A: North San Jose / River Oaks / Tasman (0.4 – 1.3 Miles to Cisco)</h3>
+<p><em>Ideal if you want to walk, bike, or drive 2–4 minutes to 3625 Cisco Way and live in a quiet, modern master-planned enclave.</em></p>
+<ul>
+<li><strong><a href="https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/crescent-village.html" target="_blank" rel="noopener">Crescent Village Apartment Homes</a></strong> (<code>3200 Zanker Rd, San Jose, CA 95134</code>)</li>
+<li><strong>Commute:</strong> 0.4 miles — 8-min walk or 2-min bike right across Zanker Rd to Cisco Building 14.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,855–$3,100</strong> (574–640 sq ft) | 1BR <strong>$3,250–$3,650</strong> (704–880 sq ft). <strong>1 garage space included ($0).</strong></li>
+<li><strong>Resident Praise (3.8★):</strong> Resort lifestyle with 7 heated pools, 4 gyms, spin studios, and immediate walkability to Cisco. Maintenance tickets are resolved within 24–48 hours.</li>
+<li><strong>Resident Complaints:</strong> Occasional middle-of-the-night false fire alarms in certain phases; strict Irvine Company move-out carpet/cleaning deductions.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/north-park.html" target="_blank" rel="noopener">North Park Apartment Village</a></strong> (<code>3500 Palmilla Dr, San Jose, CA 95134</code>)</li>
+<li><strong>Commute:</strong> 0.8 miles — 14-min walk, 3-min bike, or 3-min drive.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,750–$2,980</strong> (490–550 sq ft) | 1BR <strong>$2,915–$3,350</strong> (620–830 sq ft). <strong>1 garage space included ($0).</strong></li>
+<li><strong>Resident Praise (3.9★):</strong> Built around the 5-acre private Moitozo Park with an on-site Starbucks, market, indoor regulation basketball court, and 10 pools. Best way to get an Irvine Company 1-Bedroom under $3,000.</li>
+<li><strong>Resident Complaints:</strong> Very large buildings mean long walks from your parking stall to your apartment door; weak cell signal in interior ground-floor courtyards (use Wi-Fi calling).</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.essexapartmenthomes.com/apartments/san-jose/enso" target="_blank" rel="noopener">Enso Apartments</a></strong> (<code>175 Baypointe Pkwy, San Jose, CA 95134</code>)</li>
+<li><strong>Commute:</strong> 1.0 mile — 3-min drive or 1 stop on VTA Orange Line from Baypointe Station.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,950–$3,100</strong> (598 sq ft) | 1BR <strong>$3,100–$3,450</strong> (792–889 sq ft). <strong>1 garage space included ($0).</strong></li>
+<li><strong>Resident Praise (3.8★):</strong> Largest 1-bedroom floor plans in North San Jose (up to 889 sq ft) with real gas cooking ranges.</li>
+<li><strong>Resident Complaints:</strong> Package locker congestion during prime delivery hours; Essex lease renewal increases.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.aireliving.com/" target="_blank" rel="noopener">Aire Apartments</a></strong> (<code>3401 Iron Point Dr, San Jose, CA 95134</code>)</li>
+<li><strong>Commute:</strong> 1.1 miles — 4-min drive down Tasman Dr.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,850–$2,950</strong> (564–600 sq ft) | 1BR <strong>$3,350–$3,550</strong> (682–747 sq ft). <strong>1 garage space included ($0).</strong></li>
+<li><strong>Resident Praise (3.9★):</strong> Ultra-modern floor-to-ceiling windows, high-gloss European cabinetry, Nest thermostats, and a skydeck rooftop with fire pits.</li>
+<li><strong>Resident Complaints:</strong> Mandatory ~$30/mo valet trash; strict waitlist if you ever add a second vehicle.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.sheaapartments.com/apartments/elan-at-river-oaks/" target="_blank" rel="noopener">Élan at River Oaks</a></strong> (<code>345 Village Center Dr, San Jose, CA 95134</code>)</li>
+<li><strong>Commute:</strong> 1.1 miles — 4-min drive / 5-min bike.</li>
+<li><strong>Pricing:</strong> Studios <strong>$3,050–$3,200</strong> (532 sq ft) | 1BR <strong>$3,380–$3,650</strong> (760–780 sq ft). <strong>Garage permit included ($0).</strong></li>
+<li><strong>Resident Praise (4.0★):</strong> Highest-rated property in River Oaks; lush trees, fountains, lighted tennis courts, easy guest parking, and right next to River Oaks Plaza (Starbucks, restaurants).</li>
+<li><strong>Resident Complaints:</strong> Older building exterior vintage than Aire or Enso (though interiors are updated).</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.fairfieldresidential.com/property/the-verdant-apartments/" target="_blank" rel="noopener">The Verdant</a></strong> (<code>3700 Casa Verde St</code>) &amp; <strong><a href="https://www.essexapartmenthomes.com/apartments/san-jose/epic" target="_blank" rel="noopener">Epic</a></strong> (<code>600 Epic Way</code>) &amp; <strong><a href="https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/river-view.html" target="_blank" rel="noopener">River View</a></strong> (<code>350 River Oaks Pkwy</code>)</li>
+<li><strong>The Verdant (3.8★):</strong> 1BRs at <strong>$3,180–$3,450</strong> with 9-to-12 ft ceilings, included garage spot, and direct Coyote Creek Trail access.</li>
+<li><strong>Epic (3.7★):</strong> Studios <strong>$3,037</strong>, 1BRs <strong>$3,237</strong>; great resort pool, putting green, and private theater lounge, though Essex adds a ~$70 tech/Wi-Fi bundle on select units.</li>
+<li><strong>River View (3.8★):</strong> Studios <strong>$3,185</strong>, 1BRs <strong>$3,450</strong>; sits directly on the Guadalupe River Trail and River Oaks VTA stop.</li>
+</ul>
+<hr />
+<h3>Corridor B: Santa Clara / SVP Electric Zone (1.9 – 5.8 Miles to Cisco)</h3>
+<p><em>Ideal if you want a 5–8 minute commute, walkable grocery plazas (Rivermark), and 60% cheaper municipal electricity.</em></p>
+<ul>
+<li><strong><a href="https://www.equityapartments.com/san-francisco-bay-area/santa-clara/estancia-at-santa-clara-apartments" target="_blank" rel="noopener">Estancia at Santa Clara</a></strong> (<code>1650 Hope Dr, Santa Clara, CA 95054</code>)</li>
+<li><strong>Commute:</strong> 1.9 miles — 6-min drive or 8-min bike along the Guadalupe River Trail.</li>
+<li><strong>Pricing:</strong> 1BR <strong>$3,210–$3,450</strong> (790 sq ft). <strong>1 gated garage space included ($0).</strong></li>
+<li><strong>Resident Praise (3.6★):</strong> 9-foot ceilings with crown molding, 2 resort pools, private gate onto the Guadalupe River Trail, walkable to Rivermark Safeway/dining, and <strong>Silicon Valley Power ($0.18/kWh)</strong>.</li>
+<li><strong>Resident Complaints:</strong> Limited visitor parking stalls; standard Equity Residential renewal bumps.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.greystar.com" target="_blank" rel="noopener">Passero Apartments</a></strong> (<code>2230 Calle Del Mundo, Santa Clara, CA 95054</code>)</li>
+<li><strong>Commute:</strong> 2.4 miles — 6-min straight shot east on Tasman Dr.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,895–$2,995</strong> (331–350 sq ft) | 1BR <strong>$3,300–$3,650</strong> (526–750 sq ft). Garage parking ~$100/mo.</li>
+<li><strong>Resident Praise (4.7★):</strong> Spotless 2023 Class-A construction, golf simulator, rooftop deck, coworking pods, and cheap SVP power.</li>
+<li><strong>Resident Complaints:</strong> Sub-$3,000 studios are compact micro-layouts (331–350 sq ft).</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.udr.com/san-francisco-bay-area-apartments/santa-clara/river-terrace/" target="_blank" rel="noopener">River Terrace</a></strong> (<code>730 Agnew Rd, Santa Clara, CA 95054</code>)</li>
+<li><strong>Commute:</strong> 2.1 miles — 6-min drive to Cisco.</li>
+<li><strong>Pricing:</strong> 1BR <strong>$3,200–$3,450</strong> (700–850 sq ft). Garage parking ~$80/mo.</li>
+<li><strong>Resident Praise (3.1★):</strong> Directly across from Rivermark Village (Safeway, Peet&#x27;s, Chipotle), full central A/C, and cheap SVP electric rates.</li>
+<li><strong>Resident Complaints:</strong> Automated UDR customer service and package room congestion.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.liveprado.com" target="_blank" rel="noopener">Prado at Nuevo</a></strong> (<code>3560 Rambla Pl</code>) &amp; <strong><a href="https://www.villasontheboulevard.com" target="_blank" rel="noopener">Villas on the Boulevard</a></strong> (<code>2615 El Camino Real</code>)</li>
+<li><strong>Prado (3.8★):</strong> 1BR <strong>$3,350</strong> (753 sq ft), 1 free garage spot, SVP electricity, surrounded by 24,000 sq ft of brand-new Nuevo neighborhood parks (13 mins to Cisco).</li>
+<li><strong>Villas on the Boulevard (3.9★):</strong> 1BR <strong>$3,450</strong> (758 sq ft), 1 free underground spot, gas ranges, SVP power, right in the El Camino Korean dining district (13 mins to Cisco).</li>
+</ul>
+<hr />
+<h3>Corridor C: Milpitas / BART / VTA Orange Line (1.8 – 3.5 Miles to Cisco)</h3>
+<p><em>Ideal for staying comfortably under $3,000/mo in a newer building with a 6–9 minute drive or direct 4–7 minute light rail ride to Cisco Way Station.</em></p>
+<ul>
+<li><strong><a href="https://www.antonaspire.com" target="_blank" rel="noopener">Anton Aspire</a></strong> (<code>1828 S Milpitas Blvd, Milpitas, CA 95035</code>)</li>
+<li><strong>Commute:</strong> 3.5 miles — 9-min drive OR walk across the street to Milpitas VTA Station and ride <strong>4 stops (7 mins)</strong> to Cisco Way Station.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,380–$2,550</strong> (521–563 sq ft) | 1BR <strong>$2,800–$3,150</strong> (647–839 sq ft). Garage parking ~$150/mo.</li>
+<li><strong>Resident Praise (4.0★):</strong> Unbeatable sub-$2,900 price for a 2021 luxury building; rooftop pool &amp; spa with panoramic hill views; thick double-pane windows; gas ranges.</li>
+<li><strong>Resident Complaints:</strong> Unbundled $150/mo parking and $30/mo mandatory valet trash.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.centriaowners.com" target="_blank" rel="noopener">Centria Condominiums</a></strong> (<code>1101 S Main St, Milpitas, CA 95035</code>)</li>
+<li><strong>Commute:</strong> 2.3 miles — 7-min drive or 2 stops on VTA Orange Line from Great Mall Station.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,300–$2,500</strong> | 1BR <strong>$2,350–$2,900</strong> (619–926 sq ft). <strong>1 garage stall + water + trash included ($0) by private condo landlords.</strong></li>
+<li><strong>Resident Praise (3.8★):</strong> Lowest all-in monthly cost (~$2,450–$2,650 total); quieter condo neighbors; walk across the street to Great Mall.</li>
+<li><strong>Resident Complaints:</strong> Must lease from an individual condo owner on Zillow/Apartments.com; strict HOA moving rules.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.essexapartmenthomes.com/apartments/milpitas/apex" target="_blank" rel="noopener">Apex Apartments</a></strong> (<code>1102 S Abel St, Milpitas, CA 95035</code>)</li>
+<li><strong>Commute:</strong> 2.5 miles — 8-min drive straight down Great Mall Pkwy &amp; Tasman Dr.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,650–$2,850</strong> (581 sq ft) | 1BR <strong>$2,920–$3,150</strong> (717–762 sq ft). <strong>1 garage space typically included.</strong></li>
+<li><strong>Resident Praise (3.7★):</strong> Sub-$3,000 1BRs with quartz/granite finishes, resort pool, and fast access to Cisco, I-880, and Hwy 237.</li>
+<li><strong>Resident Complaints:</strong> Tight turns inside the parking garage.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.livethefields.com/turing" target="_blank" rel="noopener">Turing at The Fields</a></strong> (<code>1355 McCandless Dr</code>) &amp; <strong><a href="https://www.milpitascrossing.com" target="_blank" rel="noopener">The Crossing at Montague</a></strong> (<code>755 E Capitol Ave</code>) &amp; <strong><a href="https://www.amalfimilpitas.com" target="_blank" rel="noopener">Amalfi</a></strong> (<code>1251 Merry Loop</code>)</li>
+<li><strong>Turing (3.4★):</strong> Studios <strong>$2,980</strong>, 1BR <strong>$3,300</strong>; <strong>Trader Joe&#x27;s, Starbucks, and Orangetheory are literally on the ground floor</strong>, plus a 3-story gym (1.8 miles / 6 mins to Cisco).</li>
+<li><strong>The Crossing (3.3★):</strong> 1BRs at <strong>$2,750–$2,995</strong> with included covered parking right at Montague VTA station.</li>
+<li><strong>Amalfi (3.5★):</strong> 1BRs at <strong>$2,980</strong> with included garage parking, low ~$55 trash/sewer fees, and an on-site tennis court.</li>
+</ul>
+<hr />
+<h3>Corridor D: Japantown / Downtown / San Pedro Square (5.1 – 7.0 Miles to Cisco)</h3>
+<p><em>Ideal as a recent SJSU grad if you want walkable cafés, sushi, farmers markets, and nightlife with an easy 11–15 minute reverse commute north to Cisco.</em></p>
+<ul>
+<li><strong><a href="https://sheaproperties.com/apartments/northern-california/sixth-jackson-apartments/" target="_blank" rel="noopener">Sixth and Jackson</a></strong> (<code>620 N 6th St, San Jose, CA 95112</code> — Japantown)</li>
+<li><strong>Commute:</strong> 5.4 miles — 12-min reverse commute up N. 1st St or I-880 N.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,750–$2,950</strong> (450–650 sq ft) | 1BR <strong>$3,150–$3,350</strong> (650–810 sq ft). Garage parking ~$125/mo.</li>
+<li><strong>Resident Praise (4.8★):</strong> Ranked in the top 1% of apartments nationwide (ORA Award); brand-new build in walkable, safe Japantown; resort pool with movie wall and panoramic skydecks.</li>
+<li><strong>Resident Complaints:</strong> Strict 1-parking-spot policy on studio/1BR leases.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.essexapartmenthomes.com/apartments/san-jose/the-esplanade" target="_blank" rel="noopener">The Esplanade</a></strong> (<code>350 E Taylor St, San Jose, CA 95112</code> — Japantown)</li>
+<li><strong>Commute:</strong> 5.3 miles — 12-min drive or 6-min walk to Japantown/Ayer VTA Light Rail.</li>
+<li><strong>Pricing:</strong> Studios/Lofts <strong>$2,550–$2,800</strong> (550–700 sq ft) | 1BR <strong>$2,750–$3,150</strong> (700–850 sq ft). Garage parking ~$75/mo (often bundled on promos).</li>
+<li><strong>Resident Praise (3.9★):</strong> Historic cannery conversion with soaring loft ceilings, pool/spa, and sub-$2,800 1BR pricing in Japantown.</li>
+<li><strong>Resident Complaints:</strong> Do not pick an east-facing unit near the Union Pacific tracks (nighttime train horn noise); choose a courtyard-facing unit.</li>
+</ul>
+<ul>
+<li><strong><a href="https://livethejulian.com/" target="_blank" rel="noopener">The Julian</a></strong> (<code>171 W Julian St</code>) &amp; <strong><a href="https://www.essexapartmenthomes.com/apartments/san-jose/one-south-market" target="_blank" rel="noopener">One South Market</a></strong> (<code>1 S Market St</code>) &amp; <strong><a href="https://www.liveatcenterra.com/" target="_blank" rel="noopener">Centerra</a></strong> (<code>77 N Almaden Ave</code>) &amp; <strong><a href="https://rentmiro.com/" target="_blank" rel="noopener">Miro</a></strong> (<code>181 E Santa Clara St</code>)</li>
+<li><strong>The Julian (3.8★):</strong> Studios <strong>$2,780</strong>, 1BR <strong>$3,180</strong>; 2021 build with courtyard pool, rooftop arcade lounge, and 5-min walk to San Pedro Square without downtown club noise.</li>
+<li><strong>One South Market (3.6★):</strong> Studios <strong>$2,800</strong>, 1BR <strong>$3,050</strong>; 23-story high-rise with floor-to-ceiling glass and 3rd-floor terrace pool.</li>
+<li><strong>Miro (3.8★):</strong> Studios <strong>$3,300</strong> (often ~$3,050 after 1-month-free promo), 1BR <strong>$3,430</strong>; San Jose&#x27;s tallest luxury twin towers across from SJSU/City Hall with sky-high views and rooftop lap pool (note: parking is $175–$225/mo).</li>
+</ul>
+<hr />
+<h3>Corridor E: Midtown / The Alameda / Santana Row Border (9.5 – 11.2 Miles to Cisco)</h3>
+<p><em>Ideal if you want tree-lined neighborhood charm, Whole Foods, or Santana Row proximity within a 16–19 minute morning drive.</em></p>
+<ul>
+<li><strong><a href="https://www.essexapartmenthomes.com/apartments/san-jose/patina-at-midtown" target="_blank" rel="noopener">Patina at Midtown</a></strong> (<code>355 Sunol St, San Jose, CA 95126</code>)</li>
+<li><strong>Commute:</strong> 10.2 miles — 18-min reverse commute via I-880 N or Hwy 87 N.</li>
+<li><strong>Pricing:</strong> Studios <strong>$2,850–$3,050</strong> (540–672 sq ft) | 1BR <strong>$2,995–$3,350</strong> (672–850 sq ft). Garage parking ~$75/mo.</li>
+<li><strong>Resident Praise (4.0★):</strong> Sits right on Del Monte Park; two-story fitness studio, heated pool, rooftop mountain views, and sub-$3,000 pricing.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.avaloncommunities.com/california/san-jose-apartments/avalon-on-the-alameda/" target="_blank" rel="noopener">Avalon on The Alameda</a></strong> (<code>1300 The Alameda, San Jose, CA 95126</code>)</li>
+<li><strong>Commute:</strong> 9.5 miles — 16-min drive via I-880 N.</li>
+<li><strong>Pricing:</strong> 1BR <strong>$3,098–$3,350</strong> (735–804 sq ft). 1 garage space typically included.</li>
+<li><strong>Resident Praise (4.1★):</strong> Ground-floor Starbucks, 2 blocks from Whole Foods, dry sauna + pool + gym, and quiet courtyard gardens.</li>
+</ul>
+<ul>
+<li><strong><a href="https://www.livelynhaven.com/" target="_blank" rel="noopener">Lynhaven Apartments</a></strong> (<code>919 S Winchester Blvd, San Jose, CA 95128</code> — Santana Row Strip)</li>
+<li><strong>Commute:</strong> 11.2 miles — 19-min drive via I-880 N or San Tomas Expy.</li>
+<li><strong>Pricing:</strong> 1BR <strong>$3,150–$3,650</strong> (687–854 sq ft). Garage parking ~$110/mo.</li>
+<li><strong>Resident Praise (4.1★):</strong> Brand-new Greystar redevelopment of the old Reserve site; gives you GE gas stoves, rooftop terraces, and a 3-minute walk/drive to Santana Row for <strong>$1,000/mo less</strong> than leasing on Santana Row itself ($4,100+).</li>
+</ul>
+<hr />
+<h2>4. Critical Warnings &amp; Eliminated Properties (Save Your Time)</h2>
+<p>During our verification audit, we flagged and filtered out several popular buildings that fail your core criteria or hide major pitfalls:</p>
+<ul>
+<li><strong>Mansion Grove (<code>410 Mansion Park Dr, Santa Clara</code>) — NO CENTRAL A/C:</strong> Despite sitting right across from Cisco in Santa Clara, Mansion Grove units do <strong>not</strong> have central A/C (only wall units or ceiling fans), and residents complain frequently about hot summer bedrooms. Tour <strong>Estancia</strong> or <strong>River Terrace</strong> down the block instead.</li>
+<li><strong>Vista 99 (<code>99 Vista Montana, San Jose</code>) — Low 2.3★ Rating &amp; PG&amp;E Trap:</strong> Sits right on the Santa Clara border, so renters assume it gets cheap Santa Clara power—it doesn&#x27;t (it&#x27;s in 95134 on PG&amp;E), charges a mandatory $53/mo valet trash fee, and suffers from chronic garage gate break-ins and false fire alarms.</li>
+<li><strong>Modera The Alameda (<code>787 The Alameda</code>) — Income-Restricted:</strong> Converted to an AMI income-restricted affordable housing program; a Cisco full-time offer exceeds the maximum income limit.</li>
+<li><strong>Modera San Pedro Square, Sparq, &amp; 101 San Fernando — NO POOL:</strong> None of these three downtown buildings have a swimming pool (and Sparq uses automated mechanical car stackers that frequently jam).</li>
+<li><strong>Santana Row Proper (<code>Misora</code> / <code>Levare</code>) &amp; <code>Santa Clara Square</code> — Over Budget:</strong> 1-Bedrooms start at <strong>$4,080–$4,200+/mo</strong>.</li>
+</ul>
+<hr />
+<h2>5. Questions to Ask on Your Apartment Tours</h2>
+<p>When you tour your top 3–4 picks, ask the leasing agent these five specific questions to lock in your true monthly cost:</p>
+<ul>
+<li><strong>&quot;Is the first assigned garage space included in base rent, or billed separately each month?&quot;</strong></li>
+<li><strong>&quot;What is the average monthly Conservice / RUBS bill (water, sewer, trash, pest, boiler) for a single occupant in this floor plan?&quot;</strong></li>
+<li><strong>&quot;Are there any mandatory technology, smart-lock (LATCH), community Wi-Fi, or valet trash fees not shown in the base rent?&quot;</strong></li>
+<li><strong>&quot;Does this specific unit face an interior courtyard/pool, or does it face an arterial street, light rail, or freight track?&quot;</strong></li>
+<li><strong>&quot;Are you currently offering 4-to-6 weeks free on a 12-to-15 month lease, and can that concession be prorated monthly?&quot;</strong> <em>(Note: A $3,250 1BR with 4 weeks free drops to <strong>$2,999/mo net effective</strong>!)</em></li>
+</ul>
   </main>
-  <script>
-    const rawMd = '# San Jose & Silicon Valley Apartment Search Guide (SJSU Grad -> Cisco HQ)\n\n**Target Workplace:** Cisco HQ — Building 14, 3625 Cisco Way, San Jose, CA 95134  \n**Budget Target:** Under **$3,500/mo** (Strongly prioritizing options **at or below $3,000/mo**)  \n**Unit Types:** Studios & 1-Bedrooms (1BR/1BA)  \n**Required Amenities:** In-Unit Washer/Dryer, Central A/C, 1 Parking Space, On-Site Pool & Fitness Center (No Pets)  \n**Companion Files in Folder:**\n- Interactive Web Suite: [`index.html`](index.html)\n- Multi-Tab Excel Workbook: [`San_Jose_Apartments_Tracker.xlsx`](San_Jose_Apartments_Tracker.xlsx)\n- Live Spreadsheet CSV & JSON: [`apartments.csv`](apartments.csv) | [`apartments.json`](apartments.json)\n\n---\n\n## 1. Executive Summary: Top 8 Overall Recommendations\n\nIf you want to skip straight to touring the highest-value, verified communities that check every single box (In-Unit W/D, Central A/C, Garage Parking, Pool & Gym, Legitimate Management), start with these eight:\n\n| Rank | Apartment Community | Corridor | Distance / Commute to Cisco | Studio Rent | 1BR Rent | Parking Fee | Electric Utility | True Monthly (Est.) | Why It Wins |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **1** | **North Park Apartment Village** | North SJ (River Oaks) | **0.8 mi** (14 min walk / 3 min drive) | **$2,750** | **$2,915** | **$0** (1 incl.) | PG&E | ~$2,975 (Studio) / ~$3,140 (1BR) | **Best Walk-to-Cisco Under $3k:** Both Studios & entry 1BRs start under $3,000, free garage spot, 10 pools, indoor basketball court, 5-acre park & Starbucks on-site. |\n| **2** | **Crescent Village** | North SJ (Zanker Rd) | **0.4 mi** (8 min walk / 2 min bike) | **$2,855** | **$3,250** | **$0** (1 incl.) | PG&E | ~$3,085 (Studio) / ~$3,480 (1BR) | **Closest to 3625 Cisco Way:** Literally across Zanker Rd from Cisco. Large 574–640 sq ft studios under $3k, 7 resort pools, 4 gyms. |\n| **3** | **Estancia at Santa Clara** | North Santa Clara (Rivermark) | **1.9 mi** (6 min drive / 8 min bike) | N/A | **$3,210** (790 sq ft) | **$0** (1 incl.) | **Silicon Valley Power ($0.18/kWh)** | **~$3,370** (1BR) | **The SVP Utility Sweet Spot:** Crossing Coyote Creek into Santa Clara slashes summer A/C electricity bills by 60% and includes 1 free garage spot + Rivermark walkability. |\n| **4** | **Anton Aspire** | Milpitas Transit Center | **3.5 mi** (9 min drive / **7 min VTA train**) | **$2,380** | **$2,800** | $150/mo | PG&E | ~$2,745 (Studio) / ~$3,165 (1BR) | **Best Sub-$2,900 Modern 1BR:** 2021 luxury build with rooftop pool & gas stoves. Walk across the street to VTA Orange Line and ride 4 stops (7 mins) to Cisco Way Station. |\n| **5** | **Sixth and Jackson** | Japantown (San Jose) | **5.4 mi** (12 min reverse drive) | **$2,750** | **$3,150** | $125/mo | PG&E | ~$3,085 (Studio) / ~$3,485 (1BR) | **Highest Rated in San Jose (4.8★):** Brand-new Shea Properties build in safe, walkable Japantown (sushi, bakeries, farmers market) with an easy 12-min reverse commute. |\n| **6** | **Passero Apartments** | North Santa Clara (Tasman) | **2.4 mi** (6 min drive on Tasman Dr) | **$2,895** | **$3,300** | $100/mo | **Silicon Valley Power ($0.18/kWh)** | ~$3,160 (Studio) / ~$3,565 (1BR) | **4.7★ New Build + Cheap SVP Electric:** 2023 Class-A luxury with golf simulator, coworking pods, resort pool, and 60% cheaper Santa Clara electricity. |\n| **7** | **Centria Condominiums** | Milpitas (Great Mall) | **2.3 mi** (7 min drive / 5 min VTA) | **$2,300** | **$2,350–$2,800** | **$0** (1 incl.) | PG&E (**Water/Trash FREE**) | **~$2,445–$2,645** (1BR) | **Lowest True Monthly Cost:** Private condo owners include 1 gated garage spot plus HOA water & garbage, saving $350+/mo over corporate complexes. |\n| **8** | **Patina at Midtown** | Midtown (Del Monte Park) | **10.2 mi** (18 min reverse commute) | **$2,850** | **$2,995** | $75/mo | PG&E | ~$3,140 (Studio) / ~$3,285 (1BR) | **Best Midtown/West SJ Value <$3k:** Borders Del Monte Park, two-story gym, rooftop deck, and hits <=$3,000 for both Studios and 1BRs. |\n\n---\n\n## 2. Insider Financial Insight: The Santa Clara "SVP" Utility Loophole\n\nBecause **Central A/C** is a priority for you, where your apartment sits relative to the San Jose / Santa Clara city boundary line (Coyote Creek / Lafayette St) changes your monthly bill dramatically:\n\n- **San Jose & Milpitas (`PG&E`):** Residential electricity costs **$0.42 to $0.45 per kWh** plus a 5% city utility tax. Running central A/C in a studio or 1BR from June through October typically costs **$150 to $230/month**.\n- **City of Santa Clara (`Silicon Valley Power - SVP`):** Santa Clara owns its municipal electric utility, charging roughly **$0.182 per kWh** with no city electric tax—**57% to 60% cheaper than PG&E**. Running the exact same central A/C in Santa Clara costs **$50 to $75/month**, saving you **$800 to $1,500 per year**.\n- **Where this matters most:** **Estancia at Santa Clara** (`1650 Hope Dr`), **Passero** (`2230 Calle Del Mundo`), and **River Terrace** (`730 Agnew Rd`) are only **1.9 to 2.4 miles (5–8 mins)** from 3625 Cisco Way and qualify for **Silicon Valley Power**. Meanwhile, **Vista 99** (`99 Vista Montana`) sits just across the creek on the San Jose side and pays full PG&E rates.\n\n---\n\n## 3. Corridor-by-Corridor Deep Dive & Resident Reviews\n\n### Corridor A: North San Jose / River Oaks / Tasman (0.4 – 1.3 Miles to Cisco)\n*Ideal if you want to walk, bike, or drive 2–4 minutes to 3625 Cisco Way and live in a quiet, modern master-planned enclave.*\n\n1. **[Crescent Village Apartment Homes](https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/crescent-village.html)** (`3200 Zanker Rd, San Jose, CA 95134`)\n   - **Commute:** 0.4 miles — 8-min walk or 2-min bike right across Zanker Rd to Cisco Building 14.\n   - **Pricing:** Studios **$2,855–$3,100** (574–640 sq ft) | 1BR **$3,250–$3,650** (704–880 sq ft). **1 garage space included ($0).**\n   - **Resident Praise (3.8★):** Resort lifestyle with 7 heated pools, 4 gyms, spin studios, and immediate walkability to Cisco. Maintenance tickets are resolved within 24–48 hours.\n   - **Resident Complaints:** Occasional middle-of-the-night false fire alarms in certain phases; strict Irvine Company move-out carpet/cleaning deductions.\n\n2. **[North Park Apartment Village](https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/north-park.html)** (`3500 Palmilla Dr, San Jose, CA 95134`)\n   - **Commute:** 0.8 miles — 14-min walk, 3-min bike, or 3-min drive.\n   - **Pricing:** Studios **$2,750–$2,980** (490–550 sq ft) | 1BR **$2,915–$3,350** (620–830 sq ft). **1 garage space included ($0).**\n   - **Resident Praise (3.9★):** Built around the 5-acre private Moitozo Park with an on-site Starbucks, market, indoor regulation basketball court, and 10 pools. Best way to get an Irvine Company 1-Bedroom under $3,000.\n   - **Resident Complaints:** Very large buildings mean long walks from your parking stall to your apartment door; weak cell signal in interior ground-floor courtyards (use Wi-Fi calling).\n\n3. **[Enso Apartments](https://www.essexapartmenthomes.com/apartments/san-jose/enso)** (`175 Baypointe Pkwy, San Jose, CA 95134`)\n   - **Commute:** 1.0 mile — 3-min drive or 1 stop on VTA Orange Line from Baypointe Station.\n   - **Pricing:** Studios **$2,950–$3,100** (598 sq ft) | 1BR **$3,100–$3,450** (792–889 sq ft). **1 garage space included ($0).**\n   - **Resident Praise (3.8★):** Largest 1-bedroom floor plans in North San Jose (up to 889 sq ft) with real gas cooking ranges.\n   - **Resident Complaints:** Package locker congestion during prime delivery hours; Essex lease renewal increases.\n\n4. **[Aire Apartments](https://www.aireliving.com/)** (`3401 Iron Point Dr, San Jose, CA 95134`)\n   - **Commute:** 1.1 miles — 4-min drive down Tasman Dr.\n   - **Pricing:** Studios **$2,850–$2,950** (564–600 sq ft) | 1BR **$3,350–$3,550** (682–747 sq ft). **1 garage space included ($0).**\n   - **Resident Praise (3.9★):** Ultra-modern floor-to-ceiling windows, high-gloss European cabinetry, Nest thermostats, and a skydeck rooftop with fire pits.\n   - **Resident Complaints:** Mandatory ~$30/mo valet trash; strict waitlist if you ever add a second vehicle.\n\n5. **[Élan at River Oaks](https://www.sheaapartments.com/apartments/elan-at-river-oaks/)** (`345 Village Center Dr, San Jose, CA 95134`)\n   - **Commute:** 1.1 miles — 4-min drive / 5-min bike.\n   - **Pricing:** Studios **$3,050–$3,200** (532 sq ft) | 1BR **$3,380–$3,650** (760–780 sq ft). **Garage permit included ($0).**\n   - **Resident Praise (4.0★):** Highest-rated property in River Oaks; lush trees, fountains, lighted tennis courts, easy guest parking, and right next to River Oaks Plaza (Starbucks, restaurants).\n   - **Resident Complaints:** Older building exterior vintage than Aire or Enso (though interiors are updated).\n\n6. **[The Verdant](https://www.fairfieldresidential.com/property/the-verdant-apartments/)** (`3700 Casa Verde St`) & **[Epic](https://www.essexapartmenthomes.com/apartments/san-jose/epic)** (`600 Epic Way`) & **[River View](https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/river-view.html)** (`350 River Oaks Pkwy`)\n   - **The Verdant (3.8★):** 1BRs at **$3,180–$3,450** with 9-to-12 ft ceilings, included garage spot, and direct Coyote Creek Trail access.\n   - **Epic (3.7★):** Studios **$3,037**, 1BRs **$3,237**; great resort pool, putting green, and private theater lounge, though Essex adds a ~$70 tech/Wi-Fi bundle on select units.\n   - **River View (3.8★):** Studios **$3,185**, 1BRs **$3,450**; sits directly on the Guadalupe River Trail and River Oaks VTA stop.\n\n---\n\n### Corridor B: Santa Clara / SVP Electric Zone (1.9 – 5.8 Miles to Cisco)\n*Ideal if you want a 5–8 minute commute, walkable grocery plazas (Rivermark), and 60% cheaper municipal electricity.*\n\n1. **[Estancia at Santa Clara](https://www.equityapartments.com/san-francisco-bay-area/santa-clara/estancia-at-santa-clara-apartments)** (`1650 Hope Dr, Santa Clara, CA 95054`)\n   - **Commute:** 1.9 miles — 6-min drive or 8-min bike along the Guadalupe River Trail.\n   - **Pricing:** 1BR **$3,210–$3,450** (790 sq ft). **1 gated garage space included ($0).**\n   - **Resident Praise (3.6★):** 9-foot ceilings with crown molding, 2 resort pools, private gate onto the Guadalupe River Trail, walkable to Rivermark Safeway/dining, and **Silicon Valley Power ($0.18/kWh)**.\n   - **Resident Complaints:** Limited visitor parking stalls; standard Equity Residential renewal bumps.\n\n2. **[Passero Apartments](https://www.greystar.com)** (`2230 Calle Del Mundo, Santa Clara, CA 95054`)\n   - **Commute:** 2.4 miles — 6-min straight shot east on Tasman Dr.\n   - **Pricing:** Studios **$2,895–$2,995** (331–350 sq ft) | 1BR **$3,300–$3,650** (526–750 sq ft). Garage parking ~$100/mo.\n   - **Resident Praise (4.7★):** Spotless 2023 Class-A construction, golf simulator, rooftop deck, coworking pods, and cheap SVP power.\n   - **Resident Complaints:** Sub-$3,000 studios are compact micro-layouts (331–350 sq ft).\n\n3. **[River Terrace](https://www.udr.com/san-francisco-bay-area-apartments/santa-clara/river-terrace/)** (`730 Agnew Rd, Santa Clara, CA 95054`)\n   - **Commute:** 2.1 miles — 6-min drive to Cisco.\n   - **Pricing:** 1BR **$3,200–$3,450** (700–850 sq ft). Garage parking ~$80/mo.\n   - **Resident Praise (3.1★):** Directly across from Rivermark Village (Safeway, Peet\'s, Chipotle), full central A/C, and cheap SVP electric rates.\n   - **Resident Complaints:** Automated UDR customer service and package room congestion.\n\n4. **[Prado at Nuevo](https://www.liveprado.com)** (`3560 Rambla Pl`) & **[Villas on the Boulevard](https://www.villasontheboulevard.com)** (`2615 El Camino Real`)\n   - **Prado (3.8★):** 1BR **$3,350** (753 sq ft), 1 free garage spot, SVP electricity, surrounded by 24,000 sq ft of brand-new Nuevo neighborhood parks (13 mins to Cisco).\n   - **Villas on the Boulevard (3.9★):** 1BR **$3,450** (758 sq ft), 1 free underground spot, gas ranges, SVP power, right in the El Camino Korean dining district (13 mins to Cisco).\n\n---\n\n### Corridor C: Milpitas / BART / VTA Orange Line (1.8 – 3.5 Miles to Cisco)\n*Ideal for staying comfortably under $3,000/mo in a newer building with a 6–9 minute drive or direct 4–7 minute light rail ride to Cisco Way Station.*\n\n1. **[Anton Aspire](https://www.antonaspire.com)** (`1828 S Milpitas Blvd, Milpitas, CA 95035`)\n   - **Commute:** 3.5 miles — 9-min drive OR walk across the street to Milpitas VTA Station and ride **4 stops (7 mins)** to Cisco Way Station.\n   - **Pricing:** Studios **$2,380–$2,550** (521–563 sq ft) | 1BR **$2,800–$3,150** (647–839 sq ft). Garage parking ~$150/mo.\n   - **Resident Praise (4.0★):** Unbeatable sub-$2,900 price for a 2021 luxury building; rooftop pool & spa with panoramic hill views; thick double-pane windows; gas ranges.\n   - **Resident Complaints:** Unbundled $150/mo parking and $30/mo mandatory valet trash.\n\n2. **[Centria Condominiums](https://www.centriaowners.com)** (`1101 S Main St, Milpitas, CA 95035`)\n   - **Commute:** 2.3 miles — 7-min drive or 2 stops on VTA Orange Line from Great Mall Station.\n   - **Pricing:** Studios **$2,300–$2,500** | 1BR **$2,350–$2,900** (619–926 sq ft). **1 garage stall + water + trash included ($0) by private condo landlords.**\n   - **Resident Praise (3.8★):** Lowest all-in monthly cost (~$2,450–$2,650 total); quieter condo neighbors; walk across the street to Great Mall.\n   - **Resident Complaints:** Must lease from an individual condo owner on Zillow/Apartments.com; strict HOA moving rules.\n\n3. **[Apex Apartments](https://www.essexapartmenthomes.com/apartments/milpitas/apex)** (`1102 S Abel St, Milpitas, CA 95035`)\n   - **Commute:** 2.5 miles — 8-min drive straight down Great Mall Pkwy & Tasman Dr.\n   - **Pricing:** Studios **$2,650–$2,850** (581 sq ft) | 1BR **$2,920–$3,150** (717–762 sq ft). **1 garage space typically included.**\n   - **Resident Praise (3.7★):** Sub-$3,000 1BRs with quartz/granite finishes, resort pool, and fast access to Cisco, I-880, and Hwy 237.\n   - **Resident Complaints:** Tight turns inside the parking garage.\n\n4. **[Turing at The Fields](https://www.livethefields.com/turing)** (`1355 McCandless Dr`) & **[The Crossing at Montague](https://www.milpitascrossing.com)** (`755 E Capitol Ave`) & **[Amalfi](https://www.amalfimilpitas.com)** (`1251 Merry Loop`)\n   - **Turing (3.4★):** Studios **$2,980**, 1BR **$3,300**; **Trader Joe\'s, Starbucks, and Orangetheory are literally on the ground floor**, plus a 3-story gym (1.8 miles / 6 mins to Cisco).\n   - **The Crossing (3.3★):** 1BRs at **$2,750–$2,995** with included covered parking right at Montague VTA station.\n   - **Amalfi (3.5★):** 1BRs at **$2,980** with included garage parking, low ~$55 trash/sewer fees, and an on-site tennis court.\n\n---\n\n### Corridor D: Japantown / Downtown / San Pedro Square (5.1 – 7.0 Miles to Cisco)\n*Ideal as a recent SJSU grad if you want walkable cafés, sushi, farmers markets, and nightlife with an easy 11–15 minute reverse commute north to Cisco.*\n\n1. **[Sixth and Jackson](https://sheaproperties.com/apartments/northern-california/sixth-jackson-apartments/)** (`620 N 6th St, San Jose, CA 95112` — Japantown)\n   - **Commute:** 5.4 miles — 12-min reverse commute up N. 1st St or I-880 N.\n   - **Pricing:** Studios **$2,750–$2,950** (450–650 sq ft) | 1BR **$3,150–$3,350** (650–810 sq ft). Garage parking ~$125/mo.\n   - **Resident Praise (4.8★):** Ranked in the top 1% of apartments nationwide (ORA Award); brand-new build in walkable, safe Japantown; resort pool with movie wall and panoramic skydecks.\n   - **Resident Complaints:** Strict 1-parking-spot policy on studio/1BR leases.\n\n2. **[The Esplanade](https://www.essexapartmenthomes.com/apartments/san-jose/the-esplanade)** (`350 E Taylor St, San Jose, CA 95112` — Japantown)\n   - **Commute:** 5.3 miles — 12-min drive or 6-min walk to Japantown/Ayer VTA Light Rail.\n   - **Pricing:** Studios/Lofts **$2,550–$2,800** (550–700 sq ft) | 1BR **$2,750–$3,150** (700–850 sq ft). Garage parking ~$75/mo (often bundled on promos).\n   - **Resident Praise (3.9★):** Historic cannery conversion with soaring loft ceilings, pool/spa, and sub-$2,800 1BR pricing in Japantown.\n   - **Resident Complaints:** Do not pick an east-facing unit near the Union Pacific tracks (nighttime train horn noise); choose a courtyard-facing unit.\n\n3. **[The Julian](https://livethejulian.com/)** (`171 W Julian St`) & **[One South Market](https://www.essexapartmenthomes.com/apartments/san-jose/one-south-market)** (`1 S Market St`) & **[Centerra](https://www.liveatcenterra.com/)** (`77 N Almaden Ave`) & **[Miro](https://rentmiro.com/)** (`181 E Santa Clara St`)\n   - **The Julian (3.8★):** Studios **$2,780**, 1BR **$3,180**; 2021 build with courtyard pool, rooftop arcade lounge, and 5-min walk to San Pedro Square without downtown club noise.\n   - **One South Market (3.6★):** Studios **$2,800**, 1BR **$3,050**; 23-story high-rise with floor-to-ceiling glass and 3rd-floor terrace pool.\n   - **Miro (3.8★):** Studios **$3,300** (often ~$3,050 after 1-month-free promo), 1BR **$3,430**; San Jose\'s tallest luxury twin towers across from SJSU/City Hall with sky-high views and rooftop lap pool (note: parking is $175–$225/mo).\n\n---\n\n### Corridor E: Midtown / The Alameda / Santana Row Border (9.5 – 11.2 Miles to Cisco)\n*Ideal if you want tree-lined neighborhood charm, Whole Foods, or Santana Row proximity within a 16–19 minute morning drive.*\n\n1. **[Patina at Midtown](https://www.essexapartmenthomes.com/apartments/san-jose/patina-at-midtown)** (`355 Sunol St, San Jose, CA 95126`)\n   - **Commute:** 10.2 miles — 18-min reverse commute via I-880 N or Hwy 87 N.\n   - **Pricing:** Studios **$2,850–$3,050** (540–672 sq ft) | 1BR **$2,995–$3,350** (672–850 sq ft). Garage parking ~$75/mo.\n   - **Resident Praise (4.0★):** Sits right on Del Monte Park; two-story fitness studio, heated pool, rooftop mountain views, and sub-$3,000 pricing.\n\n2. **[Avalon on The Alameda](https://www.avaloncommunities.com/california/san-jose-apartments/avalon-on-the-alameda/)** (`1300 The Alameda, San Jose, CA 95126`)\n   - **Commute:** 9.5 miles — 16-min drive via I-880 N.\n   - **Pricing:** 1BR **$3,098–$3,350** (735–804 sq ft). 1 garage space typically included.\n   - **Resident Praise (4.1★):** Ground-floor Starbucks, 2 blocks from Whole Foods, dry sauna + pool + gym, and quiet courtyard gardens.\n\n3. **[Lynhaven Apartments](https://www.livelynhaven.com/)** (`919 S Winchester Blvd, San Jose, CA 95128` — Santana Row Strip)\n   - **Commute:** 11.2 miles — 19-min drive via I-880 N or San Tomas Expy.\n   - **Pricing:** 1BR **$3,150–$3,650** (687–854 sq ft). Garage parking ~$110/mo.\n   - **Resident Praise (4.1★):** Brand-new Greystar redevelopment of the old Reserve site; gives you GE gas stoves, rooftop terraces, and a 3-minute walk/drive to Santana Row for **$1,000/mo less** than leasing on Santana Row itself ($4,100+).\n\n---\n\n## 4. Critical Warnings & Eliminated Properties (Save Your Time)\n\nDuring our verification audit, we flagged and filtered out several popular buildings that fail your core criteria or hide major pitfalls:\n\n1. **Mansion Grove (`410 Mansion Park Dr, Santa Clara`) — NO CENTRAL A/C:** Despite sitting right across from Cisco in Santa Clara, Mansion Grove units do **not** have central A/C (only wall units or ceiling fans), and residents complain frequently about hot summer bedrooms. Tour **Estancia** or **River Terrace** down the block instead.\n2. **Vista 99 (`99 Vista Montana, San Jose`) — Low 2.3★ Rating & PG&E Trap:** Sits right on the Santa Clara border, so renters assume it gets cheap Santa Clara power—it doesn\'t (it\'s in 95134 on PG&E), charges a mandatory $53/mo valet trash fee, and suffers from chronic garage gate break-ins and false fire alarms.\n3. **Modera The Alameda (`787 The Alameda`) — Income-Restricted:** Converted to an AMI income-restricted affordable housing program; a Cisco full-time offer exceeds the maximum income limit.\n4. **Modera San Pedro Square, Sparq, & 101 San Fernando — NO POOL:** None of these three downtown buildings have a swimming pool (and Sparq uses automated mechanical car stackers that frequently jam).\n5. **Santana Row Proper (`Misora` / `Levare`) & `Santa Clara Square` — Over Budget:** 1-Bedrooms start at **$4,080–$4,200+/mo**.\n\n---\n\n## 5. Questions to Ask on Your Apartment Tours\n\nWhen you tour your top 3–4 picks, ask the leasing agent these five specific questions to lock in your true monthly cost:\n1. **"Is the first assigned garage space included in base rent, or billed separately each month?"**\n2. **"What is the average monthly Conservice / RUBS bill (water, sewer, trash, pest, boiler) for a single occupant in this floor plan?"**\n3. **"Are there any mandatory technology, smart-lock (LATCH), community Wi-Fi, or valet trash fees not shown in the base rent?"**\n4. **"Does this specific unit face an interior courtyard/pool, or does it face an arterial street, light rail, or freight track?"**\n5. **"Are you currently offering 4-to-6 weeks free on a 12-to-15 month lease, and can that concession be prorated monthly?"** *(Note: A $3,250 1BR with 4 weeks free drops to **$2,999/mo net effective**!)*\n';
-    document.getElementById('report-content').textContent = rawMd;
-  </script>
 </body>
 </html>
