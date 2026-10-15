@@ -32,10 +32,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "14 min walk / 3 min bike to Cisco",
     "studioMin": 2750,
     "studioMax": 2980,
-    "studioSqFt": "490\u2013550",
+    "studioSqFt": "490–550",
     "oneBedMin": 2915,
     "oneBedMax": 3350,
-    "oneBedSqFt": "620\u2013830",
+    "oneBedSqFt": "620–830",
     "bestStartingRent": 2750,
     "recommendedUnit": "Studio ($2,750) or 1BR ($2,915)",
     "parkingFee": 0,
@@ -55,13 +55,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.9,
     "reviewSource": "Google (3.9) / Apartments.com (4.0)",
     "amenitiesHighlight": "10 pools & spas, indoor full basketball court, multiple gyms, 5-acre private Moitozo Park, on-site Starbucks & market",
-    "praise": "True village atmosphere with private 5-acre park and Starbucks on-site; easy 12\u201315 min walk to Cisco Building 14; both Studios ($2,750) and entry 1BRs ($2,915) dip under $3,000; fast Irvine Co. maintenance.",
+    "praise": "True village atmosphere with private 5-acre park and Starbucks on-site; easy 12–15 min walk to Cisco Building 14; both Studios ($2,750) and entry 1BRs ($2,915) dip under $3,000; fast Irvine Co. maintenance.",
     "complaints": "Massive complex footprint (walking to trash chute or exit can take time); occasional garage tailgating break-ins; weak cell reception inside some ground-floor courtyards.",
     "website": "https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/north-park.html",
     "highlightTag": "Best Walk-to-Cisco Under $3,000",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=North+Park+Apartment+Village%2C+3500+Palmilla+Dr%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3500+Palmilla+Dr%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=North%20Park%20Apartment%20Village%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=North%20Park%20Apartment%20Village%2C%203500%20Palmilla%20Dr%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3500%20Palmilla%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/north-park-apartment-homes-san-jose-ca/fsbvjbs/",
     "zillowUrl": "https://www.zillow.com/homes/3500%20Palmilla%20Dr%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -478,7 +478,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to River Oaks VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound to Cisco Way) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to River Oaks VTA Station → 🚇 VTA Blue Line (Northbound to Cisco Way) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 14,
     "transitWalkStartCoords": [
       [
@@ -810,7 +810,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3500%20Palmilla%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "crescent-village",
@@ -827,10 +828,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "8 min walk / 2 min bike across Zanker Rd",
     "studioMin": 2855,
     "studioMax": 3100,
-    "studioSqFt": "574\u2013640",
+    "studioSqFt": "574–640",
     "oneBedMin": 3250,
     "oneBedMax": 3650,
-    "oneBedSqFt": "704\u2013880",
+    "oneBedSqFt": "704–880",
     "bestStartingRent": 2855,
     "recommendedUnit": "Studio ($2,855, 574 sq ft) or 1BR ($3,250)",
     "parkingFee": 0,
@@ -850,13 +851,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.8,
     "reviewSource": "Apartments.com (3.8) / Google (3.7)",
     "amenitiesHighlight": "7 heated resort pools & spas, 4 fitness centers, spin/movement studios, screening room, adjacent to River Oaks retail",
-    "praise": "Closest possible commute to 3625 Cisco Way (0.4 miles \u2014 roll out of bed and walk in 8 mins); resort-grade pools and landscaping; very spacious 574\u2013640 sq ft studios under $3,000.",
+    "praise": "Closest possible commute to 3625 Cisco Way (0.4 miles — roll out of bed and walk in 8 mins); resort-grade pools and landscaping; very spacious 574–640 sq ft studios under $3,000.",
     "complaints": "Periodic false fire alarms in certain buildings; strict move-out cleaning deductions; PG&E summer cooling costs.",
     "website": "https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/crescent-village.html",
     "highlightTag": "Closest Walk to Cisco (0.4 mi)",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Crescent+Village+Apartment+Homes%2C+3200+Zanker+Rd%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3200+Zanker+Rd%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Crescent%20Village%20Apartment%20Homes%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Crescent%20Village%20Apartment%20Homes%2C%203200%20Zanker%20Rd%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3200%20Zanker%20Rd%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/crescent-village-apartment-homes-san-jose-ca/kb57kc8/",
     "zillowUrl": "https://www.zillow.com/homes/3200%20Zanker%20Rd%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -1337,7 +1338,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to River Oaks & Zanker (VTA Bus 59) \u2192 \ud83d\ude87 VTA Bus 59 (or 12-min Direct Walk up Cisco Way) (4m) \u2192 \ud83d\udeb6 2m walk from Cisco Way & Tasman Stop",
+    "transitSummary": "🚶 3m walk to River Oaks & Zanker (VTA Bus 59) → 🚇 VTA Bus 59 (or 12-min Direct Walk up Cisco Way) (4m) → 🚶 2m walk from Cisco Way & Tasman Stop",
     "transitMins": 9,
     "transitWalkStartCoords": [
       [
@@ -2125,7 +2126,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3200%20Zanker%20Rd%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "enso",
@@ -2145,9 +2147,9 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "598",
     "oneBedMin": 3100,
     "oneBedMax": 3450,
-    "oneBedSqFt": "792\u2013889",
+    "oneBedSqFt": "792–889",
     "bestStartingRent": 2950,
-    "recommendedUnit": "Large 1BR ($3,100, 792\u2013889 sq ft) or Studio ($2,950)",
+    "recommendedUnit": "Large 1BR ($3,100, 792–889 sq ft) or Studio ($2,950)",
     "parkingFee": 0,
     "parkingNote": "1 assigned garage space included in base rent",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -2165,13 +2167,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.8,
     "reviewSource": "Apartments.com (3.8) / Google (3.7)",
     "amenitiesHighlight": "Courtyard pool & spa, 24-hr gym, bocce & badminton courts, EV chargers, gas cooking ranges",
-    "praise": "Huge 1BR floor plans (792\u2013889 sq ft) with real gas stoves; steps from Baypointe VTA light rail (1 stop to Cisco Way); 1st parking space included.",
+    "praise": "Huge 1BR floor plans (792–889 sq ft) with real gas stoves; steps from Baypointe VTA light rail (1 stop to Cisco Way); 1st parking space included.",
     "complaints": "Package locker overflow during holidays; occasional elevator downtime; Essex renewal increases after year 1.",
     "website": "https://www.essexapartmenthomes.com/apartments/san-jose/enso",
     "highlightTag": "Largest 1BRs Near Cisco (889 sq ft)",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Enso+Apartments%2C+175+Baypointe+Pkwy%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=175+Baypointe+Pkwy%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Enso%20Apartments%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Enso%20Apartments%2C%20175%20Baypointe%20Pkwy%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=175%20Baypointe%20Pkwy%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/enso-san-jose-ca/e5b3e4m/",
     "zillowUrl": "https://www.zillow.com/homes/175%20Baypointe%20Pkwy%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -2556,7 +2558,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to Baypointe VTA Station \u2192 \ud83d\ude87 VTA Orange / Blue Line (1 stop East to Cisco Way) (2m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Baypointe VTA Station → 🚇 VTA Orange / Blue Line (1 stop East to Cisco Way) (2m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 10,
     "transitWalkStartCoords": [
       [
@@ -2776,7 +2778,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=175%20Baypointe%20Pkwy%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "aire",
@@ -2793,12 +2796,12 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "5 min bike / 20 min walk down Tasman Dr",
     "studioMin": 2850,
     "studioMax": 2950,
-    "studioSqFt": "564\u2013600",
+    "studioSqFt": "564–600",
     "oneBedMin": 3350,
     "oneBedMax": 3550,
-    "oneBedSqFt": "682\u2013747",
+    "oneBedSqFt": "682–747",
     "bestStartingRent": 2850,
-    "recommendedUnit": "Studio ($2,850, 564\u2013600 sq ft)",
+    "recommendedUnit": "Studio ($2,850, 564–600 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 assigned garage space included (strict waitlist for 2nd car)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -2818,11 +2821,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Boutique hotel pool & spa, skydeck rooftop with fire pits, 24/7 fitness club with Pilates/yoga, floor-to-ceiling glass",
     "praise": "Sleek architectural interiors with floor-to-ceiling windows, high-gloss European cabinets, and Nest thermostats; studios consistently stay under $2,950.",
     "complaints": "Mandatory ~$30/mo valet trash; quiet office-park surroundings on weekends; move-out cleaning deductions.",
-    "website": "https://www.aireliving.com/",
+    "website": "https://aireliving.com/",
     "highlightTag": "Best Modern Architecture Studio <$2,950",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aire+Apartments%2C+3401+Iron+Point+Dr%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3401+Iron+Point+Dr%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Aire%20Apartments%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aire%20Apartments%2C%203401%20Iron%20Point%20Dr%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3401%20Iron%20Point%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/aire-san-jose-ca/nrsnnzq/",
     "zillowUrl": "https://www.zillow.com/homes/3401%20Iron%20Point%20Dr%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -3323,7 +3326,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to Champion VTA Station \u2192 \ud83d\ude87 VTA Orange / Blue Line (Eastbound on Tasman Dr) (4m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Champion VTA Station → 🚇 VTA Orange / Blue Line (Eastbound on Tasman Dr) (4m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 13,
     "transitWalkStartCoords": [
       [
@@ -3623,7 +3626,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3401%20Iron%20Point%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-verdant",
@@ -3643,9 +3647,9 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3180,
     "oneBedMax": 3450,
-    "oneBedSqFt": "681\u2013830",
+    "oneBedSqFt": "681–830",
     "bestStartingRent": 3180,
-    "recommendedUnit": "1BR ($3,180, 681\u2013830 sq ft)",
+    "recommendedUnit": "1BR ($3,180, 681–830 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 gated garage space included",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -3665,11 +3669,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Heated pool with cabanas, multi-level 24-hr gym, direct Coyote Creek Trail access across street",
     "praise": "Tall 9-to-12-foot ceilings with crown molding; direct access to Coyote Creek running/biking trail; included garage spot.",
     "complaints": "Do not leave bikes on ground-floor patios or unlocked racks; leasing office can be slow on minor non-urgent tickets.",
-    "website": "https://www.fairfieldresidential.com/property/the-verdant-apartments/",
+    "website": "https://www.fairfieldresidential.com/apartments/ca/san-jose/the-verdant-apartments/",
     "highlightTag": "High Ceilings + Trail Access",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Verdant+Apartments%2C+3700+Casa+Verde+St%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3700+Casa+Verde+St%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Verdant%20Apartments%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Verdant%20Apartments%2C%203700%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3700%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/the-verdant-apartments-san-jose-ca/9bng3w5/",
     "zillowUrl": "https://www.zillow.com/homes/3700%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -4130,7 +4134,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to Champion VTA Station \u2192 \ud83d\ude87 VTA Orange / Blue Line (Eastbound on Tasman Dr) (4m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Champion VTA Station → 🚇 VTA Orange / Blue Line (Eastbound on Tasman Dr) (4m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 13,
     "transitWalkStartCoords": [
       [
@@ -4406,7 +4410,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3700%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "epic",
@@ -4426,11 +4431,11 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "565",
     "oneBedMin": 3237,
     "oneBedMax": 3500,
-    "oneBedSqFt": "722\u2013803",
+    "oneBedSqFt": "722–803",
     "bestStartingRent": 3037,
     "recommendedUnit": "Studio ($3,037) or 1BR ($3,237)",
     "parkingFee": 0,
-    "parkingNote": "1 garage space typically included ($0\u2013$50 promo)",
+    "parkingNote": "1 garage space typically included ($0–$50 promo)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 240,
     "trueMonthlyMin": 3277,
@@ -4450,9 +4455,9 @@ const DEFAULT_APARTMENTS = [
     "complaints": "Mandatory ~$70 community tech/Wi-Fi bundle on select leases; aggressive lease renewal hikes from Essex.",
     "website": "https://www.essexapartmenthomes.com/apartments/san-jose/epic",
     "highlightTag": "Resort Pool & Putting Green",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Epic+Apartments%2C+600+Epic+Way%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=600+Epic+Way%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Epic%20Apartments%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Epic%20Apartments%2C%20600%20Epic%20Way%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=600%20Epic%20Way%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/epic-san-jose-ca/l8r08lg/",
     "zillowUrl": "https://www.zillow.com/homes/600%20Epic%20Way%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -5197,7 +5202,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to River Oaks & Zanker (VTA Bus 59) \u2192 \ud83d\ude87 VTA Bus 59 (or 12-min Direct Walk up Cisco Way) (4m) \u2192 \ud83d\udeb6 2m walk from Cisco Way & Tasman Stop",
+    "transitSummary": "🚶 3m walk to River Oaks & Zanker (VTA Bus 59) → 🚇 VTA Bus 59 (or 12-min Direct Walk up Cisco Way) (4m) → 🚶 2m walk from Cisco Way & Tasman Stop",
     "transitMins": 9,
     "transitWalkStartCoords": [
       [
@@ -6105,11 +6110,12 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=600%20Epic%20Way%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "elan-river-oaks",
-    "name": "\u00c9lan at River Oaks",
+    "name": "Élan at River Oaks",
     "subarea": "North San Jose (River Oaks Plaza)",
     "region": "North San Jose",
     "address": "345 Village Center Dr, San Jose, CA 95134",
@@ -6125,7 +6131,7 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "532",
     "oneBedMin": 3380,
     "oneBedMax": 3650,
-    "oneBedSqFt": "760\u2013780",
+    "oneBedSqFt": "760–780",
     "bestStartingRent": 3050,
     "recommendedUnit": "Studio ($3,050) or 1BR ($3,380)",
     "parkingFee": 0,
@@ -6148,10 +6154,10 @@ const DEFAULT_APARTMENTS = [
     "praise": "Highest resident satisfaction in River Oaks (4.0+); tranquil garden courtyards with trees and fountains; right next to Starbucks & dining; easy guest parking.",
     "complaints": "Slightly older building vintage than brand-new high-rises (though interiors are renovated); occasional water shutoffs for plumbing maintenance.",
     "website": "https://www.sheaapartments.com/apartments/elan-at-river-oaks/",
-    "highlightTag": "Highest Rated in River Oaks (4.0\u2605)",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%89lan+at+River+Oaks%2C+345+Village+Center+Dr%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=345+Village+Center+Dr%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=%C3%89lan%20at%20River%20Oaks%20San%20Jose",
+    "highlightTag": "Highest Rated in River Oaks (4.0★)",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%89lan%20at%20River%20Oaks%2C%20345%20Village%20Center%20Dr%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=345%20Village%20Center%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/elan-at-river-oaks-san-jose-ca/9mqqy17/",
     "zillowUrl": "https://www.zillow.com/homes/345%20Village%20Center%20Dr%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -6512,7 +6518,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to River Oaks VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound to Cisco Way) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to River Oaks VTA Station → 🚇 VTA Blue Line (Northbound to Cisco Way) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 14,
     "transitWalkStartCoords": [
       [
@@ -6732,7 +6738,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=345%20Village%20Center%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "river-view",
@@ -6749,10 +6756,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "4 min bike / River Oaks VTA Station at entrance",
     "studioMin": 3185,
     "studioMax": 3360,
-    "studioSqFt": "468\u2013620",
+    "studioSqFt": "468–620",
     "oneBedMin": 3450,
     "oneBedMax": 3800,
-    "oneBedSqFt": "710\u2013875",
+    "oneBedSqFt": "710–875",
     "bestStartingRent": 3185,
     "recommendedUnit": "Studio ($3,185) or Promo 1BR ($3,450)",
     "parkingFee": 0,
@@ -6776,9 +6783,9 @@ const DEFAULT_APARTMENTS = [
     "complaints": "Pricier than North Park and Crescent Village right up the street; intermittent false fire alarms.",
     "website": "https://www.irvinecompanyapartments.com/locations/northern-california/san-jose/river-view.html",
     "highlightTag": "Direct River Trail & VTA Access",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=River+View+Apartment+Homes%2C+350+River+Oaks+Pkwy%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=350+River+Oaks+Pkwy%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=River%20View%20Apartment%20Homes%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=River%20View%20Apartment%20Homes%2C%20350%20River%20Oaks%20Pkwy%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=350%20River%20Oaks%20Pkwy%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/river-view-apartment-homes-san-jose-ca/3hg41rd/",
     "zillowUrl": "https://www.zillow.com/homes/350%20River%20Oaks%20Pkwy%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -7395,7 +7402,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to River Oaks & Zanker (VTA Bus 59) \u2192 \ud83d\ude87 VTA Bus 59 (or 12-min Direct Walk up Cisco Way) (4m) \u2192 \ud83d\udeb6 2m walk from Cisco Way & Tasman Stop",
+    "transitSummary": "🚶 3m walk to River Oaks & Zanker (VTA Bus 59) → 🚇 VTA Bus 59 (or 12-min Direct Walk up Cisco Way) (4m) → 🚶 2m walk from Cisco Way & Tasman Stop",
     "transitMins": 9,
     "transitWalkStartCoords": [
       [
@@ -8271,7 +8278,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=350%20River%20Oaks%20Pkwy%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "vista-99",
@@ -8291,7 +8299,7 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3225,
     "oneBedMax": 3450,
-    "oneBedSqFt": "740\u2013775",
+    "oneBedSqFt": "740–775",
     "bestStartingRent": 3225,
     "recommendedUnit": "1BR ($3,225, 740 sq ft)",
     "parkingFee": 0,
@@ -8307,17 +8315,17 @@ const DEFAULT_APARTMENTS = [
     "under3000Option": false,
     "tier": "Caution / Mixed Reviews",
     "management": "Vivmark / FPI Management",
-    "legitimacy": "Legitimate Building \u2014 Low Resident Rating (2.3\u2605)",
+    "legitimacy": "Legitimate Building — Low Resident Rating (2.3★)",
     "rating": 2.3,
     "reviewSource": "Yelp / ApartmentRatings (2.3)",
     "amenitiesHighlight": "2nd-story gym & yoga studio, pool deck with cabanas, gas stoves",
     "praise": "Very close to Cisco (1.2 mi), modern interiors with gas cooking stoves.",
-    "complaints": "CAUTION: Low 2.3\u2605 rating due to frequent garage gate outages, vehicle break-ins, false fire alarms, and mandatory $53/mo valet trash fee.",
-    "website": "https://www.apartments.com/vista-99-san-jose-ca/w00sz1l/",
-    "highlightTag": "Caution: High Fees & 2.3\u2605 Rating",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vista+99+Apartments%2C+99+Vista+Montana%2C+San+Jose%2C+CA+95134",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=99+Vista+Montana%2C+San+Jose%2C+CA+95134&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Vista%2099%20Apartments%20San%20Jose",
+    "complaints": "CAUTION: Low 2.3★ rating due to frequent garage gate outages, vehicle break-ins, false fire alarms, and mandatory $53/mo valet trash fee.",
+    "website": "https://www.equityapartments.com/san-francisco-bay/north-san-jose/vista-99-apartments",
+    "highlightTag": "Caution: High Fees & 2.3★ Rating",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vista%2099%20Apartments%2C%2099%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=99%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/vista-99-san-jose-ca/2vres89/",
     "zillowUrl": "https://www.zillow.com/homes/99%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -8922,7 +8930,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to Baypointe VTA Station \u2192 \ud83d\ude87 VTA Orange / Blue Line (1 stop East to Cisco Way) (2m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Baypointe VTA Station → 🚇 VTA Orange / Blue Line (1 stop East to Cisco Way) (2m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 10,
     "transitWalkStartCoords": [
       [
@@ -9502,7 +9510,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=99%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "passero",
@@ -9519,15 +9528,15 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "6 min drive east on Tasman Dr / VTA Orange Line",
     "studioMin": 2895,
     "studioMax": 2995,
-    "studioSqFt": "331\u2013350",
+    "studioSqFt": "331–350",
     "oneBedMin": 3300,
     "oneBedMax": 3650,
-    "oneBedSqFt": "526\u2013750",
+    "oneBedSqFt": "526–750",
     "bestStartingRent": 2895,
     "recommendedUnit": "Studio ($2,895) or 1BR ($3,300)",
     "parkingFee": 100,
     "parkingNote": "Gated garage (~$100/mo); EV chargers available",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 165,
     "trueMonthlyMin": 3160,
     "trueMonthly1BR": 3565,
@@ -9542,13 +9551,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.7,
     "reviewSource": "Google / ApartmentRatings (4.7)",
     "amenitiesHighlight": "Resort pool, rooftop skydeck, wellness gym, golf simulator, private coworking pods",
-    "praise": "4.7\u2605 rating! Brand-new 2023 build; gets cheap Santa Clara Silicon Valley Power ($0.18/kWh) so running A/C costs ~$50/mo instead of $180/mo; 6 mins straight down Tasman to Cisco.",
-    "complaints": "Sub-$3,000 studios are micro-sized (331\u2013350 sq ft); parking is unbundled (~$100/mo).",
-    "website": "https://www.greystar.com",
-    "highlightTag": "4.7\u2605 New Build + Cheap SVP Electric",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passero+Apartments%2C+2230+Calle+Del+Mundo%2C+Santa+Clara%2C+CA+95054",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2230+Calle+Del+Mundo%2C+Santa+Clara%2C+CA+95054&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Passero%20Apartments%20Santa%20Clara",
+    "praise": "4.7★ rating! Brand-new 2023 build; gets cheap Santa Clara Silicon Valley Power ($0.18/kWh) so running A/C costs ~$50/mo instead of $180/mo; 6 mins straight down Tasman to Cisco.",
+    "complaints": "Sub-$3,000 studios are micro-sized (331–350 sq ft); parking is unbundled (~$100/mo).",
+    "website": "https://www.livepassero.com/",
+    "highlightTag": "4.7★ New Build + Cheap SVP Electric",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Passero%20Apartments%2C%202230%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2230%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/passero-santa-clara-ca/vbeyz4d/",
     "zillowUrl": "https://www.zillow.com/homes/2230%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -10577,7 +10586,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 5m walk to Great America VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Eastbound on Tasman Dr) (8m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to Great America VTA Station → 🚇 VTA Orange Line (Eastbound on Tasman Dr) (8m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 18,
     "transitWalkStartCoords": [
       [
@@ -11101,7 +11110,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=2230%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "estancia-santa-clara",
@@ -11126,7 +11136,7 @@ const DEFAULT_APARTMENTS = [
     "recommendedUnit": "Large 1BR ($3,210, 790 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 assigned gated garage space included",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 160,
     "trueMonthlyMin": 3370,
     "trueMonthly1BR": 3370,
@@ -11143,11 +11153,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "2 resort pools, multiple hot tubs, fitness studio, private gate to Guadalupe River Trail, walkable to Rivermark Safeway",
     "praise": "Sweet-spot 1BR near Cisco: 1.9 miles away, 1 free garage spot, spacious 790 sq ft layout, walkable to Rivermark Village groceries/dining, and saves ~$120/mo on summer A/C via Santa Clara SVP power!",
     "complaints": "Visitor parking is tight; Equity Residential pushes noticeable renewal increases after year 1.",
-    "website": "https://www.equityapartments.com/san-francisco-bay-area/santa-clara/estancia-at-santa-clara-apartments",
+    "website": "https://www.equityapartments.com/san-francisco-bay/santa-clara/estancia-at-santa-clara-apartments",
     "highlightTag": "Best 1BR Overall Value (SVP + Free Parking)",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Estancia+at+Santa+Clara%2C+1650+Hope+Dr%2C+Santa+Clara%2C+CA+95054",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1650+Hope+Dr%2C+Santa+Clara%2C+CA+95054&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Estancia%20at%20Santa%20Clara%20Santa%20Clara",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Estancia%20at%20Santa%20Clara%2C%201650%20Hope%20Dr%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1650%20Hope%20Dr%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/estancia-at-santa-clara-santa-clara-ca/bfd2x09/",
     "zillowUrl": "https://www.zillow.com/homes/1650%20Hope%20Dr%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -12300,7 +12310,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to Lick Mill VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Eastbound on Tasman Dr) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Lick Mill VTA Station → 🚇 VTA Orange Line (Eastbound on Tasman Dr) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 14,
     "transitWalkStartCoords": [
       [
@@ -13328,7 +13338,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1650%20Hope%20Dr%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "river-terrace",
@@ -13348,12 +13359,12 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3200,
     "oneBedMax": 3450,
-    "oneBedSqFt": "700\u2013850",
+    "oneBedSqFt": "700–850",
     "bestStartingRent": 3200,
-    "recommendedUnit": "1BR ($3,200, 700\u2013850 sq ft)",
+    "recommendedUnit": "1BR ($3,200, 700–850 sq ft)",
     "parkingFee": 80,
-    "parkingNote": "Multi-level garage (~$75\u2013$90/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "parkingNote": "Multi-level garage (~$75–$90/mo)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 170,
     "trueMonthlyMin": 3450,
     "trueMonthly1BR": 3450,
@@ -13366,15 +13377,15 @@ const DEFAULT_APARTMENTS = [
     "management": "UDR",
     "legitimacy": "Verified S&P 500 REIT (UDR)",
     "rating": 3.1,
-    "reviewSource": "Google / ApartmentRatings (2.8\u20133.3)",
+    "reviewSource": "Google / ApartmentRatings (2.8–3.3)",
     "amenitiesHighlight": "Mediterranean courtyard pool & spa, 24/7 gym, steps from Rivermark Village Plaza",
     "praise": "Walk across the street to Rivermark Safeway, Peet's Coffee, and restaurants; cheap Santa Clara SVP electricity; true central A/C; 6 mins to Cisco.",
-    "complaints": "UDR relies on centralized/automated resident support; package locker fees ($10\u2013$15/mo) and strict move-out charges.",
+    "complaints": "UDR relies on centralized/automated resident support; package locker fees ($10–$15/mo) and strict move-out charges.",
     "website": "https://www.udr.com/san-francisco-bay-area-apartments/santa-clara/river-terrace/",
     "highlightTag": "Walk to Rivermark + SVP Power",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=River+Terrace+Apartment+Homes%2C+730+Agnew+Rd%2C+Santa+Clara%2C+CA+95054",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=730+Agnew+Rd%2C+Santa+Clara%2C+CA+95054&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=River%20Terrace%20Apartment%20Homes%20Santa%20Clara",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=River%20Terrace%20Apartment%20Homes%2C%20730%20Agnew%20Rd%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=730%20Agnew%20Rd%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/river-terrace-santa-clara-ca/dcr4v1l/",
     "zillowUrl": "https://www.zillow.com/homes/730%20Agnew%20Rd%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -14535,7 +14546,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 7m walk to Lick Mill VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Eastbound on Tasman Dr) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 7m walk to Lick Mill VTA Station → 🚇 VTA Orange Line (Eastbound on Tasman Dr) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 17,
     "transitWalkStartCoords": [
       [
@@ -15707,7 +15718,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=730%20Agnew%20Rd%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "prado-nuevo",
@@ -15727,12 +15739,12 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3350,
     "oneBedMax": 3650,
-    "oneBedSqFt": "753\u2013834",
+    "oneBedSqFt": "753–834",
     "bestStartingRent": 3350,
     "recommendedUnit": "1BR ($3,350, 753 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 assigned garage space included (EV stalls available)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 180,
     "trueMonthlyMin": 3530,
     "trueMonthly1BR": 3530,
@@ -15749,11 +15761,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Prado Workout fitness center, resort pool courtyard, 24,000 sq ft of Nuevo parks, LATCH smart access",
     "praise": "Brand-new Nuevo master-planned neighborhood with parks, cheap SVP electricity, and 1 included garage space.",
     "complaints": "Mandatory ~$25 LATCH smart-lock tech fee; strict guest parking enforcement.",
-    "website": "https://www.liveprado.com",
+    "website": "https://www.liveprado.com/",
     "highlightTag": "New Master-Planned Community + SVP",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prado+Apartments+%28Nuevo%29%2C+3560+Rambla+Pl%2C+Santa+Clara%2C+CA+95051",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3560+Rambla+Pl%2C+Santa+Clara%2C+CA+95051&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Prado%20Apartments%20%28Nuevo%29%20Santa%20Clara",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prado%20Apartments%20%28Nuevo%29%2C%203560%20Rambla%20Pl%2C%20Santa%20Clara%2C%20CA%2095051",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3560%20Rambla%20Pl%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/prado-santa-clara-ca/b8re69b/",
     "zillowUrl": "https://www.zillow.com/homes/3560%20Rambla%20Pl%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -17970,7 +17982,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to Lawrence & Reed (VTA Bus 57 -> Orange Line) \u2192 \ud83d\ude87 VTA Bus 57 North -> VTA Orange Line East on Tasman Dr (21m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Lawrence & Reed (VTA Bus 57 -> Orange Line) → 🚇 VTA Bus 57 North -> VTA Orange Line East on Tasman Dr (21m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 29,
     "transitWalkStartCoords": [
       [
@@ -19910,7 +19922,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3560%20Rambla%20Pl%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "villas-on-the-boulevard",
@@ -19930,12 +19943,12 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3450,
     "oneBedMax": 3750,
-    "oneBedSqFt": "758\u2013840",
+    "oneBedSqFt": "758–840",
     "bestStartingRent": 3450,
     "recommendedUnit": "1BR ($3,450, 758 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 underground garage spot included",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 175,
     "trueMonthlyMin": 3625,
     "trueMonthly1BR": 3625,
@@ -19952,11 +19965,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Heated pool & spa, 24-hr gym, rooftop terraces, gas ranges & kitchen islands",
     "praise": "Secure underground garage, gourmet gas stoves, cheap Santa Clara SVP power, surrounded by Korean BBQ and grocery plazas on El Camino.",
     "complaints": "Sits right at the $3,450 top of your budget ceiling; avoid units facing directly onto El Camino Real traffic.",
-    "website": "https://www.villasontheboulevard.com",
+    "website": "https://www.villasontheboulevard.com/",
     "highlightTag": "Gourmet Gas Kitchens + SVP Power",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villas+on+the+Boulevard%2C+2615+El+Camino+Real%2C+Santa+Clara%2C+CA+95051",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2615+El+Camino+Real%2C+Santa+Clara%2C+CA+95051&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Villas%20on%20the%20Boulevard%20Santa%20Clara",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villas%20on%20the%20Boulevard%2C%202615%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2615%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/villas-on-the-boulevard-santa-clara-ca/xpzkmpn/",
     "zillowUrl": "https://www.zillow.com/homes/2615%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -21545,7 +21558,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 2m walk to El Camino & San Tomas (VTA Bus 59 -> Orange Line) \u2192 \ud83d\ude87 VTA Bus 59 North -> VTA Orange Line to Cisco Way (24m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 2m walk to El Camino & San Tomas (VTA Bus 59 -> Orange Line) → 🚇 VTA Bus 59 North -> VTA Orange Line to Cisco Way (24m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 31,
     "transitWalkStartCoords": [
       [
@@ -23149,7 +23162,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=2615%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "mansion-grove",
@@ -23171,7 +23185,7 @@ const DEFAULT_APARTMENTS = [
     "oneBedMax": 3810,
     "oneBedSqFt": "700",
     "bestStartingRent": 3475,
-    "recommendedUnit": "Eliminated \u2014 Lacks Central A/C",
+    "recommendedUnit": "Eliminated — Lacks Central A/C",
     "parkingFee": 0,
     "parkingNote": "Carport/garage assigned (extra spot ~$125)",
     "utilityProvider": "Silicon Valley Power (~$0.18/kWh)",
@@ -23185,17 +23199,17 @@ const DEFAULT_APARTMENTS = [
     "under3000Option": false,
     "tier": "Eliminated / Warning",
     "management": "Prometheus Real Estate Group",
-    "legitimacy": "Legitimate \u2014 Flagged for NO Central A/C",
+    "legitimacy": "Legitimate — Flagged for NO Central A/C",
     "rating": 3.8,
     "reviewSource": "Google (3.8)",
     "amenitiesHighlight": "Redwood arboretum grounds, multiple pools, tennis & basketball courts, gym",
     "praise": "Beautiful redwood trees and friendly Prometheus maintenance staff right across from Cisco.",
     "complaints": "CRITICAL FLAG: Lacks Central A/C (only wall unit or ceiling fan), gets hot in summer, and 1BR pricing ($3,475+) is higher than River Terrace & Estancia next door which DO have central A/C.",
-    "website": "https://www.prometheusapartments.com/santa-clara-ca/mansion-grove/",
+    "website": "https://prometheusapartments.com/ca/santa-clara-apartments/mansion-grove/",
     "highlightTag": "Warning: No Central A/C",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mansion+Grove+Apartments+%28NO+CENTRAL+A%2FC%29%2C+410+Mansion+Park+Dr%2C+Santa+Clara%2C+CA+95054",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=410+Mansion+Park+Dr%2C+Santa+Clara%2C+CA+95054&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Mansion%20Grove%20Apartments%20%28NO%20CENTRAL%20A/C%29%20Santa%20Clara",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mansion%20Grove%20Apartments%20%28NO%20CENTRAL%20A/C%29%2C%20410%20Mansion%20Park%20Dr%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=410%20Mansion%20Park%20Dr%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/mansion-grove-santa-clara-ca/l36cb4f/",
     "zillowUrl": "https://www.zillow.com/homes/410%20Mansion%20Park%20Dr%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -24188,7 +24202,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 7m walk to Lick Mill VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Eastbound on Tasman Dr) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 7m walk to Lick Mill VTA Station → 🚇 VTA Orange Line (Eastbound on Tasman Dr) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 17,
     "transitWalkStartCoords": [
       [
@@ -25192,7 +25206,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=410%20Mansion%20Park%20Dr%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "anton-aspire",
@@ -25209,12 +25224,12 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "7 min direct VTA Orange Line to Cisco Way Station",
     "studioMin": 2380,
     "studioMax": 2550,
-    "studioSqFt": "521\u2013563",
+    "studioSqFt": "521–563",
     "oneBedMin": 2800,
     "oneBedMax": 3150,
-    "oneBedSqFt": "647\u2013839",
+    "oneBedSqFt": "647–839",
     "bestStartingRent": 2380,
-    "recommendedUnit": "1BR ($2,800\u2013$2,875) or Studio ($2,380)",
+    "recommendedUnit": "1BR ($2,800–$2,875) or Studio ($2,380)",
     "parkingFee": 150,
     "parkingNote": "Structured gated garage (~$150/mo) + EV chargers",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -25232,13 +25247,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.0,
     "reviewSource": "Google / RentCafe (4.0)",
     "amenitiesHighlight": "Panoramic rooftop pool & spa terrace, 24/7 fitness club, coworking pods, gas stoves, across from BART & VTA",
-    "praise": "Hands-down best sub-$3,000 luxury value: Studios at ~$2,380 and 1BRs at ~$2,800\u2013$2,875; walk across the street to VTA Orange Line and ride 4 stops (7 mins) straight to Cisco Way!",
+    "praise": "Hands-down best sub-$3,000 luxury value: Studios at ~$2,380 and 1BRs at ~$2,800–$2,875; walk across the street to VTA Orange Line and ride 4 stops (7 mins) straight to Cisco Way!",
     "complaints": "Parking is unbundled (~$150/mo); mandatory ~$30/mo valet trash fee; keep windows closed on BART-facing side.",
-    "website": "https://www.antonaspire.com",
+    "website": "https://www.antonaspire.com/",
     "highlightTag": "Best Sub-$2,900 Luxury 1BR + 7-Min Train",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anton+Aspire%2C+1828+S+Milpitas+Blvd%2C+Milpitas%2C+CA+95035",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1828+S+Milpitas+Blvd%2C+Milpitas%2C+CA+95035&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Anton%20Aspire%20Milpitas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anton%20Aspire%2C%201828%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1828%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/anton-aspire-milpitas-ca/ptmtmtt/",
     "zillowUrl": "https://www.zillow.com/homes/1828%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -26183,7 +26198,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to Milpitas BART / Transit Center VTA \u2192 \ud83d\ude87 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Milpitas BART / Transit Center VTA → 🚇 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 17,
     "transitWalkStartCoords": [
       [
@@ -26475,7 +26490,7 @@ const DEFAULT_APARTMENTS = [
       "rideMins": 8,
       "walkEndMins": 5
     },
-    "moveInSpecial": "Up to 6 weeks free on 12\u201314 mo lease",
+    "moveInSpecial": "Up to 6 weeks free on 12–14 mo lease",
     "specialCreditMonthly": 310,
     "effectiveNetRent": 2070,
     "effectiveTrueMonthly": 2435,
@@ -26755,7 +26770,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1828%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "centria",
@@ -26772,12 +26788,12 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "7 min drive / 2 stops on VTA Orange Line from Great Mall",
     "studioMin": 2300,
     "studioMax": 2500,
-    "studioSqFt": "550\u2013620",
+    "studioSqFt": "550–620",
     "oneBedMin": 2350,
     "oneBedMax": 2900,
-    "oneBedSqFt": "619\u2013926",
+    "oneBedSqFt": "619–926",
     "bestStartingRent": 2350,
-    "recommendedUnit": "1BR Condo ($2,350\u2013$2,800, 710+ sq ft)",
+    "recommendedUnit": "1BR Condo ($2,350–$2,800, 710+ sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 gated assigned garage stall included free by condo owners",
     "utilityProvider": "PG&E (Water & Trash usually FREE via HOA!)",
@@ -26795,13 +26811,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.8,
     "reviewSource": "Google / Zillow Community (3.8)",
     "amenitiesHighlight": "Courtyard heated pool & hot tub, fitness room, clubhouse, secure Texas-wrap garage, across from Great Mall",
-    "praise": "Lowest true monthly cost in the entire search (~$2,450\u2013$2,700 all-in for a 1BR) because private condo landlords include 1 garage spot, water, and trash in rent!",
+    "praise": "Lowest true monthly cost in the entire search (~$2,450–$2,700 all-in for a 1BR) because private condo landlords include 1 garage spot, water, and trash in rent!",
     "complaints": "Must rent from an individual condo owner (verify landlord deed on Zillow); strict HOA moving hours and limited visitor parking.",
-    "website": "https://www.centriaowners.com",
-    "highlightTag": "Lowest True Cost ($2,450\u2013$2,700 All-In)",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Centria+Condominiums+%28Private+Rentals%29%2C+1101+S+Main+St%2C+Milpitas%2C+CA+95035",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1101+S+Main+St%2C+Milpitas%2C+CA+95035&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Centria%20Condominiums%20%28Private%20Rentals%29%20Milpitas",
+    "website": "https://www.centriaowners.com/",
+    "highlightTag": "Lowest True Cost ($2,450–$2,700 All-In)",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Centria%20Condominiums%20%28Private%20Rentals%29%2C%201101%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1101%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/centria-milpitas-ca/bvj0p49/",
     "zillowUrl": "https://www.zillow.com/homes/1101%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -27982,7 +27998,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 5m walk to Great Mall / Main VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to Great Mall / Main VTA Station → 🚇 VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 17,
     "transitWalkStartCoords": [
       [
@@ -29098,7 +29114,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1101%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "apex-milpitas",
@@ -29118,11 +29135,11 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "581",
     "oneBedMin": 2920,
     "oneBedMax": 3150,
-    "oneBedSqFt": "717\u2013762",
+    "oneBedSqFt": "717–762",
     "bestStartingRent": 2650,
     "recommendedUnit": "Studio ($2,650) or 1BR ($2,920)",
     "parkingFee": 0,
-    "parkingNote": "1 gated garage space typically included ($0\u2013$50)",
+    "parkingNote": "1 gated garage space typically included ($0–$50)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 215,
     "trueMonthlyMin": 2865,
@@ -29142,9 +29159,9 @@ const DEFAULT_APARTMENTS = [
     "complaints": "Tight corners in parking structure; standard Essex RUBS utility pass-throughs.",
     "website": "https://www.essexapartmenthomes.com/apartments/milpitas/apex",
     "highlightTag": "Sub-$3,000 1BR + 8-Min Drive",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Apex+Apartments%2C+1102+S+Abel+St%2C+Milpitas%2C+CA+95035",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1102+S+Abel+St%2C+Milpitas%2C+CA+95035&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Apex%20Apartments%20Milpitas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Apex%20Apartments%2C%201102%20S%20Abel%20St%2C%20Milpitas%2C%20CA%2095035",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1102%20S%20Abel%20St%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/apex-milpitas-ca/4vnellh/",
     "zillowUrl": "https://www.zillow.com/homes/1102%20S%20Abel%20St%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -30049,7 +30066,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 5m walk to Great Mall / Main VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to Great Mall / Main VTA Station → 🚇 VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 17,
     "transitWalkStartCoords": [
       [
@@ -30837,7 +30854,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1102%20S%20Abel%20St%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "crossing-at-montague",
@@ -30857,9 +30875,9 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 2750,
     "oneBedMax": 2995,
-    "oneBedSqFt": "643\u2013715",
+    "oneBedSqFt": "643–715",
     "bestStartingRent": 2750,
-    "recommendedUnit": "1BR ($2,750, 643\u2013715 sq ft)",
+    "recommendedUnit": "1BR ($2,750, 643–715 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 covered space included (detached garage ~$125 extra)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -30879,11 +30897,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Pool, spa, fitness studio, media screening room, BBQ cabanas, steps from Montague VTA",
     "praise": "True 1-Bedroom under $2,800 with included parking right next to Montague Light Rail station.",
     "complaints": "Older construction vintage than Anton Aspire or Turing next door; older HVAC units draw more electricity in summer.",
-    "website": "https://www.milpitascrossing.com",
+    "website": "https://www.apartments.com/the-crossing-at-montague-milpitas-ca/843fym2/",
     "highlightTag": "Budget 1BR Under $2,800",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Crossing+at+Montague%2C+755+E+Capitol+Ave%2C+Milpitas%2C+CA+95035",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=755+E+Capitol+Ave%2C+Milpitas%2C+CA+95035&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Crossing%20at%20Montague%20Milpitas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Crossing%20at%20Montague%2C%20755%20E%20Capitol%20Ave%2C%20Milpitas%2C%20CA%2095035",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=755%20E%20Capitol%20Ave%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/the-crossing-at-montague-milpitas-ca/843fym2/",
     "zillowUrl": "https://www.zillow.com/homes/755%20E%20Capitol%20Ave%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -31764,7 +31782,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to Milpitas BART / Transit Center VTA \u2192 \ud83d\ude87 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Milpitas BART / Transit Center VTA → 🚇 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 17,
     "transitWalkStartCoords": [
       [
@@ -32232,7 +32250,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=755%20E%20Capitol%20Ave%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "amalfi-milpitas",
@@ -32252,9 +32271,9 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 2980,
     "oneBedMax": 3250,
-    "oneBedSqFt": "583\u2013708",
+    "oneBedSqFt": "583–708",
     "bestStartingRent": 2980,
-    "recommendedUnit": "1BR ($2,980, 583\u2013708 sq ft)",
+    "recommendedUnit": "1BR ($2,980, 583–708 sq ft)",
     "parkingFee": 0,
     "parkingNote": "1 assigned gated garage space included",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -32274,11 +32293,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Large resort pool & spa, on-site tennis court, fitness center, quiet residential loop",
     "praise": "Low sewer/trash pass-through fees (~$55/mo), included garage parking, quiet loop with a full tennis court.",
     "complaints": "Limited visitor parking outside gates; entry 1BR (583 sq ft) is on the cozy side.",
-    "website": "https://www.amalfimilpitas.com",
+    "website": "https://amalfimilpitas.com/",
     "highlightTag": "Quiet Loop + Tennis Court",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amalfi+Apartments%2C+1251+Merry+Loop%2C+Milpitas%2C+CA+95035",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1251+Merry+Loop%2C+Milpitas%2C+CA+95035&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Amalfi%20Apartments%20Milpitas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amalfi%20Apartments%2C%201251%20Merry%20Loop%2C%20Milpitas%2C%20CA%2095035",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1251%20Merry%20Loop%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/amalfi-apartments-milpitas-ca/yy8dzlr/",
     "zillowUrl": "https://www.zillow.com/homes/1251%20Merry%20Loop%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -33063,7 +33082,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to I-880 / Milpitas VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to I-880 / Milpitas VTA Station → 🚇 VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 14,
     "transitWalkStartCoords": [
       [
@@ -33555,7 +33574,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1251%20Merry%20Loop%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "turing-the-fields",
@@ -33575,11 +33595,11 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "563",
     "oneBedMin": 3300,
     "oneBedMax": 3600,
-    "oneBedSqFt": "702\u2013783",
+    "oneBedSqFt": "702–783",
     "bestStartingRent": 2980,
     "recommendedUnit": "Studio ($2,980, 563 sq ft) or 1BR ($3,300)",
     "parkingFee": 75,
-    "parkingNote": "Structured garage (included on select promos or ~$75\u2013$100/mo)",
+    "parkingNote": "Structured garage (included on select promos or ~$75–$100/mo)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 235,
     "trueMonthlyMin": 3290,
@@ -33593,15 +33613,15 @@ const DEFAULT_APARTMENTS = [
     "management": "Lyon Living",
     "legitimacy": "Verified Luxury Mixed-Use (Lyon Living)",
     "rating": 3.4,
-    "reviewSource": "Google / Apartments.com (3.2\u20133.5)",
+    "reviewSource": "Google / Apartments.com (3.2–3.5)",
     "amenitiesHighlight": "Trader Joe's, Starbucks & Orangetheory downstairs! Tri-level gym, rooftop pool & cabanas",
     "praise": "Elevator straight down to Trader Joe's and Starbucks; 3-story fitness club is one of the best in the South Bay; only 1.8 miles to Cisco.",
     "complaints": "High common-area utility allocations (~$140+/mo); steep renewal increases.",
-    "website": "https://www.livethefields.com/turing",
+    "website": "https://www.thefieldsmilpitas.com/turing",
     "highlightTag": "Trader Joe's Downstairs + 3-Story Gym",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turing+at+The+Fields%2C+1355+McCandless+Dr%2C+Milpitas%2C+CA+95035",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1355+McCandless+Dr%2C+Milpitas%2C+CA+95035&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Turing%20at%20The%20Fields%20Milpitas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turing%20at%20The%20Fields%2C%201355%20McCandless%20Dr%2C%20Milpitas%2C%20CA%2095035",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1355%20McCandless%20Dr%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/turing-at-the-fields-milpitas-ca/hx52vm1/",
     "zillowUrl": "https://www.zillow.com/homes/1355%20McCandless%20Dr%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -34406,7 +34426,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 4m walk to I-880 / Milpitas VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to I-880 / Milpitas VTA Station → 🚇 VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 14,
     "transitWalkStartCoords": [
       [
@@ -34738,7 +34758,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1355%20McCandless%20Dr%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "sixth-and-jackson",
@@ -34755,14 +34776,14 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "12 min reverse drive / VTA Blue-to-Orange Line",
     "studioMin": 2750,
     "studioMax": 2950,
-    "studioSqFt": "450\u2013650",
+    "studioSqFt": "450–650",
     "oneBedMin": 3150,
     "oneBedMax": 3350,
-    "oneBedSqFt": "650\u2013810",
+    "oneBedSqFt": "650–810",
     "bestStartingRent": 2750,
     "recommendedUnit": "Studio ($2,750) or 1BR ($3,150)",
     "parkingFee": 125,
-    "parkingNote": "Gated garage (~$100\u2013$150/mo for 1st car; EV stalls)",
+    "parkingNote": "Gated garage (~$100–$150/mo for 1st car; EV stalls)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 210,
     "trueMonthlyMin": 3085,
@@ -34776,15 +34797,15 @@ const DEFAULT_APARTMENTS = [
     "management": "Shea Properties",
     "legitimacy": "Verified Top-1% ORA National Award Winner (Shea)",
     "rating": 4.8,
-    "reviewSource": "Google (4.8\u2605, 80+ reviews) / RentCafe (4.5)",
+    "reviewSource": "Google (4.8★, 80+ reviews) / RentCafe (4.5)",
     "amenitiesHighlight": "Resort pool & cabanas, outdoor movie wall, 24-hr gym & spin studio, panoramic hill-view skydecks in walkable Japantown",
-    "praise": "Highest-rated apartment in San Jose (4.8\u2605); brand-new luxury right in walkable, safe Japantown (sushi, bakeries, farmers market); 12-min reverse commute up N. 1st or 880 to Cisco.",
+    "praise": "Highest-rated apartment in San Jose (4.8★); brand-new luxury right in walkable, safe Japantown (sushi, bakeries, farmers market); 12-min reverse commute up N. 1st or 880 to Cisco.",
     "complaints": "Parking is unbundled (~$125/mo); strict 1-car policy on smaller units.",
-    "website": "https://sheaproperties.com/apartments/northern-california/sixth-jackson-apartments/",
-    "highlightTag": "4.8\u2605 Highest Rated + Walkable Japantown",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sixth+and+Jackson%2C+620+N+6th+St%2C+San+Jose%2C+CA+95112",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=620+N+6th+St%2C+San+Jose%2C+CA+95112&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Sixth%20and%20Jackson%20San%20Jose",
+    "website": "https://www.sheaapartments.com/apartments/sixth-jackson/",
+    "highlightTag": "4.8★ Highest Rated + Walkable Japantown",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sixth%20and%20Jackson%2C%20620%20N%206th%20St%2C%20San%20Jose%2C%20CA%2095112",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=620%20N%206th%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/sixth-jackson-san-jose-ca/xkhk1xp/",
     "zillowUrl": "https://www.zillow.com/homes/620%20N%206th%20St%2C%20San%20Jose%2C%20CA%2095112_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -36373,7 +36394,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 6m walk to Japantown / Ayer VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (14m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 6m walk to Japantown / Ayer VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (14m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 25,
     "transitWalkStartCoords": [
       [
@@ -37017,7 +37038,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=620%20N%206th%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-esplanade",
@@ -37034,14 +37056,14 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "12 min drive / 6 min walk to Japantown/Ayer VTA",
     "studioMin": 2550,
     "studioMax": 2800,
-    "studioSqFt": "550\u2013700",
+    "studioSqFt": "550–700",
     "oneBedMin": 2750,
     "oneBedMax": 3150,
-    "oneBedSqFt": "700\u2013850",
+    "oneBedSqFt": "700–850",
     "bestStartingRent": 2550,
     "recommendedUnit": "1BR ($2,750) or Cannery Loft Studio ($2,550)",
     "parkingFee": 75,
-    "parkingNote": "Gated garage (often bundled or ~$75\u2013$100/mo)",
+    "parkingNote": "Gated garage (often bundled or ~$75–$100/mo)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 200,
     "trueMonthlyMin": 2825,
@@ -37061,9 +37083,9 @@ const DEFAULT_APARTMENTS = [
     "complaints": "Avoid units facing the eastern Union Pacific rail tracks (train horn noise at night); pick an interior courtyard unit.",
     "website": "https://www.essexapartmenthomes.com/apartments/san-jose/the-esplanade",
     "highlightTag": "Sub-$2,800 Japantown Lofts",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Esplanade+Apartment+Homes%2C+350+E+Taylor+St%2C+San+Jose%2C+CA+95112",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=350+E+Taylor+St%2C+San+Jose%2C+CA+95112&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Esplanade%20Apartment%20Homes%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Esplanade%20Apartment%20Homes%2C%20350%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=350%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/the-esplanade-san-jose-ca/fb0vy0r/",
     "zillowUrl": "https://www.zillow.com/homes/350%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -38356,7 +38378,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to Japantown / Ayer VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (14m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Japantown / Ayer VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (14m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 22,
     "transitWalkStartCoords": [
       [
@@ -38976,7 +38998,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=350%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-julian",
@@ -38993,14 +39016,14 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "14 min reverse commute via Hwy 87 N -> 101 N",
     "studioMin": 2780,
     "studioMax": 2920,
-    "studioSqFt": "497\u2013552",
+    "studioSqFt": "497–552",
     "oneBedMin": 3180,
     "oneBedMax": 3400,
-    "oneBedSqFt": "550\u2013777",
+    "oneBedSqFt": "550–777",
     "bestStartingRent": 2780,
     "recommendedUnit": "Studio ($2,780) or 1BR ($3,180)",
     "parkingFee": 135,
-    "parkingNote": "Gated underground garage (~$125\u2013$150/mo) + EV",
+    "parkingNote": "Gated underground garage (~$125–$150/mo) + EV",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 210,
     "trueMonthlyMin": 3125,
@@ -39020,9 +39043,9 @@ const DEFAULT_APARTMENTS = [
     "complaints": "Unbundled downtown garage fee (~$135/mo); occasional elevator maintenance waits.",
     "website": "https://livethejulian.com/",
     "highlightTag": "Best Social Vibe Near San Pedro Sq",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Julian%2C+171+W+Julian+St%2C+San+Jose%2C+CA+95110",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=171+W+Julian+St%2C+San+Jose%2C+CA+95110&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Julian%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Julian%2C%20171%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095110",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=171%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/the-julian-san-jose-ca/few059v/",
     "zillowUrl": "https://www.zillow.com/homes/171%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095110_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -40259,7 +40282,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 5m walk to St. James VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to St. James VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 26,
     "transitWalkStartCoords": [
       [
@@ -40655,7 +40678,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=171%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "one-south-market",
@@ -40672,10 +40696,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "15 min drive via Hwy 87 N / 1 block to VTA Blue Line",
     "studioMin": 2800,
     "studioMax": 2980,
-    "studioSqFt": "510\u2013603",
+    "studioSqFt": "510–603",
     "oneBedMin": 3050,
     "oneBedMax": 3350,
-    "oneBedSqFt": "752\u2013885",
+    "oneBedSqFt": "752–885",
     "bestStartingRent": 2800,
     "recommendedUnit": "Jr 1BR/Studio ($2,800) or High-Rise 1BR ($3,050)",
     "parkingFee": 150,
@@ -40695,13 +40719,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.6,
     "reviewSource": "RentCafe (4.0) / Google (3.3)",
     "amenitiesHighlight": "3rd-floor heated terrace pool & cabanas, full gym, rooftop skyline lounge, floor-to-ceiling high-rise windows",
-    "praise": "True high-rise living with floor-to-ceiling glass views, spacious 752\u2013885 sq ft 1BRs starting near $3,050, steps from San Pedro Square.",
+    "praise": "True high-rise living with floor-to-ceiling glass views, spacious 752–885 sq ft 1BRs starting near $3,050, steps from San Pedro Square.",
     "complaints": "Weekend street/nightlife noise on lower floors; $150/mo parking fee.",
-    "website": "https://www.essexapartmenthomes.com/apartments/san-jose/one-south-market",
+    "website": "https://onesouthmarket.com/",
     "highlightTag": "High-Rise Views Under $3,100",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=One+South+Market%2C+1+S+Market+St%2C+San+Jose%2C+CA+95113",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1+S+Market+St%2C+San+Jose%2C+CA+95113&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=One%20South%20Market%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=One%20South%20Market%2C%201%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/one-south-market-san-jose-ca/byxczjc/",
     "zillowUrl": "https://www.zillow.com/homes/1%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -42010,7 +42034,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to Santa Clara St VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound from Downtown up N 1st St) (18m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Santa Clara St VTA Station → 🚇 VTA Blue Line (Northbound from Downtown up N 1st St) (18m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 26,
     "transitWalkStartCoords": [
       [
@@ -42422,7 +42446,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "marquis",
@@ -42439,14 +42464,14 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "11 min drive via I-880 N / N. 1st St",
     "studioMin": 2650,
     "studioMax": 2850,
-    "studioSqFt": "530\u2013554",
+    "studioSqFt": "530–554",
     "oneBedMin": 2900,
     "oneBedMax": 3150,
-    "oneBedSqFt": "710\u2013733",
+    "oneBedSqFt": "710–733",
     "bestStartingRent": 2650,
     "recommendedUnit": "Studio ($2,650) or 1BR ($2,900)",
     "parkingFee": 110,
-    "parkingNote": "Gated garage (~$100\u2013$125/mo)",
+    "parkingNote": "Gated garage (~$100–$125/mo)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 210,
     "trueMonthlyMin": 2970,
@@ -42466,9 +42491,9 @@ const DEFAULT_APARTMENTS = [
     "complaints": "Wood-frame construction can transmit footsteps from upstairs neighbors (choose a top-floor unit).",
     "website": "https://www.essexapartmenthomes.com/apartments/san-jose/marquis",
     "highlightTag": "Sub-$2,900 1BR in Japantown",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marquis+Apartments%2C+817+N+10th+St%2C+San+Jose%2C+CA+95112",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=817+N+10th+St%2C+San+Jose%2C+CA+95112&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Marquis%20Apartments%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marquis%20Apartments%2C%20817%20N%2010th%20St%2C%20San%20Jose%2C%20CA%2095112",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=817%20N%2010th%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/marquis-san-jose-ca/qksmzqz/",
     "zillowUrl": "https://www.zillow.com/homes/817%20N%2010th%20St%2C%20San%20Jose%2C%20CA%2095112_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -43857,7 +43882,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 5m walk to St. James VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to St. James VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 26,
     "transitWalkStartCoords": [
       [
@@ -44845,7 +44870,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=817%20N%2010th%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "patina-midtown",
@@ -44862,10 +44888,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "18 min drive via I-880 N or Hwy 87 N",
     "studioMin": 2850,
     "studioMax": 3050,
-    "studioSqFt": "540\u2013672",
+    "studioSqFt": "540–672",
     "oneBedMin": 2995,
     "oneBedMax": 3350,
-    "oneBedSqFt": "672\u2013850",
+    "oneBedSqFt": "672–850",
     "bestStartingRent": 2850,
     "recommendedUnit": "Studio ($2,850) or 1BR ($2,995)",
     "parkingFee": 75,
@@ -44886,12 +44912,12 @@ const DEFAULT_APARTMENTS = [
     "reviewSource": "Google / Apartments.com (4.0)",
     "amenitiesHighlight": "Two-story fitness studio, heated pool & hot tub, rooftop skydeck with mountain views, borders Del Monte Park",
     "praise": "Sits directly next to green Del Monte Park; walkable to Midtown Safeway; hits the <=$3,000 target for both Studios ($2,850) and entry 1BRs ($2,995) with reasonable $75 parking.",
-    "complaints": "Limited street guest parking; RUBS utility billing adds ~$140\u2013$150/mo.",
+    "complaints": "Limited street guest parking; RUBS utility billing adds ~$140–$150/mo.",
     "website": "https://www.essexapartmenthomes.com/apartments/san-jose/patina-at-midtown",
     "highlightTag": "Best Midtown Value Under $3,000",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Patina+at+Midtown%2C+355+Sunol+St%2C+San+Jose%2C+CA+95126",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=355+Sunol+St%2C+San+Jose%2C+CA+95126&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Patina%20at%20Midtown%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Patina%20at%20Midtown%2C%20355%20Sunol%20St%2C%20San%20Jose%2C%20CA%2095126",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=355%20Sunol%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/patina-at-midtown-san-jose-ca/dxd0spl/",
     "zillowUrl": "https://www.zillow.com/homes/355%20Sunol%20St%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -46500,7 +46526,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 6m walk to Diridon VTA Station \u2192 \ud83d\ude87 VTA Green -> Blue Line (Diridon up N 1st St & Tasman Dr) (22m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 6m walk to Diridon VTA Station → 🚇 VTA Green -> Blue Line (Diridon up N 1st St & Tasman Dr) (22m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 33,
     "transitWalkStartCoords": [
       [
@@ -47288,7 +47314,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=355%20Sunol%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "avalon-the-alameda",
@@ -47308,9 +47335,9 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3098,
     "oneBedMax": 3350,
-    "oneBedSqFt": "735\u2013804",
+    "oneBedSqFt": "735–804",
     "bestStartingRent": 3098,
-    "recommendedUnit": "1BR ($3,098, 735\u2013804 sq ft)",
+    "recommendedUnit": "1BR ($3,098, 735–804 sq ft)",
     "parkingFee": 0,
     "parkingNote": "Gated underground garage (1 space typically included or ~$75/mo)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
@@ -47328,13 +47355,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.1,
     "reviewSource": "Apartments.com / Google (4.1)",
     "amenitiesHighlight": "Resort pool, spa, fitness center + dry sauna, ground-floor Starbucks, 2 blocks from Whole Foods",
-    "praise": "4.1\u2605 rating in historic tree-lined Garden Alameda; Starbucks downstairs and Whole Foods/Crema Coffee a 5-min walk away; responsive AvalonBay maintenance.",
+    "praise": "4.1★ rating in historic tree-lined Garden Alameda; Starbucks downstairs and Whole Foods/Crema Coffee a 5-min walk away; responsive AvalonBay maintenance.",
     "complaints": "Request an interior courtyard-facing unit rather than one facing The Alameda bus corridor.",
     "website": "https://www.avaloncommunities.com/california/san-jose-apartments/avalon-on-the-alameda/",
-    "highlightTag": "4.1\u2605 Walkable Whole Foods / Alameda Lifestyle",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Avalon+on+The+Alameda%2C+1300+The+Alameda%2C+San+Jose%2C+CA+95126",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1300+The+Alameda%2C+San+Jose%2C+CA+95126&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Avalon%20on%20The%20Alameda%20San%20Jose",
+    "highlightTag": "4.1★ Walkable Whole Foods / Alameda Lifestyle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Avalon%20on%20The%20Alameda%2C%201300%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1300%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/avalon-on-the-alameda-san-jose-ca/pry6zvt/",
     "zillowUrl": "https://www.zillow.com/homes/1300%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -48831,7 +48858,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 6m walk to Diridon VTA Station \u2192 \ud83d\ude87 VTA Green -> Blue Line (Diridon up N 1st St & Tasman Dr) (22m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 6m walk to Diridon VTA Station → 🚇 VTA Green -> Blue Line (Diridon up N 1st St & Tasman Dr) (22m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 33,
     "transitWalkStartCoords": [
       [
@@ -49739,7 +49766,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1300%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "lynhaven",
@@ -49759,11 +49787,11 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 3150,
     "oneBedMax": 3650,
-    "oneBedSqFt": "687\u2013854",
+    "oneBedSqFt": "687–854",
     "bestStartingRent": 3150,
     "recommendedUnit": "1BR ($3,150, 687 sq ft)",
     "parkingFee": 110,
-    "parkingNote": "Multi-level resident garage (~$100\u2013$125/mo)",
+    "parkingNote": "Multi-level resident garage (~$100–$125/mo)",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 225,
     "trueMonthlyMin": 3485,
@@ -49781,11 +49809,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Pool & sundeck, dual rooftop terraces, 24-hr gym & yoga studio, GE gas ranges, 3 mins from Santana Row",
     "praise": "Brand-new redevelopment right down the block from Santana Row & Valley Fair for ~$1,000/mo less than leasing on Santana Row itself; real gas ranges.",
     "complaints": "Winchester Blvd traffic around holiday shopping seasons; unbundled garage parking (~$110/mo).",
-    "website": "https://www.livelynhaven.com/",
+    "website": "https://livelynhaven.com/",
     "highlightTag": "Santana Row Lifestyle for $1,000/mo Less",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lynhaven+Apartments+%28Santana+Row+Strip%29%2C+919+S+Winchester+Blvd%2C+San+Jose%2C+CA+95128",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=919+S+Winchester+Blvd%2C+San+Jose%2C+CA+95128&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Lynhaven%20Apartments%20%28Santana%20Row%20Strip%29%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lynhaven%20Apartments%20%28Santana%20Row%20Strip%29%2C%20919%20S%20Winchester%20Blvd%2C%20San%20Jose%2C%20CA%2095128",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=919%20S%20Winchester%20Blvd%2C%20San%20Jose%2C%20CA%2095128&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/lynhaven-san-jose-ca/tb0b949/",
     "zillowUrl": "https://www.zillow.com/homes/919%20S%20Winchester%20Blvd%2C%20San%20Jose%2C%20CA%2095128_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -52670,7 +52698,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 3m walk to Winchester & Stevens Creek (VTA Bus 60 -> Orange Line) \u2192 \ud83d\ude87 VTA Bus 60 North -> VTA Orange Line East on Tasman Dr (28m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Winchester & Stevens Creek (VTA Bus 60 -> Orange Line) → 🚇 VTA Bus 60 North -> VTA Orange Line East on Tasman Dr (28m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 36,
     "transitWalkStartCoords": [
       [
@@ -55746,7 +55774,8 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=919%20S%20Winchester%20Blvd%2C%20San%20Jose%2C%20CA%2095128&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "vespaio",
@@ -55770,7 +55799,7 @@ const DEFAULT_APARTMENTS = [
     "bestStartingRent": 2985,
     "recommendedUnit": "Studio ($2,985) or Large 1BR ($3,290, 835 sq ft)",
     "parkingFee": 135,
-    "parkingNote": "Gated subterranean garage (~$125\u2013$150/mo) + EV",
+    "parkingNote": "Gated subterranean garage (~$125–$150/mo) + EV",
     "utilityProvider": "PG&E (~$0.44/kWh)",
     "estUtilitiesAndFees": 215,
     "trueMonthlyMin": 3335,
@@ -55788,11 +55817,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Rooftop swimming pool with skyline views, cabanas, 24-hr gym, coworking pods, 1 block from Whole Foods",
     "praise": "Steps from Whole Foods, SAP Center, and Diridon Station; upscale quartz countertops and rooftop pool.",
     "complaints": "SAP Center concert/hockey nights create 1-hour traffic surges on Stockton Ave.",
-    "website": "https://www.vespaio.com/",
+    "website": "https://www.millcreekplaces.com/community/vespaio/",
     "highlightTag": "Rooftop Pool + Next to Whole Foods",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vespaio%2C+130+Stockton+Ave%2C+San+Jose%2C+CA+95126",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=130+Stockton+Ave%2C+San+Jose%2C+CA+95126&destination=3625+Cisco+Way%2C+San+Jose%2C+CA+95134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Vespaio%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vespaio%2C%20130%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=130%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/vespaio-san-jose-ca/edr7h7p/",
     "zillowUrl": "https://www.zillow.com/homes/130%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "considering",
     "userNotes": "",
@@ -57269,7 +57298,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "\ud83d\udeb6 5m walk to Convention Center VTA Station \u2192 \ud83d\ude87 VTA Blue/Green Line (Northbound up N 1st St to Cisco Way) (20m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to Convention Center VTA Station → 🚇 VTA Blue/Green Line (Northbound up N 1st St to Cisco Way) (20m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitMins": 30,
     "transitWalkStartCoords": [
       [
@@ -57937,14 +57966,15 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=130%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "viridian",
-    "name": "Viridian Apartments",
+    "name": "Domain Apartments",
     "subarea": "North San Jose (River Oaks / Zanker)",
     "region": "North San Jose",
-    "address": "3233 Zanker Rd, San Jose, CA 95134",
+    "address": "1 Vista Montana, San Jose, CA 95134",
     "city": "San Jose",
     "zip": "95134",
     "lat": 37.4028,
@@ -57954,10 +57984,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "10 min walk / 3 min bike to 3625 Cisco Way",
     "studioMin": 2675,
     "studioMax": 2820,
-    "studioSqFt": "535\u2013580",
+    "studioSqFt": "535–580",
     "oneBedMin": 2890,
     "oneBedMax": 3150,
-    "oneBedSqFt": "705\u2013810",
+    "oneBedSqFt": "705–810",
     "bestStartingRent": 2675,
     "recommendedUnit": "Studio ($2,675) or 1BR ($2,890)",
     "parkingFee": 0,
@@ -57972,14 +58002,14 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Top Pick",
-    "management": "Greystar / Institutional",
+    "management": "Greystar / Domain SJ",
     "legitimacy": "Verified Institutional Community",
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com (4.0)",
     "amenitiesHighlight": "Resort heated pool & spa, 24-hr fitness studio, EV charging, gated underground garage, across from River Oaks Park",
     "praise": "Only 0.7 miles from Cisco Building 14; both Studios ($2,675) and 1BRs ($2,890) stay under $3,000; quieter boutique scale than massive 2,000-unit complexes.",
     "complaints": "Zanker Rd commute traffic during peak hours; guest parking passes are strictly limited.",
-    "website": "https://www.apartments.com/san-jose-ca/",
+    "website": "https://www.domainsanjose.com/",
     "highlightTag": "0.7 Mi to Cisco + 1BR Under $2,900",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -58132,7 +58162,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Crescent Village Circle, Cisco Way",
     "transitMins": 7,
-    "transitSummary": "\ud83d\udeb6 2m walk to Zanker & River Oaks (VTA Bus 59) \u2192 \ud83d\ude87 VTA Bus 59 (or 10-min Direct Walk up Zanker & Tasman) (3m) \u2192 \ud83d\udeb6 2m walk from Cisco Way & Tasman Stop",
+    "transitSummary": "🚶 2m walk to Zanker & River Oaks (VTA Bus 59) → 🚇 VTA Bus 59 (or 10-min Direct Walk up Zanker & Tasman) (3m) → 🚶 2m walk from Cisco Way & Tasman Stop",
     "transitWalkStartCoords": [
       [
         -121.9302,
@@ -59044,16 +59074,20 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/domain-apartments-san-jose-ca/k9lksnc/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Domain%20Apartments%2C%201%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1%20Vista%20Montana%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "cerano",
-    "name": "Cerano Apartments",
+    "name": "Willow Lake Apartment Homes",
     "subarea": "North San Jose (Brokaw / Berryessa Border)",
     "region": "North San Jose",
-    "address": "575 E Brokaw Rd, San Jose, CA 95112",
+    "address": "1331 Lakeshore Cir, San Jose, CA 95131",
     "city": "San Jose",
-    "zip": "95112",
+    "zip": "95131",
     "lat": 37.3822,
     "lng": -121.9035,
     "distanceMiles": 2.9,
@@ -59061,10 +59095,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "7 min drive via Zanker Rd or I-880 N to Tasman",
     "studioMin": 2595,
     "studioMax": 2740,
-    "studioSqFt": "548\u2013590",
+    "studioSqFt": "548–590",
     "oneBedMin": 2895,
     "oneBedMax": 3190,
-    "oneBedSqFt": "718\u2013845",
+    "oneBedSqFt": "718–845",
     "bestStartingRent": 2595,
     "recommendedUnit": "Studio ($2,595) or 1BR ($2,895)",
     "parkingFee": 0,
@@ -59079,15 +59113,15 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Top Pick",
-    "management": "Shea Properties",
+    "management": "Essex Property Trust",
     "legitimacy": "Verified Institutional Developer (Shea)",
     "rating": 4.3,
     "reviewSource": "Google (4.3) / Apartments.com (4.4)",
     "amenitiesHighlight": "Junior Olympic pool, two-story fitness center, rooftop lounge, walk to Sprouts, H Mart & Costco on Automation Pkwy",
     "praise": "Shea Properties management is highly rated; walkable to H Mart, Sprouts, and Costco; modern soundproofing and easy Zanker Rd backroad straight to Cisco.",
     "complaints": "Commercial trucks along Brokaw Rd during weekday mornings; PG&E summer cooling bills.",
-    "website": "https://www.sheaapartments.com/apartments/cerano/",
-    "highlightTag": "Walk to H Mart/Sprouts + 4.3\u2605 Shea Mgmt",
+    "website": "https://www.essexapartmenthomes.com/apartments/san-jose/willow-lake",
+    "highlightTag": "Walk to H Mart/Sprouts + 4.3★ Shea Mgmt",
     "userStatus": "shortlist",
     "userNotes": "",
     "moveInSpecial": "$1,500 Move-In Credit on select units",
@@ -59799,7 +59833,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via East Brokaw Road, Junction Avenue, East Trimble Road, Montague Expressway",
     "transitMins": 22,
-    "transitSummary": "\ud83d\udeb6 8m walk to Karina VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St to Cisco Way) (9m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 8m walk to Karina VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St to Cisco Way) (9m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.9035,
@@ -61155,16 +61189,20 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/willow-lake-san-jose-ca/1yxldw7/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Willow%20Lake%20Apartment%20Homes%2C%201331%20Lakeshore%20Cir%2C%20San%20Jose%2C%20CA%2095131",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1331%20Lakeshore%20Cir%2C%20San%20Jose%2C%20CA%2095131&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1331%20Lakeshore%20Cir%2C%20San%20Jose%2C%20CA%2095131&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "corsa-berryessa",
-    "name": "Corsa at Market Park (Berryessa BART)",
+    "name": "Woodland Meadow Apartments",
     "subarea": "Berryessa Transit Village (NE San Jose)",
     "region": "Milpitas Corridor",
-    "address": "1550 Berryessa Rd, San Jose, CA 95133",
+    "address": "1600 Whitewood Dr, San Jose, CA 95131",
     "city": "San Jose",
-    "zip": "95133",
+    "zip": "95131",
     "lat": 37.3694,
     "lng": -121.8768,
     "distanceMiles": 5.7,
@@ -61172,10 +61210,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "Walk to Berryessa BART -> 1 stop to Milpitas BART -> VTA Orange Line to Cisco Way",
     "studioMin": 2650,
     "studioMax": 2810,
-    "studioSqFt": "550\u2013610",
+    "studioSqFt": "550–610",
     "oneBedMin": 2965,
     "oneBedMax": 3290,
-    "oneBedSqFt": "730\u2013860",
+    "oneBedSqFt": "730–860",
     "bestStartingRent": 2650,
     "recommendedUnit": "Studio ($2,650) or 1BR ($2,965)",
     "parkingFee": 50,
@@ -61190,14 +61228,14 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Strong Contender",
-    "management": "Greystar",
+    "management": "Woodmont Real Estate Services",
     "legitimacy": "Verified New-Build Transit Village (2021+)",
     "rating": 4.2,
     "reviewSource": "Google (4.2)",
     "amenitiesHighlight": "Steps from Berryessa BART & Safeway plaza, resort pool courtyard, co-working pods, sky deck",
     "praise": "Brand-new construction right next to Berryessa BART and Safeway; 1 stop on BART to Milpitas transfers directly onto VTA Orange Line to Cisco Way.",
     "complaints": "50/mo parking fee; weekend traffic near the San Jose Flea Market across Berryessa Rd.",
-    "website": "https://www.apartments.com/san-jose-ca/",
+    "website": "https://www.woodlandmeadow.com/apartments/ca/san-jose/floor-plans",
     "highlightTag": "Steps to Berryessa BART + Safeway",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -62562,7 +62600,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Berryessa Road, Mabury Road, Commercial Street, Old Bayshore Highway",
     "transitMins": 22,
-    "transitSummary": "\ud83d\udeb6 4m walk to Berryessa / North San Jose BART \u2192 \ud83d\ude87 BART (1 stop to Milpitas) \u2192 VTA Orange Line to Cisco Way (13m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Berryessa / North San Jose BART → 🚇 BART (1 stop to Milpitas) → VTA Orange Line to Cisco Way (13m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.8768,
@@ -63022,7 +63060,7 @@ const DEFAULT_APARTMENTS = [
         -121.92884,
         37.41205
       ],
-      "lineName": "BART (1 stop to Milpitas) \u2192 VTA Orange Line to Cisco Way",
+      "lineName": "BART (1 stop to Milpitas) → VTA Orange Line to Cisco Way",
       "walkStartMins": 4,
       "rideMins": 13,
       "walkEndMins": 5
@@ -63258,7 +63296,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/woodland-meadow-san-jose-ca/v3y9hzd/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Woodland%20Meadow%20Apartments%2C%201600%20Whitewood%20Dr%2C%20San%20Jose%2C%20CA%2095131",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1600%20Whitewood%20Dr%2C%20San%20Jose%2C%20CA%2095131&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1600%20Whitewood%20Dr%2C%20San%20Jose%2C%20CA%2095131&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "santa-clara-square",
@@ -63275,15 +63317,15 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "8 min drive via Bowers Ave & Tasman Dr to 3625 Cisco Way",
     "studioMin": 2950,
     "studioMax": 3180,
-    "studioSqFt": "560\u2013630",
+    "studioSqFt": "560–630",
     "oneBedMin": 3320,
     "oneBedMax": 3690,
-    "oneBedSqFt": "720\u2013880",
+    "oneBedSqFt": "720–880",
     "bestStartingRent": 2950,
     "recommendedUnit": "Studio ($2,950) or 1BR ($3,320)",
     "parkingFee": 0,
     "parkingNote": "1 assigned garage space included",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3075,
     "trueMonthly1BR": 3445,
@@ -64085,7 +64127,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Coronado Drive, Scott Boulevard, San Tomas Expressway, Montague Expressway",
     "transitMins": 22,
-    "transitSummary": "\ud83d\udeb6 5m walk to Old Ironsides VTA Station \u2192 \ud83d\ude87 VTA Bus 57/60 North \u2192 VTA Orange Line East on Tasman Dr (12m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to Old Ironsides VTA Station → 🚇 VTA Bus 57/60 North → VTA Orange Line East on Tasman Dr (12m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.9762,
@@ -65449,7 +65491,7 @@ const DEFAULT_APARTMENTS = [
         -121.92884,
         37.41205
       ],
-      "lineName": "VTA Bus 57/60 North \u2192 VTA Orange Line East on Tasman Dr",
+      "lineName": "VTA Bus 57/60 North → VTA Orange Line East on Tasman Dr",
       "walkStartMins": 5,
       "rideMins": 12,
       "walkEndMins": 5
@@ -66137,14 +66179,18 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/santa-clara-square-apartment-homes-santa-clara-ca/rqgtnx3/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Santa%20Clara%20Square%20Apartment%20Homes%2C%203255%20Augustine%20Dr%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3255%20Augustine%20Dr%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3255%20Augustine%20Dr%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "riva-terra",
-    "name": "Riva Terra Apartments",
+    "name": "Bella Vista Apartments",
     "subarea": "North Santa Clara (Lakeside / Levi's Corridor)",
     "region": "Santa Clara (SVP Utility)",
-    "address": "2900 Lakeside Dr, Santa Clara, CA 95054",
+    "address": "1500 Vista Club Cir, Santa Clara, CA 95054",
     "city": "Santa Clara",
     "zip": "95054",
     "lat": 37.3882,
@@ -66157,12 +66203,12 @@ const DEFAULT_APARTMENTS = [
     "studioSqFt": "N/A",
     "oneBedMin": 2760,
     "oneBedMax": 2990,
-    "oneBedSqFt": "680\u2013750",
+    "oneBedSqFt": "680–750",
     "bestStartingRent": 2760,
     "recommendedUnit": "1BR ($2,760)",
     "parkingFee": 0,
     "parkingNote": "1 covered parking space included ($0)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 120,
     "trueMonthlyMin": 2880,
     "trueMonthly1BR": 2880,
@@ -66172,14 +66218,14 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Top Pick",
-    "management": "Greystar",
+    "management": "Interstate Equities / Bella Vista",
     "legitimacy": "Verified Institutional Community",
     "rating": 4.0,
     "reviewSource": "Google (4.0)",
     "amenitiesHighlight": "Private waterfront lake & walking path, renovated pool & fitness center, Silicon Valley Power municipal rates, $0 parking",
     "praise": "True all-in 1BR cost is ~$2,880/mo thanks to $2,760 base rent + $0 parking + cheap Santa Clara SVP electricity; serene lake path.",
     "complaints": "Older garden-style framing (renovated interiors) compared to brand-new high-rises; US-101 ramp traffic at rush hour.",
-    "website": "https://www.apartments.com/riva-terra-santa-clara-ca/65k9eeu/",
+    "website": "https://www.bellavista-apartments.com/",
     "highlightTag": "1BR True Cost $2,880 w/ SVP Power",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -66992,7 +67038,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Great America Parkway, US 101 (Bayshore Freeway), Montague Expressway, Zanker Road",
     "transitMins": 22,
-    "transitSummary": "\ud83d\udeb6 5m walk to Old Ironsides VTA Station \u2192 \ud83d\ude87 VTA Bus 57/60 North \u2192 VTA Orange Line East on Tasman Dr (12m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to Old Ironsides VTA Station → 🚇 VTA Bus 57/60 North → VTA Orange Line East on Tasman Dr (12m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.9794,
@@ -68436,7 +68482,7 @@ const DEFAULT_APARTMENTS = [
         -121.92884,
         37.41205
       ],
-      "lineName": "VTA Bus 57/60 North \u2192 VTA Orange Line East on Tasman Dr",
+      "lineName": "VTA Bus 57/60 North → VTA Orange Line East on Tasman Dr",
       "walkStartMins": 5,
       "rideMins": 12,
       "walkEndMins": 5
@@ -69164,14 +69210,18 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/bella-vista-santa-clara-ca/lc3w7ng/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bella%20Vista%20Apartments%2C%201500%20Vista%20Club%20Cir%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1500%20Vista%20Club%20Cir%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1500%20Vista%20Club%20Cir%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "station-1-santa-clara",
-    "name": "Station 1 (Lawrence Station)",
+    "name": "Marina Cove Apartment Homes",
     "subarea": "Santa Clara (Lawrence Caltrain Village)",
     "region": "Santa Clara (SVP Utility)",
-    "address": "3515 Reed Ave, Santa Clara, CA 95051",
+    "address": "3480 Granada Ave, Santa Clara, CA 95051",
     "city": "Santa Clara",
     "zip": "95051",
     "lat": 37.3696,
@@ -69181,15 +69231,15 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "11 min drive via Lawrence Expy -> Hwy 237 E -> Tasman Dr",
     "studioMin": 2610,
     "studioMax": 2780,
-    "studioSqFt": "540\u2013595",
+    "studioSqFt": "540–595",
     "oneBedMin": 2875,
     "oneBedMax": 3150,
-    "oneBedSqFt": "710\u2013820",
+    "oneBedSqFt": "710–820",
     "bestStartingRent": 2610,
     "recommendedUnit": "Studio ($2,610) or 1BR ($2,875)",
     "parkingFee": 0,
     "parkingNote": "1 assigned garage space included",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 120,
     "trueMonthlyMin": 2730,
     "trueMonthly1BR": 2995,
@@ -69199,14 +69249,14 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Top Pick",
-    "management": "Greystar",
+    "management": "Essex Property Trust",
     "legitimacy": "Verified Transit-Oriented Community",
     "rating": 4.2,
     "reviewSource": "Google (4.2)",
     "amenitiesHighlight": "Steps from Lawrence Caltrain & Costco, Silicon Valley Power utility, resort pool, modern fitness studio",
     "praise": "Both Studios ($2,610) and 1BRs ($2,875) stay under $3,000 EVEN AFTER adding utilities because of Santa Clara SVP electric and $0 parking!",
     "complaints": "Caltrain horn noise if facing the tracks (request courtyard-facing unit).",
-    "website": "https://www.apartments.com/santa-clara-ca/",
+    "website": "https://www.essexapartmenthomes.com/apartments/santa-clara/marina-cove",
     "highlightTag": "1BR All-In Under $3,000 w/ SVP Electric",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -70263,7 +70313,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Lawrence Expressway, East Arques Avenue, Scott Boulevard, San Tomas Expressway",
     "transitMins": 28,
-    "transitSummary": "\ud83d\udeb6 3m walk to Lawrence & Reed (VTA Bus 57 \u2192 Orange Line) \u2192 \ud83d\ude87 VTA Bus 57 North \u2192 VTA Orange Line East on Tasman Dr (20m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Lawrence & Reed (VTA Bus 57 → Orange Line) → 🚇 VTA Bus 57 North → VTA Orange Line East on Tasman Dr (20m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.9964,
@@ -72369,7 +72419,7 @@ const DEFAULT_APARTMENTS = [
       ]
     ],
     "transitStops": {
-      "boardName": "Lawrence & Reed (VTA Bus 57 \u2192 Orange Line)",
+      "boardName": "Lawrence & Reed (VTA Bus 57 → Orange Line)",
       "boardCoords": [
         -121.9958,
         37.3702
@@ -72379,7 +72429,7 @@ const DEFAULT_APARTMENTS = [
         -121.92884,
         37.41205
       ],
-      "lineName": "VTA Bus 57 North \u2192 VTA Orange Line East on Tasman Dr",
+      "lineName": "VTA Bus 57 North → VTA Orange Line East on Tasman Dr",
       "walkStartMins": 3,
       "rideMins": 20,
       "walkEndMins": 5
@@ -73443,7 +73493,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/marina-cove-santa-clara-ca/gsl8bkx/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marina%20Cove%20Apartment%20Homes%2C%203480%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3480%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3480%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "avalon-silicon-valley",
@@ -73460,10 +73514,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "9 min drive via US-101 S / Lawrence Expy & Tasman Dr",
     "studioMin": 2665,
     "studioMax": 2820,
-    "studioSqFt": "555\u2013615",
+    "studioSqFt": "555–615",
     "oneBedMin": 2925,
     "oneBedMax": 3240,
-    "oneBedSqFt": "725\u2013860",
+    "oneBedSqFt": "725–860",
     "bestStartingRent": 2665,
     "recommendedUnit": "Studio ($2,665) or 1BR ($2,925)",
     "parkingFee": 0,
@@ -74386,7 +74440,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Lakeside Drive, Oakmead Parkway, Lawrence Expressway, US 101 (Bayshore Freeway)",
     "transitMins": 24,
-    "transitSummary": "\ud83d\udeb6 6m walk to Borregas VTA Station \u2192 \ud83d\ude87 VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (13m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 6m walk to Borregas VTA Station → 🚇 VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (13m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.9922,
@@ -75706,7 +75760,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/avalon-silicon-valley-sunnyvale-ca/we0jcgj/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Avalon%20Silicon%20Valley%20%28Sunnyvale%20Border%29%2C%201257%20Lakeside%20Dr%2C%20Sunnyvale%2C%20CA%2094085",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1257%20Lakeside%20Dr%2C%20Sunnyvale%2C%20CA%2094085&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1257%20Lakeside%20Dr%2C%20Sunnyvale%2C%20CA%2094085&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "solstice-sunnyvale",
@@ -75723,10 +75781,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "13 min drive via Hwy 237 E to Zanker / Cisco Way",
     "studioMin": 2825,
     "studioMax": 2990,
-    "studioSqFt": "565\u2013620",
+    "studioSqFt": "565–620",
     "oneBedMin": 3240,
     "oneBedMax": 3490,
-    "oneBedSqFt": "740\u2013855",
+    "oneBedSqFt": "740–855",
     "bestStartingRent": 2825,
     "recommendedUnit": "Studio ($2,825) or 1BR ($3,240)",
     "parkingFee": 50,
@@ -75741,14 +75799,14 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Strong Contender",
-    "management": "Prometheus Real Estate Group",
+    "management": "Essex Property Trust",
     "legitimacy": "Verified Regional Operator (Prometheus)",
     "rating": 4.3,
     "reviewSource": "Google (4.3)",
     "amenitiesHighlight": "1 block from Historic Murphy Ave restaurants, Target, Whole Foods, AMC Theater & Sunnyvale Caltrain; resort pool & gym",
     "praise": "Unbeatable walkable downtown lifestyle (Whole Foods, Target, AMC, and 30+ restaurants on Murphy Ave steps away); quick reverse-direction drive on 237 E to Cisco.",
     "complaints": "1BRs push above $3,200; PG&E utility rates.",
-    "website": "https://prometheusapartments.com/ca/sunnyvale-apartments/solstice/",
+    "website": "https://www.essexapartmenthomes.com/apartments/sunnyvale/solstice",
     "highlightTag": "Walkable Downtown Sunnyvale + Whole Foods",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -76801,7 +76859,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via Aries Way, South Mathilda Avenue, CA 237 (Southbay Freeway), Zanker Road",
     "transitMins": 30,
-    "transitSummary": "\ud83d\udeb6 4m walk to Fair Oaks VTA Station \u2192 \ud83d\ude87 VTA Bus 55 North \u2192 VTA Orange Line East to Cisco Way (21m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 4m walk to Fair Oaks VTA Station → 🚇 VTA Bus 55 North → VTA Orange Line East to Cisco Way (21m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -122.0328,
@@ -78253,7 +78311,7 @@ const DEFAULT_APARTMENTS = [
         -121.92884,
         37.41205
       ],
-      "lineName": "VTA Bus 55 North \u2192 VTA Orange Line East to Cisco Way",
+      "lineName": "VTA Bus 55 North → VTA Orange Line East to Cisco Way",
       "walkStartMins": 4,
       "rideMins": 21,
       "walkEndMins": 5
@@ -78985,7 +79043,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/solstice-sunnyvale-ca/5y4elen/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solstice%20Sunnyvale%20%28Downtown%20Murphy%20Ave%29%2C%20299%20W%20Washington%20Ave%2C%20Sunnyvale%2C%20CA%2094086",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=299%20W%20Washington%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=299%20W%20Washington%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "centerra-downtown",
@@ -79002,10 +79064,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "5 min walk to St. James VTA -> Blue Line North to Cisco Way",
     "studioMin": 2650,
     "studioMax": 2850,
-    "studioSqFt": "550\u2013615",
+    "studioSqFt": "550–615",
     "oneBedMin": 2960,
     "oneBedMax": 3350,
-    "oneBedSqFt": "720\u2013865",
+    "oneBedSqFt": "720–865",
     "bestStartingRent": 2650,
     "recommendedUnit": "Studio ($2,650) or 1BR ($2,960)",
     "parkingFee": 125,
@@ -79027,11 +79089,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "6th-floor sky deck pool & spa, 21st-floor rooftop lounge, steps from San Pedro Square Market, floor-to-ceiling glass",
     "praise": "1 block from San Pedro Square Market bars & dining; concrete high-rise soundproofing; direct VTA Blue Line ride up N 1st St to Cisco.",
     "complaints": "$125/mo downtown garage fee; occasional elevator delays during peak move-in weekends.",
-    "website": "https://www.centerrasj.com/",
+    "website": "https://liveatcenterra.com/",
     "highlightTag": "Steps to San Pedro Square + Concrete Tower",
     "userStatus": "shortlist",
     "userNotes": "",
-    "moveInSpecial": "Up to 6 weeks free on 12\u201315 mo lease",
+    "moveInSpecial": "Up to 6 weeks free on 12–15 mo lease",
     "specialCreditMonthly": 305,
     "effectiveNetRent": 2345,
     "effectiveTrueMonthly": 2685,
@@ -80012,7 +80074,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via CA 87 (Guadalupe Freeway), Charcot Avenue, North 1st Street, Montague Expressway",
     "transitMins": 26,
-    "transitSummary": "\ud83d\udeb6 5m walk to St. James VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 5m walk to St. James VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.8962,
@@ -80672,7 +80734,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/centerra-san-jose-ca/fs8gvdr/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Centerra%20%28San%20Pedro%20Square%20High-Rise%29%2C%2077%20N%20Almaden%20Ave%2C%20San%20Jose%2C%20CA%2095110",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=77%20N%20Almaden%20Ave%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=77%20N%20Almaden%20Ave%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "modera-san-pedro",
@@ -80689,10 +80755,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "3 min walk to St. James VTA -> Blue Line straight to Cisco Way",
     "studioMin": 2590,
     "studioMax": 2760,
-    "studioSqFt": "540\u2013595",
+    "studioSqFt": "540–595",
     "oneBedMin": 2920,
     "oneBedMax": 3210,
-    "oneBedSqFt": "705\u2013820",
+    "oneBedSqFt": "705–820",
     "bestStartingRent": 2590,
     "recommendedUnit": "Studio ($2,590) or 1BR ($2,920)",
     "parkingFee": 100,
@@ -80714,7 +80780,7 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Resort pool courtyard, rooftop deck, club-quality gym, 2 blocks from San Pedro Square & St. James VTA Station",
     "praise": "Walkable to San Pedro Square nightlife while sitting 2 blocks closer to St. James VTA and Hwy 87 N for a fast morning commute to Cisco.",
     "complaints": "$100/mo parking fee; urban street noise along St. James St.",
-    "website": "https://www.millcreekplaces.com/community/modera-san-pedro-square/",
+    "website": "https://www.moderasanpedrosquare.com/",
     "highlightTag": "Walk to San Pedro Square + 3m to VTA Rail",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -81775,7 +81841,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via West Saint James Street, CA 87 (Guadalupe Freeway), Charcot Avenue, North 1st Street",
     "transitMins": 24,
-    "transitSummary": "\ud83d\udeb6 3m walk to St. James VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to St. James VTA Station → 🚇 VTA Blue Line (Northbound up N 1st St & Tasman Dr) (16m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.8952,
@@ -82243,7 +82309,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/modera-san-pedro-square-san-jose-ca/5m60lvp/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Modera%20San%20Pedro%20Square%2C%20155%20W%20St%20James%20St%2C%20San%20Jose%2C%20CA%2095110",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=155%20W%20St%20James%20St%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=155%20W%20St%20James%20St%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "miro-downtown",
@@ -82260,10 +82330,10 @@ const DEFAULT_APARTMENTS = [
     "transitMode": "3 min walk to Santa Clara VTA -> Blue Line North to Cisco Way",
     "studioMin": 2875,
     "studioMax": 3120,
-    "studioSqFt": "550\u2013625",
+    "studioSqFt": "550–625",
     "oneBedMin": 3340,
     "oneBedMax": 3750,
-    "oneBedSqFt": "735\u2013890",
+    "oneBedSqFt": "735–890",
     "bestStartingRent": 2875,
     "recommendedUnit": "Studio ($2,875) or 1BR ($3,340)",
     "parkingFee": 150,
@@ -82285,7 +82355,7 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Newest architectural luxury high-rise in SJ (28 stories), rooftop pool, sky lounge, co-working floor, fire pits",
     "praise": "Arguably the nicest modern high-rise views and amenity spaces in all of San Jose; popular with SJSU alums & tech engineers; frequent 6-8 weeks free specials.",
     "complaints": "$150/mo parking pushes 1BR true monthly cost over $3,500 before move-in specials; busy E Santa Clara St intersection.",
-    "website": "https://mirosanjose.com/",
+    "website": "https://www.rentmiro.com/",
     "highlightTag": "Newest 28-Story Luxury Tower in SJ",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -83510,7 +83580,7 @@ const DEFAULT_APARTMENTS = [
     ],
     "driveSummary": "Via East Santa Clara Street, North Market Street, West Saint James Street, CA 87 (Guadalupe Freeway)",
     "transitMins": 25,
-    "transitSummary": "\ud83d\udeb6 3m walk to Santa Clara St VTA Station \u2192 \ud83d\ude87 VTA Blue Line (Northbound from Santa Clara St to Cisco Way) (17m) \u2192 \ud83d\udeb6 5m walk from Cisco Way VTA Station",
+    "transitSummary": "🚶 3m walk to Santa Clara St VTA Station → 🚇 VTA Blue Line (Northbound from Santa Clara St to Cisco Way) (17m) → 🚶 5m walk from Cisco Way VTA Station",
     "transitWalkStartCoords": [
       [
         -121.8868,
@@ -84074,7 +84144,11 @@ const DEFAULT_APARTMENTS = [
           37.40716
         ]
       ]
-    }
+    },
+    "listingUrl": "https://www.apartments.com/miro-san-jose-ca/bsvyvv8/",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Miro%20Twin%20Towers%20%28Downtown%20SJ%29%2C%20167%20E%20Santa%20Clara%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=167%20E%20Santa%20Clara%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=167%20E%20Santa%20Clara%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "121-tasman",
@@ -84089,13 +84163,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 1.2,
     "driveMins": 3,
     "transitMins": 11,
-    "transitMode": "11m total (2m walk \u2192 4m VTA Orange / Blue Line \u2192 5m walk)",
+    "transitMode": "11m total (2m walk → 4m VTA Orange / Blue Line → 5m walk)",
     "studioMin": 3370,
     "studioMax": 3450,
     "studioSqFt": "560",
     "oneBedMin": 3470,
     "oneBedMax": 3750,
-    "oneBedSqFt": "732\u2013778",
+    "oneBedSqFt": "732–778",
     "bestStartingRent": 3370,
     "recommendedUnit": "Studio ($3,370) or 1BR ($3,470)",
     "parkingFee": 75,
@@ -84126,7 +84200,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Steps to Tasman VTA + 1.1 Mi to Cisco",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=121%20Tasman%2C%20121%20E%20Tasman%20Dr%2C%20San%20Jose%2C%20CA%2095134",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=121%20E%20Tasman%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=121%20Tasman%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/121-tasman-san-jose-ca/pdbxmnt/",
     "zillowUrl": "https://www.zillow.com/homes/121%20E%20Tasman%20Dr%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -84623,7 +84697,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (2m) to Tasman VTA Station \u2192 VTA Orange / Blue Line (Eastbound on Tasman Dr) (4m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (2m) to Tasman VTA Station → VTA Orange / Blue Line (Eastbound on Tasman Dr) (4m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -84981,7 +85055,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=121%20E%20Tasman%20Dr%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "venue-north-sj",
@@ -84996,13 +85071,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 1.3,
     "driveMins": 3,
     "transitMins": 11,
-    "transitMode": "11m total (3m walk \u2192 3m VTA Orange / Blue Line \u2192 5m walk)",
+    "transitMode": "11m total (3m walk → 3m VTA Orange / Blue Line → 5m walk)",
     "studioMin": 2784,
     "studioMax": 3100,
     "studioSqFt": "607",
     "oneBedMin": 3200,
     "oneBedMax": 3600,
-    "oneBedSqFt": "750\u2013830",
+    "oneBedSqFt": "750–830",
     "bestStartingRent": 2784,
     "recommendedUnit": "Studio ($2,784) or 1BR ($3,200)",
     "parkingFee": 50,
@@ -85033,7 +85108,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "607 Sq Ft Studio Under $2,800 (1.1 Mi)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Venue%20Apartments%2C%203737%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3737%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Venue%20Apartments%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/venue-apartments-san-jose-ca/vkhxjjd/",
     "zillowUrl": "https://www.zillow.com/homes/3737%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -85502,7 +85577,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Champion VTA Station \u2192 VTA Orange / Blue Line (2 stops East to Cisco Way) (3m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Champion VTA Station → VTA Orange / Blue Line (2 stops East to Cisco Way) (3m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -85764,7 +85839,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3737%20Casa%20Verde%20St%2C%20San%20Jose%2C%20CA%2095134&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "platform-berryessa",
@@ -85779,13 +85855,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.6,
     "driveMins": 11,
     "transitMins": 24,
-    "transitMode": "24m total (4m walk \u2192 15m BART \u2192 5m walk)",
+    "transitMode": "24m total (4m walk → 15m BART → 5m walk)",
     "studioMin": 3100,
     "studioMax": 3476,
     "studioSqFt": "622",
     "oneBedMin": 3123,
     "oneBedMax": 3450,
-    "oneBedSqFt": "730\u2013882",
+    "oneBedSqFt": "730–882",
     "bestStartingRent": 3100,
     "recommendedUnit": "Studio ($3,100) or 1BR ($3,123)",
     "parkingFee": 100,
@@ -85794,7 +85870,7 @@ const DEFAULT_APARTMENTS = [
     "estUtilitiesAndFees": 215,
     "trueMonthlyMin": 3415,
     "trueMonthly1BR": 3438,
-    "moveInSpecial": "Up to 4\u20136 weeks free on select units",
+    "moveInSpecial": "Up to 4–6 weeks free on select units",
     "specialCreditMonthly": 250,
     "effectiveNetRent": 2850,
     "effectiveTrueMonthly": 3165,
@@ -85816,7 +85892,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "2 Pools + Next to Berryessa BART & Safeway",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Platform%20Urban%20Apartments%2C%201501%20Berryessa%20Rd%2C%20San%20Jose%2C%20CA%2095133",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1501%20Berryessa%20Rd%2C%20San%20Jose%2C%20CA%2095133&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Platform%20Urban%20Apartments%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/1036-onofrio-ln-san-jose-ca/zz84sdz/",
     "zillowUrl": "https://www.zillow.com/homes/1501%20Berryessa%20Rd%2C%20San%20Jose%2C%20CA%2095133_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -87417,7 +87493,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Berryessa / North San Jose BART \u2192 BART (1 stop North) -> VTA Orange Line to Cisco Way (15m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Berryessa / North San Jose BART → BART (1 stop North) -> VTA Orange Line to Cisco Way (15m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -88015,7 +88091,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1501%20Berryessa%20Rd%2C%20San%20Jose%2C%20CA%2095133&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "linq-berryessa",
@@ -88030,13 +88107,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.8,
     "driveMins": 12,
     "transitMins": 24,
-    "transitMode": "24m total (4m walk \u2192 15m BART \u2192 5m walk)",
+    "transitMode": "24m total (4m walk → 15m BART → 5m walk)",
     "studioMin": 2686,
     "studioMax": 2850,
-    "studioSqFt": "468\u2013537",
+    "studioSqFt": "468–537",
     "oneBedMin": 2671,
     "oneBedMax": 3150,
-    "oneBedSqFt": "609\u2013902",
+    "oneBedSqFt": "609–902",
     "bestStartingRent": 2671,
     "recommendedUnit": "Studio ($2,686) or 1BR ($2,671)",
     "parkingFee": 75,
@@ -88061,13 +88138,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.3,
     "reviewSource": "Google (4.3) / Apartments.com",
     "amenitiesHighlight": "Rooftop Skydeck, courtyard pool & spa, outdoor pizza oven, fitness center, steps from Berryessa BART",
-    "praise": "Phenomenal value under $2,700/mo next to Berryessa BART; rooftop Skydeck, pool & spa, courtyard pizza oven, and 4.3\u2605 rating.",
+    "praise": "Phenomenal value under $2,700/mo next to Berryessa BART; rooftop Skydeck, pool & spa, courtyard pizza oven, and 4.3★ rating.",
     "complaints": "Offers both market-rate and city middle-income workforce tiers (confirm market-rate unit availability when applying).",
-    "website": "https://www.liveatlinq.com/",
-    "highlightTag": "4.3\u2605 Berryessa BART Value Under $2,700",
+    "website": "https://liveatlinq.com/",
+    "highlightTag": "4.3★ Berryessa BART Value Under $2,700",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=LINQ%20Berryessa%2C%201700%20Newbury%20Park%20Dr%2C%20San%20Jose%2C%20CA%2095133",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1700%20Newbury%20Park%20Dr%2C%20San%20Jose%2C%20CA%2095133&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=LINQ%20Berryessa%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/linq-san-jose-ca/d325jkj/",
     "zillowUrl": "https://www.zillow.com/homes/1700%20Newbury%20Park%20Dr%2C%20San%20Jose%2C%20CA%2095133_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -89672,7 +89749,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Berryessa / North San Jose BART \u2192 BART (1 stop North) -> VTA Orange Line to Cisco Way (15m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Berryessa / North San Jose BART → BART (1 stop North) -> VTA Orange Line to Cisco Way (15m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -90222,7 +90299,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1700%20Newbury%20Park%20Dr%2C%20San%20Jose%2C%20CA%2095133&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "sofi-berryessa",
@@ -90237,7 +90315,7 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.3,
     "driveMins": 13,
     "transitMins": 30,
-    "transitMode": "30m total (8m walk \u2192 17m Bus 70 / Walk to Berryessa BART -> VTA Orange Line \u2192 5m walk)",
+    "transitMode": "30m total (8m walk → 17m Bus 70 / Walk to Berryessa BART -> VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
@@ -90274,7 +90352,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Quiet Garden Community + $0 Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sofi%20Berryessa%2C%20750%20N%20King%20Rd%2C%20San%20Jose%2C%20CA%2095133",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=750%20N%20King%20Rd%2C%20San%20Jose%2C%20CA%2095133&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Sofi%20Berryessa%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/sofi-berryessa-san-jose-ca/pnhhkct/",
     "zillowUrl": "https://www.zillow.com/homes/750%20N%20King%20Rd%2C%20San%20Jose%2C%20CA%2095133_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -91879,7 +91957,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (8m) to Berryessa / North San Jose BART \u2192 Bus 70 / Walk to Berryessa BART -> VTA Orange Line (17m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (8m) to Berryessa / North San Jose BART → Bus 70 / Walk to Berryessa BART -> VTA Orange Line (17m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -92653,7 +92731,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=750%20N%20King%20Rd%2C%20San%20Jose%2C%20CA%2095133&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "griffis-south-bay",
@@ -92668,13 +92747,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 1.8,
     "driveMins": 5,
     "transitMins": 15,
-    "transitMode": "15m total (7m walk \u2192 3m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "15m total (7m walk → 3m VTA Orange Line → 5m walk)",
     "studioMin": 2650,
     "studioMax": 2825,
-    "studioSqFt": "540\u2013590",
+    "studioSqFt": "540–590",
     "oneBedMin": 2876,
     "oneBedMax": 3250,
-    "oneBedSqFt": "721\u2013825",
+    "oneBedSqFt": "721–825",
     "bestStartingRent": 2650,
     "recommendedUnit": "Studio ($2,650) or 1BR ($2,876)",
     "parkingFee": 0,
@@ -92701,11 +92780,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Resort pool & spa, modern fitness studio, Coyote Creek trail access, 1.5 miles to Cisco HQ",
     "praise": "Right on the Milpitas/North SJ border (5-min drive to Cisco Building 14); both Studios ($2,650) and 1BRs ($2,876) stay under $3,000 with $0 free parking!",
     "complaints": "Can catch occasional breeze odor from Newby Island on warm summer afternoons.",
-    "website": "https://griffisresidential.com/apartments/ca/milpitas/griffis-south-bay/",
+    "website": "https://griffisresidential.com/property/south-bay/",
     "highlightTag": "1.5 Mi to Cisco + 1BR Under $2,900 ($0 Park)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Griffis%20South%20Bay%2C%20501%20Murphy%20Ranch%20Rd%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=501%20Murphy%20Ranch%20Rd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Griffis%20South%20Bay%20Milpitas",
+    "listingUrl": "https://www.apartments.com/griffis-south-bay-milpitas-ca/8qvze43/",
     "zillowUrl": "https://www.zillow.com/homes/501%20Murphy%20Ranch%20Rd%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -93626,7 +93705,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (7m) to Alder VTA Station \u2192 VTA Orange Line (Westbound from Alder Station to Cisco Way) (3m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (7m) to Alder VTA Station → VTA Orange Line (Westbound from Alder Station to Cisco Way) (3m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -94456,7 +94535,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=501%20Murphy%20Ranch%20Rd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-edge-milpitas",
@@ -94471,13 +94551,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.5,
     "driveMins": 6,
     "transitMins": 17,
-    "transitMode": "17m total (4m walk \u2192 8m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "17m total (4m walk → 8m VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3194,
     "oneBedMax": 3450,
-    "oneBedSqFt": "665\u2013692",
+    "oneBedSqFt": "665–692",
     "bestStartingRent": 3194,
     "recommendedUnit": "1BR ($3,194)",
     "parkingFee": 50,
@@ -94502,13 +94582,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.4,
     "reviewSource": "Google (4.4) / Apartments.com",
     "amenitiesHighlight": "Brand-new 2024 luxury community, rooftop deck, resort pool, state-of-the-art gym, steps to Milpitas BART",
-    "praise": "4.4\u2605 rating! Brand-new 2024 build with spotless amenities, ultra-modern soundproofing, and walkable to Milpitas BART & VTA Orange Line.",
+    "praise": "4.4★ rating! Brand-new 2024 build with spotless amenities, ultra-modern soundproofing, and walkable to Milpitas BART & VTA Orange Line.",
     "complaints": "Montague Expy rush-hour traffic right outside the front gate.",
-    "website": "https://www.edgemilpitas.com/",
-    "highlightTag": "4.4\u2605 Brand-New 2024 Build Near BART",
+    "website": "https://edgemilpitas.com/",
+    "highlightTag": "4.4★ Brand-New 2024 Build Near BART",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Edge%20Milpitas%2C%20753%20Montague%20Expy%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=753%20Montague%20Expy%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Edge%20Milpitas%20Milpitas",
+    "listingUrl": "https://www.apartments.com/the-edge-milpitas-ca/rn2vmg3/",
     "zillowUrl": "https://www.zillow.com/homes/753%20Montague%20Expy%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -95357,7 +95437,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Milpitas BART / Transit Center VTA \u2192 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Milpitas BART / Transit Center VTA → VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -95795,7 +95875,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=753%20Montague%20Expy%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "eleanor-milpitas",
@@ -95810,13 +95891,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.5,
     "driveMins": 6,
     "transitMins": 14,
-    "transitMode": "14m total (4m walk \u2192 5m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "14m total (4m walk → 5m VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3312,
     "oneBedMax": 3750,
-    "oneBedSqFt": "701\u2013774",
+    "oneBedSqFt": "701–774",
     "bestStartingRent": 3312,
     "recommendedUnit": "1BR ($3,312)",
     "parkingFee": 75,
@@ -95825,7 +95906,7 @@ const DEFAULT_APARTMENTS = [
     "estUtilitiesAndFees": 220,
     "trueMonthlyMin": 3607,
     "trueMonthly1BR": 3607,
-    "moveInSpecial": "Up to 1 month free on 13\u201315 mo leases",
+    "moveInSpecial": "Up to 1 month free on 13–15 mo leases",
     "specialCreditMonthly": 255,
     "effectiveNetRent": 3057,
     "effectiveTrueMonthly": 3352,
@@ -95841,13 +95922,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.7,
     "reviewSource": "Google (3.7) / Apartments.com",
     "amenitiesHighlight": "Resort swimming pool, coworking lounges, fitness center, 5-min walk to Milpitas Transit Center",
-    "praise": "Modern interiors with spacious 701\u2013774 sq ft 1BR layouts, coworking pods, and easy walk to Trader Joe's and VTA light rail.",
+    "praise": "Modern interiors with spacious 701–774 sq ft 1BR layouts, coworking pods, and easy walk to Trader Joe's and VTA light rail.",
     "complaints": "Unbundled parking and utility pass-through fees; occasional package locker delays.",
     "website": "https://www.exploreeleanor.com/",
     "highlightTag": "Walk to Trader Joe's + Milpitas VTA",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Eleanor%20Apartments%2C%20312%20Gates%20Dr%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=312%20Gates%20Dr%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Eleanor%20Apartments%20Milpitas",
+    "listingUrl": "https://www.apartments.com/312-gates-dr-milpitas-ca-unit-si-fl2-id2002/r9hml32/",
     "zillowUrl": "https://www.zillow.com/homes/312%20Gates%20Dr%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -96636,7 +96717,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to I-880 / Milpitas VTA Station \u2192 VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to I-880 / Milpitas VTA Station → VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -96970,7 +97051,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=312%20Gates%20Dr%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-harlowe",
@@ -96985,13 +97067,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.6,
     "driveMins": 6,
     "transitMins": 16,
-    "transitMode": "16m total (3m walk \u2192 8m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "16m total (3m walk → 8m VTA Orange Line → 5m walk)",
     "studioMin": 3000,
     "studioMax": 3150,
     "studioSqFt": "521",
     "oneBedMin": 3340,
     "oneBedMax": 3550,
-    "oneBedSqFt": "647\u2013695",
+    "oneBedSqFt": "647–695",
     "bestStartingRent": 3000,
     "recommendedUnit": "Studio ($3,000) or 1BR ($3,340)",
     "parkingFee": 75,
@@ -97000,7 +97082,7 @@ const DEFAULT_APARTMENTS = [
     "estUtilitiesAndFees": 215,
     "trueMonthlyMin": 3290,
     "trueMonthly1BR": 3630,
-    "moveInSpecial": "Up to 4\u20136 weeks free on select units",
+    "moveInSpecial": "Up to 4–6 weeks free on select units",
     "specialCreditMonthly": 250,
     "effectiveNetRent": 2750,
     "effectiveTrueMonthly": 3040,
@@ -97016,13 +97098,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.2,
     "reviewSource": "Google (4.2) / Apartments.com",
     "amenitiesHighlight": "Heated pool & cabanas, sky lounge, fitness & spin studio, directly across from Milpitas BART/VTA",
-    "praise": "High 4.2\u2605 resident satisfaction; steps from Milpitas BART & VTA Orange Line bridge; sleek contemporary kitchen finishes.",
+    "praise": "High 4.2★ resident satisfaction; steps from Milpitas BART & VTA Orange Line bridge; sleek contemporary kitchen finishes.",
     "complaints": "Guest parking is tight on weekends; train horn audible if windows face the tracks.",
     "website": "https://www.harloweliving.com/",
-    "highlightTag": "4.2\u2605 Steps to Milpitas BART & VTA Bridge",
+    "highlightTag": "4.2★ Steps to Milpitas BART & VTA Bridge",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Harlowe%2C%201821%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1821%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Harlowe%20Milpitas",
+    "listingUrl": "https://www.apartments.com/the-harlowe-milpitas-ca/ygpz47v/",
     "zillowUrl": "https://www.zillow.com/homes/1821%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -97951,7 +98033,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Milpitas BART / Transit Center VTA \u2192 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Milpitas BART / Transit Center VTA → VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -98501,7 +98583,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1821%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "lantana-milpitas",
@@ -98516,13 +98599,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.8,
     "driveMins": 7,
     "transitMins": 17,
-    "transitMode": "17m total (4m walk \u2192 8m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "17m total (4m walk → 8m VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3370,
     "oneBedMax": 3525,
-    "oneBedSqFt": "613\u2013679",
+    "oneBedSqFt": "613–679",
     "bestStartingRent": 3370,
     "recommendedUnit": "1BR ($3,370)",
     "parkingFee": 75,
@@ -98547,13 +98630,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.3,
     "reviewSource": "Google (4.3) / Apartments.com",
     "amenitiesHighlight": "Courtyard lap pool, rooftop lounge, two-story gym, co-working spaces, 4-min walk to VTA/BART",
-    "praise": "4.3\u2605 Greystar flagship in Milpitas with well-maintained common areas, fast maintenance, and effortless VTA Orange Line commute to Cisco.",
+    "praise": "4.3★ Greystar flagship in Milpitas with well-maintained common areas, fast maintenance, and effortless VTA Orange Line commute to Cisco.",
     "complaints": "1BR base rents start around $3,370 before applying the 4-weeks-free special.",
-    "website": "https://www.lantanamilpitas.com/",
-    "highlightTag": "4.3\u2605 Luxury at Milpitas BART Station",
+    "website": "https://lantanamilpitas.com/",
+    "highlightTag": "4.3★ Luxury at Milpitas BART Station",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lantana%20at%20Milpitas%20Station%2C%201675%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1675%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Lantana%20at%20Milpitas%20Station%20Milpitas",
+    "listingUrl": "https://www.apartments.com/lantana-at-milpitas-station-milpitas-ca/2gq4v3c/",
     "zillowUrl": "https://www.zillow.com/homes/1675%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -99538,7 +99621,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Milpitas BART / Transit Center VTA \u2192 VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Milpitas BART / Transit Center VTA → VTA Orange Line (Westbound from Milpitas BART to Cisco Way) (8m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -100144,7 +100227,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1675%20S%20Milpitas%20Blvd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "ilara-milpitas",
@@ -100159,13 +100243,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.1,
     "driveMins": 5,
     "transitMins": 16,
-    "transitMode": "16m total (4m walk \u2192 7m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "16m total (4m walk → 7m VTA Orange Line → 5m walk)",
     "studioMin": 2800,
     "studioMax": 2925,
     "studioSqFt": "627",
     "oneBedMin": 2950,
     "oneBedMax": 3195,
-    "oneBedSqFt": "711\u2013785",
+    "oneBedSqFt": "711–785",
     "bestStartingRent": 2800,
     "recommendedUnit": "Studio ($2,800) or 1BR ($2,950)",
     "parkingFee": 50,
@@ -100196,7 +100280,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Sub-$3,000 1BR + 627 Sq Ft Studio (2.1 Mi)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ilara%20Apartments%2C%201201%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1201%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Ilara%20Apartments%20Milpitas",
+    "listingUrl": "https://www.apartments.com/ilara-milpitas-ca/cz269te/",
     "zillowUrl": "https://www.zillow.com/homes/1201%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -101169,7 +101253,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Great Mall / Main VTA Station \u2192 VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Great Mall / Main VTA Station → VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -101975,7 +102059,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1201%20S%20Main%20St%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "mill-creek-milpitas",
@@ -101990,13 +102075,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 4.5,
     "driveMins": 8,
     "transitMins": 27,
-    "transitMode": "27m total (4m walk \u2192 18m VTA Bus 66 South -> VTA Orange Line at Alder Station \u2192 5m walk)",
+    "transitMode": "27m total (4m walk → 18m VTA Bus 66 South -> VTA Orange Line at Alder Station → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 2870,
     "oneBedMax": 3150,
-    "oneBedSqFt": "544\u2013731",
+    "oneBedSqFt": "544–731",
     "bestStartingRent": 2870,
     "recommendedUnit": "1BR ($2,870)",
     "parkingFee": 0,
@@ -102027,7 +102112,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Sub-$2,900 1BR + $0 Included Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mill%20Creek%20Apartments%2C%20440%20Dixon%20Landing%20Rd%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=440%20Dixon%20Landing%20Rd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Mill%20Creek%20Apartments%20Milpitas",
+    "listingUrl": "https://www.apartments.com/mill-creek-milpitas-ca/vm1tzld/",
     "zillowUrl": "https://www.zillow.com/homes/440%20Dixon%20Landing%20Rd%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -103452,7 +103537,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Alder VTA Station \u2192 VTA Bus 66 South -> VTA Orange Line at Alder Station (18m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Alder VTA Station → VTA Bus 66 South -> VTA Orange Line at Alder Station (18m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -104786,7 +104871,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=440%20Dixon%20Landing%20Rd%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "parc-west-milpitas",
@@ -104801,13 +104887,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.3,
     "driveMins": 6,
     "transitMins": 17,
-    "transitMode": "17m total (5m walk \u2192 7m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "17m total (5m walk → 7m VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 2895,
     "oneBedMax": 3190,
-    "oneBedSqFt": "680\u2013750",
+    "oneBedSqFt": "680–750",
     "bestStartingRent": 2895,
     "recommendedUnit": "1BR ($2,895)",
     "parkingFee": 0,
@@ -104834,11 +104920,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Swimming pool & spa, fitness room, gated garage, 5-min walk to Great Mall VTA station",
     "praise": "True 1BR under $2,900 ($2,895) with $0 free garage parking only 2.1 miles from Cisco Way.",
     "complaints": "Fewer ultra-luxury rooftop lounges than brand-new towers; busy Great Mall Pkwy nearby.",
-    "website": "https://www.apartments.com/milpitas-ca/",
+    "website": "https://www.themuirfieldcompany.com/properties",
     "highlightTag": "2.1 Mi to Cisco + 1BR Under $2,900 ($0 Park)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parc%20West%20Apartments%2C%201210%20Fulton%20Pl%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1210%20Fulton%20Pl%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Parc%20West%20Apartments%20Milpitas",
+    "listingUrl": "https://www.apartments.com/parc-west-milpitas-ca/sbe86w7/",
     "zillowUrl": "https://www.zillow.com/homes/1210%20Fulton%20Pl%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -105815,7 +105901,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Great Mall / Main VTA Station \u2192 VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Great Mall / Main VTA Station → VTA Orange Line (Westbound from Great Mall to Cisco Way) (7m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -106445,7 +106531,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1210%20Fulton%20Pl%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "terra-serena-milpitas",
@@ -106460,13 +106547,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.3,
     "driveMins": 6,
     "transitMins": 16,
-    "transitMode": "16m total (6m walk \u2192 5m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "16m total (6m walk → 5m VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 2940,
     "oneBedMax": 3250,
-    "oneBedSqFt": "705\u2013790",
+    "oneBedSqFt": "705–790",
     "bestStartingRent": 2940,
     "recommendedUnit": "1BR ($2,940)",
     "parkingFee": 0,
@@ -106491,13 +106578,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com",
     "amenitiesHighlight": "Resort pool & spa, fitness center, lush Shea courtyard landscaping, 1.9 miles to Cisco",
-    "praise": "Reliable Shea Properties management (4.1\u2605), $0 included parking, 1BRs starting under $2,950, and a 6-minute drive straight down Tasman Dr to Cisco.",
+    "praise": "Reliable Shea Properties management (4.1★), $0 included parking, 1BRs starting under $2,950, and a 6-minute drive straight down Tasman Dr to Cisco.",
     "complaints": "Limited street guest parking; standard PG&E electric rates.",
-    "website": "https://www.sheaapartments.com/",
-    "highlightTag": "4.1\u2605 Shea Mgmt + 1.9 Mi to Cisco ($0 Park)",
+    "website": "https://www.apartments.com/building/terra-serena-luna-milpitas-ca/rws26s0/",
+    "highlightTag": "4.1★ Shea Mgmt + 1.9 Mi to Cisco ($0 Park)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Terra%20Serena%20Apartments%2C%201250%20Aster%20Ln%2C%20Milpitas%2C%20CA%2095035",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1250%20Aster%20Ln%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Terra%20Serena%20Apartments%20Milpitas",
+    "listingUrl": "https://www.apartments.com/building/terra-serena-luna-milpitas-ca/rws26s0/",
     "zillowUrl": "https://www.zillow.com/homes/1250%20Aster%20Ln%2C%20Milpitas%2C%20CA%2095035_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -107418,7 +107505,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (6m) to I-880 / Milpitas VTA Station \u2192 VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (6m) to I-880 / Milpitas VTA Station → VTA Orange Line (Westbound from I-880/Milpitas to Cisco Way) (5m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -108128,7 +108215,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1250%20Aster%20Ln%2C%20Milpitas%2C%20CA%2095035&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "550-moreland",
@@ -108143,18 +108231,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.1,
     "driveMins": 5,
     "transitMins": 16,
-    "transitMode": "16m total (6m walk \u2192 5m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "16m total (6m walk → 5m VTA Orange Line → 5m walk)",
     "studioMin": 2890,
     "studioMax": 3080,
-    "studioSqFt": "550\u2013610",
+    "studioSqFt": "550–610",
     "oneBedMin": 3195,
     "oneBedMax": 3490,
-    "oneBedSqFt": "720\u2013840",
+    "oneBedSqFt": "720–840",
     "bestStartingRent": 2890,
     "recommendedUnit": "Studio ($2,890) or 1BR ($3,195)",
     "parkingFee": 0,
     "parkingNote": "1 assigned underground garage stall included free",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3015,
     "trueMonthly1BR": 3320,
@@ -108176,11 +108264,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Rooftop sky deck, resort pool & spa, two-story gym, bowling alley lounge, walk to Rivermark Safeway",
     "praise": "Only 1.9 miles from Cisco HQ with cheap Santa Clara SVP power, $0 included parking, private bowling lanes, and a 3-minute walk to Rivermark Safeway!",
     "complaints": "Popular building so sub-$2,900 studios lease fast; strict guest parking permits.",
-    "website": "https://www.550moreland.com/",
+    "website": "https://prometheusapartments.com/ca/santa-clara-apartments/550-moreland",
     "highlightTag": "1.9 Mi to Cisco + SVP Power + $0 Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=550%20Moreland%20Apartments%2C%20550%20Moreland%20Way%2C%20Santa%20Clara%2C%20CA%2095054",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=550%20Moreland%20Way%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=550%20Moreland%20Apartments%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/550-moreland-santa-clara-ca/ypyh9ns/",
     "zillowUrl": "https://www.zillow.com/homes/550%20Moreland%20Way%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -109173,7 +109261,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (6m) to Lick Mill VTA Station \u2192 VTA Orange Line (Eastbound from Lick Mill to Cisco Way) (5m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (6m) to Lick Mill VTA Station → VTA Orange Line (Eastbound from Lick Mill to Cisco Way) (5m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -110171,7 +110259,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=550%20Moreland%20Way%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "ave-santa-clara",
@@ -110186,18 +110275,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.8,
     "driveMins": 7,
     "transitMins": 18,
-    "transitMode": "18m total (5m walk \u2192 8m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "18m total (5m walk → 8m VTA Orange Line → 5m walk)",
     "studioMin": 3310,
     "studioMax": 3590,
-    "studioSqFt": "477\u2013540",
+    "studioSqFt": "477–540",
     "oneBedMin": 3495,
     "oneBedMax": 3950,
-    "oneBedSqFt": "649\u2013780",
+    "oneBedSqFt": "649–780",
     "bestStartingRent": 3310,
     "recommendedUnit": "Studio ($3,310) or 1BR ($3,495)",
     "parkingFee": 100,
     "parkingNote": "Secured garage parking (~$100/mo; EV charging on-site)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 130,
     "trueMonthlyMin": 3540,
     "trueMonthly1BR": 3725,
@@ -110216,14 +110305,14 @@ const DEFAULT_APARTMENTS = [
     "legitimacy": "Verified Active Community (Korman Communities)",
     "rating": 4.6,
     "reviewSource": "Google (4.6) / Apartments.com",
-    "amenitiesHighlight": "4.6\u2605 hotel-style concierge, resort pool courtyard, 24/7 Peloton fitness center, complimentary weekday breakfast bar",
-    "praise": "4.6\u2605 rating! Hotel-grade service in Tasman East with cheap Santa Clara SVP electricity and a 5-minute walk to Lick Mill VTA Orange Line.",
+    "amenitiesHighlight": "4.6★ hotel-style concierge, resort pool courtyard, 24/7 Peloton fitness center, complimentary weekday breakfast bar",
+    "praise": "4.6★ rating! Hotel-grade service in Tasman East with cheap Santa Clara SVP electricity and a 5-minute walk to Lick Mill VTA Orange Line.",
     "complaints": "Higher base rent before applying the 1-month-free concession; $100/mo parking fee.",
-    "website": "https://www.aveliving.com/locations/san-francisco-bay-area/santa-clara/ave-santa-clara",
-    "highlightTag": "4.6\u2605 Tasman East Luxury + SVP Electric",
+    "website": "https://www.aveliving.com/locations/south-bay-silicon-valley/santa-clara",
+    "highlightTag": "4.6★ Tasman East Luxury + SVP Electric",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=AVE%20Santa%20Clara%2C%202240%20Calle%20De%20Luna%2C%20Santa%20Clara%2C%20CA%2095054",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2240%20Calle%20De%20Luna%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=AVE%20Santa%20Clara%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/ave-santa-clara-santa-clara-ca/z3k89nx/",
     "zillowUrl": "https://www.zillow.com/homes/2240%20Calle%20De%20Luna%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -111292,7 +111381,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Great America VTA Station \u2192 VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (8m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Great America VTA Station → VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (8m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -111850,7 +111939,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=2240%20Calle%20De%20Luna%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-lafayette",
@@ -111865,18 +111955,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.9,
     "driveMins": 7,
     "transitMins": 18,
-    "transitMode": "18m total (5m walk \u2192 8m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "18m total (5m walk → 8m VTA Orange Line → 5m walk)",
     "studioMin": 3150,
     "studioMax": 3390,
-    "studioSqFt": "515\u2013560",
+    "studioSqFt": "515–560",
     "oneBedMin": 3490,
     "oneBedMax": 3950,
-    "oneBedSqFt": "622\u2013784",
+    "oneBedSqFt": "622–784",
     "bestStartingRent": 3150,
     "recommendedUnit": "Studio ($3,150) or 1BR ($3,490)",
     "parkingFee": 125,
     "parkingNote": "Controlled-access garage (~$125/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 130,
     "trueMonthlyMin": 3405,
     "trueMonthly1BR": 3745,
@@ -111898,11 +111988,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Rooftop pool & sundeck, boutique Bozzuto hospitality, co-working lounge, cheap SVP electricity",
     "praise": "Brand-new Tasman East tower managed by Bozzuto; cheap Santa Clara SVP power and 6-minute straight shot down Tasman Dr to Cisco.",
     "complaints": "Ongoing construction on neighboring Tasman East parcels during weekday mornings.",
-    "website": "https://www.thelafayettesantaclara.com/",
+    "website": "https://www.livethelafayette.com/",
     "highlightTag": "Brand-New Tasman East + SVP Power",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Lafayette%20at%20Tasman%20East%2C%202333%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2333%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Lafayette%20at%20Tasman%20East%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/the-lafayette-santa-clara-ca/c3enymd/",
     "zillowUrl": "https://www.zillow.com/homes/2333%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -113019,7 +113109,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Great America VTA Station \u2192 VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (8m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Great America VTA Station → VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (8m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -113625,7 +113715,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=2333%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-clara",
@@ -113640,18 +113731,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 2.5,
     "driveMins": 6,
     "transitMins": 15,
-    "transitMode": "15m total (5m walk \u2192 5m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "15m total (5m walk → 5m VTA Orange Line → 5m walk)",
     "studioMin": 3450,
     "studioMax": 3750,
-    "studioSqFt": "489\u2013624",
+    "studioSqFt": "489–624",
     "oneBedMin": 3495,
     "oneBedMax": 4150,
-    "oneBedSqFt": "591\u2013748",
+    "oneBedSqFt": "591–748",
     "bestStartingRent": 3450,
     "recommendedUnit": "Studio ($3,450) or 1BR ($3,495)",
     "parkingFee": 150,
     "parkingNote": "Subterranean garage parking (~$150/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 135,
     "trueMonthlyMin": 3735,
     "trueMonthly1BR": 3780,
@@ -113673,11 +113764,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Ultra-luxury Related finishes, resort pool deck, Equinox-caliber gym, cheap SVP electric, 8 weeks free special",
     "praise": "Massive 8-weeks-free lease special knocks ~$530/mo off effective rent; ultra-luxury Related finishes + cheap SVP power 2.4 miles from Cisco.",
     "complaints": "High sticker rent after year-1 concession expires; $150/mo parking.",
-    "website": "https://www.theclaraapartments.com/",
+    "website": "https://theclara.com/",
     "highlightTag": "8 Weeks Free (-$530/mo) + SVP Power",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Clara%20%28Related%20Santa%20Clara%29%2C%205150%20Calle%20Del%20Sol%2C%20Santa%20Clara%2C%20CA%2095054",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=5150%20Calle%20Del%20Sol%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Clara%20%28Related%20Santa%20Clara%29%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/the-clara-santa-clara-ca/6b3v70v/",
     "zillowUrl": "https://www.zillow.com/homes/5150%20Calle%20Del%20Sol%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -114814,7 +114905,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Lick Mill VTA Station \u2192 VTA Orange Line (Eastbound from Lick Mill to Cisco Way) (5m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Lick Mill VTA Station → VTA Orange Line (Eastbound from Lick Mill to Cisco Way) (5m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -115668,7 +115759,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=5150%20Calle%20Del%20Sol%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "monticello-santa-clara",
@@ -115683,18 +115775,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.1,
     "driveMins": 12,
     "transitMins": 30,
-    "transitMode": "30m total (3m walk \u2192 22m VTA Bus 57 North -> VTA Orange Line East to Cisco Way \u2192 5m walk)",
+    "transitMode": "30m total (3m walk → 22m VTA Bus 57 North -> VTA Orange Line East to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3450,
     "oneBedMax": 3850,
-    "oneBedSqFt": "704\u2013865",
+    "oneBedSqFt": "704–865",
     "bestStartingRent": 3450,
     "recommendedUnit": "1BR ($3,450)",
     "parkingFee": 0,
     "parkingNote": "1 gated underground garage stall included free",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3575,
     "trueMonthly1BR": 3575,
@@ -115720,7 +115812,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Irvine Co. Resort + SVP Electric + $0 Park",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Monticello%20Apartment%20Homes%2C%203555%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095051",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3555%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Monticello%20Apartment%20Homes%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/monticello-apartment-homes-santa-clara-ca/svq6gr4/",
     "zillowUrl": "https://www.zillow.com/homes/3555%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -117881,7 +117973,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Old Ironsides VTA Station \u2192 VTA Bus 57 North -> VTA Orange Line East to Cisco Way (22m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Old Ironsides VTA Station → VTA Bus 57 North -> VTA Orange Line East to Cisco Way (22m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -120351,7 +120443,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3555%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "mylo-santa-clara",
@@ -120366,18 +120459,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.4,
     "driveMins": 15,
     "transitMins": 31,
-    "transitMode": "31m total (4m walk \u2192 22m VTA Bus 57 North -> VTA Orange Line East to Cisco Way \u2192 5m walk)",
+    "transitMode": "31m total (4m walk → 22m VTA Bus 57 North -> VTA Orange Line East to Cisco Way → 5m walk)",
     "studioMin": 2950,
     "studioMax": 3120,
     "studioSqFt": "545",
     "oneBedMin": 3189,
     "oneBedMax": 3650,
-    "oneBedSqFt": "721\u2013850",
+    "oneBedSqFt": "721–850",
     "bestStartingRent": 2950,
     "recommendedUnit": "Studio ($2,950) or 1BR ($3,189)",
     "parkingFee": 75,
     "parkingNote": "Gated subterranean garage (~$75/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3150,
     "trueMonthly1BR": 3389,
@@ -120403,7 +120496,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Modern Santa Clara + SVP Electric",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mylo%20Santa%20Clara%2C%203710%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3710%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Mylo%20Santa%20Clara%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/mylo-santa-clara-santa-clara-ca/1rn76d4/",
     "zillowUrl": "https://www.zillow.com/homes/3710%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -122684,7 +122777,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Old Ironsides VTA Station \u2192 VTA Bus 57 North -> VTA Orange Line East to Cisco Way (22m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Old Ironsides VTA Station → VTA Bus 57 North -> VTA Orange Line East to Cisco Way (22m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -124778,7 +124871,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3710%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "lorien-santa-clara",
@@ -124793,18 +124887,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.1,
     "driveMins": 15,
     "transitMins": 34,
-    "transitMode": "34m total (4m walk \u2192 25m VTA Bus 57 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "34m total (4m walk → 25m VTA Bus 57 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": 2890,
     "studioMax": 3150,
     "studioSqFt": "553",
     "oneBedMin": 3076,
     "oneBedMax": 3550,
-    "oneBedSqFt": "712\u2013849",
+    "oneBedSqFt": "712–849",
     "bestStartingRent": 2890,
     "recommendedUnit": "Studio ($2,890) or 1BR ($3,076)",
     "parkingFee": 0,
     "parkingNote": "1 assigned covered parking space included free",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 120,
     "trueMonthlyMin": 3010,
     "trueMonthly1BR": 3196,
@@ -124824,13 +124918,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.2,
     "reviewSource": "Google (4.2) / Apartments.com",
     "amenitiesHighlight": "Heated pool & spa, renovated Ivy collection interiors, gym, $0 parking + SVP power",
-    "praise": "4.2\u2605 Equity Residential community in quiet residential Santa Clara with $0 free parking, cheap SVP electricity, and 712\u2013849 sq ft 1BRs.",
+    "praise": "4.2★ Equity Residential community in quiet residential Santa Clara with $0 free parking, cheap SVP electricity, and 712–849 sq ft 1BRs.",
     "complaints": "Slightly longer 14-min arterial commute up San Tomas Expy / Montague Expy to Cisco.",
     "website": "https://www.equityapartments.com/san-francisco-bay/santa-clara/lorien-apartments",
-    "highlightTag": "4.2\u2605 Santa Clara + SVP Power + $0 Park",
+    "highlightTag": "4.2★ Santa Clara + SVP Power + $0 Park",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lorien%20Apartments%2C%203131%20Homestead%20Rd%2C%20Santa%20Clara%2C%20CA%2095051",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3131%20Homestead%20Rd%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Lorien%20Apartments%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/lorien-santa-clara-ca/ls5tjef/",
     "zillowUrl": "https://www.zillow.com/homes/3131%20Homestead%20Rd%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -127519,7 +127613,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Old Ironsides VTA Station \u2192 VTA Bus 57 North -> VTA Orange Line to Cisco Way (25m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Old Ironsides VTA Station → VTA Bus 57 North -> VTA Orange Line to Cisco Way (25m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -130517,7 +130611,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3131%20Homestead%20Rd%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "catalina-santa-clara",
@@ -130532,7 +130627,7 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.0,
     "driveMins": 14,
     "transitMins": 33,
-    "transitMode": "33m total (4m walk \u2192 24m VTA Bus 57 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "33m total (4m walk → 24m VTA Bus 57 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
@@ -130543,7 +130638,7 @@ const DEFAULT_APARTMENTS = [
     "recommendedUnit": "1BR ($3,150)",
     "parkingFee": 0,
     "parkingNote": "1 assigned covered parking space included free",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 120,
     "trueMonthlyMin": 3270,
     "trueMonthly1BR": 3270,
@@ -130565,11 +130660,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Resort pool & sundeck, fitness center, gated entry, $0 parking + cheap SVP electricity",
     "praise": "All-in 1BR cost stays around ~$3,270/mo thanks to $0 included parking and ultra-cheap Santa Clara SVP municipal electric.",
     "complaints": "Garden-style walk-up buildings; visitor parking requires permit.",
-    "website": "https://www.deanzaproperties.com/apartments/ca/santa-clara/catalina-luxury-apartments/",
+    "website": "https://www.deanzaproperties.com/south-bay-area/catalina-luxury-apartments/",
     "highlightTag": "$0 Parking + Cheap SVP Electric",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Catalina%20Luxury%20Apartments%2C%203600%20Flora%20Vista%20Ave%2C%20Santa%20Clara%2C%20CA%2095051",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3600%20Flora%20Vista%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Catalina%20Luxury%20Apartments%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/catalina-luxury-apartments-santa-clara-ca/5d8x1hm/",
     "zillowUrl": "https://www.zillow.com/homes/3600%20Flora%20Vista%20Ave%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -133086,7 +133181,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Old Ironsides VTA Station \u2192 VTA Bus 57 North -> VTA Orange Line to Cisco Way (24m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Old Ironsides VTA Station → VTA Bus 57 North -> VTA Orange Line to Cisco Way (24m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -136084,7 +136179,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3600%20Flora%20Vista%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "villa-granada",
@@ -136099,18 +136195,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.2,
     "driveMins": 12,
     "transitMins": 30,
-    "transitMode": "30m total (3m walk \u2192 22m VTA Bus 57 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "30m total (3m walk → 22m VTA Bus 57 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3427,
     "oneBedMax": 3595,
-    "oneBedSqFt": "745\u2013760",
+    "oneBedSqFt": "745–760",
     "bestStartingRent": 3427,
     "recommendedUnit": "1BR ($3,427)",
     "parkingFee": 50,
     "parkingNote": "Gated subterranean garage (~$50/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3602,
     "trueMonthly1BR": 3602,
@@ -136130,13 +136226,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.6,
     "reviewSource": "Google (3.6) / Apartments.com",
     "amenitiesHighlight": "Pool & spa, courtyard BBQ, fitness center, cheap SVP municipal electric",
-    "praise": "Spacious 745\u2013760 sq ft 1-bedroom floor plans with Central A/C, In-Unit W/D, and cheap Santa Clara SVP power.",
+    "praise": "Spacious 745–760 sq ft 1-bedroom floor plans with Central A/C, In-Unit W/D, and cheap Santa Clara SVP power.",
     "complaints": "Essex utility billing admin fees; busy Lawrence Expy intersection nearby.",
     "website": "https://www.essexapartmenthomes.com/apartments/santa-clara/villa-granada",
     "highlightTag": "Spacious 750 Sq Ft 1BR + SVP Power",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Granada%2C%203595%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3595%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Villa%20Granada%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/villa-granada-santa-clara-ca/q89dqzw/",
     "zillowUrl": "https://www.zillow.com/homes/3595%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -138297,7 +138393,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Old Ironsides VTA Station \u2192 VTA Bus 57 North -> VTA Orange Line to Cisco Way (22m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Old Ironsides VTA Station → VTA Bus 57 North -> VTA Orange Line to Cisco Way (22m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -140663,7 +140759,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3595%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "cobalt-santa-clara",
@@ -140678,18 +140775,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.5,
     "driveMins": 11,
     "transitMins": 30,
-    "transitMode": "30m total (3m walk \u2192 22m VTA Bus 59 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "30m total (3m walk → 22m VTA Bus 59 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": 3150,
     "studioMax": 3350,
     "studioSqFt": "540",
     "oneBedMin": 3419,
     "oneBedMax": 3773,
-    "oneBedSqFt": "663\u2013772",
+    "oneBedSqFt": "663–772",
     "bestStartingRent": 3150,
     "recommendedUnit": "Studio ($3,150) or 1BR ($3,419)",
     "parkingFee": 75,
     "parkingNote": "Underground gated garage (~$75/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3350,
     "trueMonthly1BR": 3619,
@@ -140711,11 +140808,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Rooftop lounge, resort pool & spa, Prometheus hospitality, cheap SVP municipal power",
     "praise": "Up to 6 weeks free (-$390/mo) brings net effective rent near ~$3,000/mo in Santa Clara with cheap SVP electricity and Target right across the street!",
     "complaints": "Unbundled $75/mo parking; El Camino road noise on outward-facing balconies.",
-    "website": "https://www.prometheusapartments.com/ca/santa-clara-apartments/cobalt",
+    "website": "https://prometheusapartments.com/ca/santa-clara-apartments/cobalt",
     "highlightTag": "6 Weeks Free (-$390/mo) + Target Across St",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cobalt%20Apartments%2C%202655%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2655%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Cobalt%20Apartments%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/cobalt-santa-clara-ca/pnpkzps/",
     "zillowUrl": "https://www.zillow.com/homes/2655%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -142476,7 +142573,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Lick Mill VTA Station \u2192 VTA Bus 59 North -> VTA Orange Line to Cisco Way (22m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Lick Mill VTA Station → VTA Bus 59 North -> VTA Orange Line to Cisco Way (22m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -144242,7 +144339,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=2655%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "orlo-santa-clara",
@@ -144257,18 +144355,18 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 4.9,
     "driveMins": 10,
     "transitMins": 27,
-    "transitMode": "27m total (4m walk \u2192 18m VTA Bus 60 North -> VTA Blue Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "27m total (4m walk → 18m VTA Bus 60 North -> VTA Blue Line to Cisco Way → 5m walk)",
     "studioMin": 3450,
     "studioMax": 3650,
-    "studioSqFt": "534\u2013587",
+    "studioSqFt": "534–587",
     "oneBedMin": 3495,
     "oneBedMax": 3950,
-    "oneBedSqFt": "687\u2013714",
+    "oneBedSqFt": "687–714",
     "bestStartingRent": 3450,
     "recommendedUnit": "Studio ($3,450) or 1BR ($3,495)",
     "parkingFee": 100,
     "parkingNote": "Controlled-access garage (~$100/mo; EV chargers available)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 130,
     "trueMonthlyMin": 3680,
     "trueMonthly1BR": 3725,
@@ -144290,11 +144388,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Brand-new resort pool, two-story gym, co-working hub, Costco & Santa Clara Caltrain nearby, SVP power",
     "praise": "Huge 8-weeks-free + $1,000 bonus special knocks ~$530/mo off net rent; brand-new construction with cheap Santa Clara SVP power!",
     "complaints": "High base rent before applying the 8-weeks-free lease special; $100/mo parking.",
-    "website": "https://www.hollandresidential.com/ca/santa-clara/orlo",
+    "website": "https://www.hollandresidential.com/ca/santa-clara/orlo-alba",
     "highlightTag": "8 Weeks Free (-$530/mo) + Brand-New SVP Build",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Orlo%20at%20Gateway%20Crossing%2C%201200%20Rickabaugh%20Way%2C%20Santa%20Clara%2C%20CA%2095050",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1200%20Rickabaugh%20Way%2C%20Santa%20Clara%2C%20CA%2095050&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Orlo%20at%20Gateway%20Crossing%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/orlo-and-alba-santa-clara-ca/1pw4vv6/",
     "zillowUrl": "https://www.zillow.com/homes/1200%20Rickabaugh%20Way%2C%20Santa%20Clara%2C%20CA%2095050_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -146375,7 +146473,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Karina VTA Station \u2192 VTA Bus 60 North -> VTA Blue Line to Cisco Way (18m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Karina VTA Station → VTA Bus 60 North -> VTA Blue Line to Cisco Way (18m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -148229,7 +148327,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1200%20Rickabaugh%20Way%2C%20Santa%20Clara%2C%20CA%2095050&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "domicilio-santa-clara",
@@ -148244,7 +148343,7 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.1,
     "driveMins": 10,
     "transitMins": 28,
-    "transitMode": "28m total (4m walk \u2192 19m VTA Bus 60 -> VTA Blue Line North to Cisco Way \u2192 5m walk)",
+    "transitMode": "28m total (4m walk → 19m VTA Bus 60 -> VTA Blue Line North to Cisco Way → 5m walk)",
     "studioMin": 3250,
     "studioMax": 3450,
     "studioSqFt": "489",
@@ -148255,7 +148354,7 @@ const DEFAULT_APARTMENTS = [
     "recommendedUnit": "Studio ($3,250) or 1BR ($3,495)",
     "parkingFee": 50,
     "parkingNote": "Gated subterranean garage (~$50/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3425,
     "trueMonthly1BR": 3670,
@@ -148275,13 +148374,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com",
     "amenitiesHighlight": "Boutique Mediterranean pool courtyard, outdoor fireplace, gym, cheap SVP electric, huge 871 sq ft 1BRs",
-    "praise": "4.1\u2605 boutique Santa Clara community with massive 871 sq ft 1BR floor plans and 60% cheaper Silicon Valley Power electricity.",
+    "praise": "4.1★ boutique Santa Clara community with massive 871 sq ft 1BR floor plans and 60% cheaper Silicon Valley Power electricity.",
     "complaints": "Select an interior courtyard unit away from El Camino Real traffic.",
     "website": "https://www.domicilioapts.com/",
-    "highlightTag": "4.1\u2605 Boutique + 871 Sq Ft 1BR + SVP Power",
+    "highlightTag": "4.1★ Boutique + 871 Sq Ft 1BR + SVP Power",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Domicilio%20Apartments%2C%20431%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095050",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=431%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095050&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Domicilio%20Apartments%20Santa%20Clara",
+    "listingUrl": "https://www.apartments.com/domicilio-santa-clara-ca/6x81pwt/",
     "zillowUrl": "https://www.zillow.com/homes/431%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095050_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -150258,7 +150357,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Metro / Airport VTA Station \u2192 VTA Bus 60 -> VTA Blue Line North to Cisco Way (19m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Metro / Airport VTA Station → VTA Bus 60 -> VTA Blue Line North to Cisco Way (19m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -151880,7 +151979,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=431%20El%20Camino%20Real%2C%20Santa%20Clara%2C%20CA%2095050&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "mission-pointe-windsor",
@@ -151895,13 +151995,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.2,
     "driveMins": 11,
     "transitMins": 22,
-    "transitMode": "22m total (3m walk \u2192 14m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "22m total (3m walk → 14m VTA Orange Line → 5m walk)",
     "studioMin": 2850,
     "studioMax": 3050,
     "studioSqFt": "560",
     "oneBedMin": 3125,
     "oneBedMax": 3490,
-    "oneBedSqFt": "710\u2013830",
+    "oneBedSqFt": "710–830",
     "bestStartingRent": 2850,
     "recommendedUnit": "Studio ($2,850) or 1BR ($3,125)",
     "parkingFee": 0,
@@ -151928,11 +152028,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Resort pool & spa, 24-hr gym, movie theater, steps from Crossman/Fair Oaks VTA Orange Line",
     "praise": "Direct VTA Orange Line train ride straight down Tasman Dr to Cisco Way (no transfers!) or 9-min drive via Hwy 237 E; $0 included parking.",
     "complaints": "Quiet residential/tech park pocket of North Sunnyvale with fewer late-night bars.",
-    "website": "https://www.missionpointebywindsor.com/",
+    "website": "https://www.windsorcommunities.com/properties/mission-pointe-by-windsor/",
     "highlightTag": "Direct VTA Orange Line to Cisco + $0 Park",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mission%20Pointe%20by%20Windsor%2C%201063%20Morse%20Ave%2C%20Sunnyvale%2C%20CA%2094089",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1063%20Morse%20Ave%2C%20Sunnyvale%2C%20CA%2094089&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Mission%20Pointe%20by%20Windsor%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/mission-pointe-by-windsor-sunnyvale-ca/j83gb95/",
     "zillowUrl": "https://www.zillow.com/homes/1063%20Morse%20Ave%2C%20Sunnyvale%2C%20CA%2094089_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -152941,7 +153041,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Crossman VTA Station \u2192 VTA Orange Line (Direct Eastbound to Cisco Way) (14m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Crossman VTA Station → VTA Orange Line (Direct Eastbound to Cisco Way) (14m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -153291,7 +153391,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1063%20Morse%20Ave%2C%20Sunnyvale%2C%20CA%2094089&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "encasa-sunnyvale",
@@ -153306,13 +153407,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.4,
     "driveMins": 12,
     "transitMins": 24,
-    "transitMode": "24m total (6m walk \u2192 13m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "24m total (6m walk → 13m VTA Orange Line → 5m walk)",
     "studioMin": 3115,
     "studioMax": 3450,
     "studioSqFt": "571",
     "oneBedMin": 3490,
     "oneBedMax": 3900,
-    "oneBedSqFt": "811\u2013895",
+    "oneBedSqFt": "811–895",
     "bestStartingRent": 3115,
     "recommendedUnit": "Studio ($3,115) or 1BR ($3,490)",
     "parkingFee": 0,
@@ -153336,14 +153437,14 @@ const DEFAULT_APARTMENTS = [
     "legitimacy": "Verified Active Community (Greystar)",
     "rating": 3.8,
     "reviewSource": "Google (3.8) / Apartments.com",
-    "amenitiesHighlight": "2.5-acre central park, resort pool, bowling alley, pizza oven, huge 811\u2013895 sq ft 1BRs",
+    "amenitiesHighlight": "2.5-acre central park, resort pool, bowling alley, pizza oven, huge 811–895 sq ft 1BRs",
     "praise": "Resort-scale amenities (private bowling lanes, 2.5-acre park, huge 811+ sq ft 1BRs) and a 9-minute straight shot on Hwy 237 E to Cisco.",
     "complaints": "Higher base pricing before the 4-weeks-free concession.",
     "website": "https://www.encasaliving.com/",
     "highlightTag": "Private Bowling Alley + $0 Parking (Sunnyvale)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Encasa%20Apartments%2C%20550%20E%20Weddell%20Dr%2C%20Sunnyvale%2C%20CA%2094089",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=550%20E%20Weddell%20Dr%2C%20Sunnyvale%2C%20CA%2094089&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Encasa%20Apartments%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/encasa-sunnyvale-ca/s1ktnb6/",
     "zillowUrl": "https://www.zillow.com/homes/550%20E%20Weddell%20Dr%2C%20Sunnyvale%2C%20CA%2094089_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -154628,7 +154729,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (6m) to Fair Oaks VTA Station \u2192 VTA Orange Line (Direct Eastbound from Fair Oaks to Cisco Way) (13m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (6m) to Fair Oaks VTA Station → VTA Orange Line (Direct Eastbound from Fair Oaks to Cisco Way) (13m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -155418,7 +155519,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=550%20E%20Weddell%20Dr%2C%20Sunnyvale%2C%20CA%2094089&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-arches-sunnyvale",
@@ -155433,13 +155535,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.0,
     "driveMins": 11,
     "transitMins": 23,
-    "transitMode": "23m total (7m walk \u2192 11m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "23m total (7m walk → 11m VTA Orange Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3040,
     "oneBedMax": 3250,
-    "oneBedSqFt": "620\u2013676",
+    "oneBedSqFt": "620–676",
     "bestStartingRent": 3040,
     "recommendedUnit": "1BR ($3,040)",
     "parkingFee": 0,
@@ -155470,7 +155572,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "5.1 Mi to Cisco + $0 Included Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Arches%20Apartments%2C%201235%20Wildwood%20Ave%2C%20Sunnyvale%2C%20CA%2094089",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1235%20Wildwood%20Ave%2C%20Sunnyvale%2C%20CA%2094089&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Arches%20Apartments%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/the-arches-sunnyvale-ca/fvycn0r/",
     "zillowUrl": "https://www.zillow.com/homes/1235%20Wildwood%20Ave%2C%20Sunnyvale%2C%20CA%2094089_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -156567,7 +156669,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (7m) to Vienna VTA Station \u2192 VTA Orange Line (Direct Eastbound from Vienna Station to Cisco Way) (11m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (7m) to Vienna VTA Station → VTA Orange Line (Direct Eastbound from Vienna Station to Cisco Way) (11m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -157157,7 +157259,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1235%20Wildwood%20Ave%2C%20Sunnyvale%2C%20CA%2094089&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-montclaire-sunnyvale",
@@ -157172,7 +157275,7 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.6,
     "driveMins": 12,
     "transitMins": 27,
-    "transitMode": "27m total (4m walk \u2192 18m VTA Bus 55 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "27m total (4m walk → 18m VTA Bus 55 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": 2640,
     "studioMax": 2820,
     "studioSqFt": "410",
@@ -157209,7 +157312,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "$2,640 Sunnyvale Studio + $0 Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Montclaire%2C%20450%20N%20Mathilda%20Ave%2C%20Sunnyvale%2C%20CA%2094085",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=450%20N%20Mathilda%20Ave%2C%20Sunnyvale%2C%20CA%2094085&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Montclaire%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/the-montclaire-sunnyvale-ca/x4m85qp/",
     "zillowUrl": "https://www.zillow.com/homes/450%20N%20Mathilda%20Ave%2C%20Sunnyvale%2C%20CA%2094085_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -158742,7 +158845,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Moffett Park VTA Station \u2192 VTA Bus 55 North -> VTA Orange Line to Cisco Way (18m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Moffett Park VTA Station → VTA Bus 55 North -> VTA Orange Line to Cisco Way (18m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -159996,7 +160099,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=450%20N%20Mathilda%20Ave%2C%20Sunnyvale%2C%20CA%2094085&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "windsor-ridge-sunnyvale",
@@ -160011,13 +160115,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.2,
     "driveMins": 14,
     "transitMins": 30,
-    "transitMode": "30m total (4m walk \u2192 21m VTA Bus 56 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "30m total (4m walk → 21m VTA Bus 56 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3100,
     "oneBedMax": 3550,
-    "oneBedSqFt": "700\u2013800",
+    "oneBedSqFt": "700–800",
     "bestStartingRent": 3100,
     "recommendedUnit": "1BR ($3,100)",
     "parkingFee": 0,
@@ -160042,13 +160146,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.5,
     "reviewSource": "Google (3.5) / Apartments.com",
     "amenitiesHighlight": "Swimming pool & spa, fitness center, tennis courts, $0 parking, near Lawrence & Sunnyvale Caltrain",
-    "praise": "Spacious 700\u2013800 sq ft 1BR floor plans with Central A/C, In-Unit W/D, and $0 included parking.",
+    "praise": "Spacious 700–800 sq ft 1BR floor plans with Central A/C, In-Unit W/D, and $0 included parking.",
     "complaints": "Caltrain tracks run parallel to Evelyn Ave (choose a courtyard-facing unit).",
     "website": "https://www.essexapartmenthomes.com/apartments/sunnyvale/windsor-ridge",
     "highlightTag": "Spacious Sunnyvale 1BR + $0 Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Windsor%20Ridge%2C%20829%20E%20Evelyn%20Ave%2C%20Sunnyvale%2C%20CA%2094086",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=829%20E%20Evelyn%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Windsor%20Ridge%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/windsor-ridge-sunnyvale-ca/nsgs57p/",
     "zillowUrl": "https://www.zillow.com/homes/829%20E%20Evelyn%20Ave%2C%20Sunnyvale%2C%20CA%2094086_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -162013,7 +162117,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Fair Oaks VTA Station \u2192 VTA Bus 56 North -> VTA Orange Line to Cisco Way (21m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Fair Oaks VTA Station → VTA Bus 56 North -> VTA Orange Line to Cisco Way (21m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -163587,7 +163691,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=829%20E%20Evelyn%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "briarwood-sunnyvale",
@@ -163602,13 +163707,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.4,
     "driveMins": 13,
     "transitMins": 26,
-    "transitMode": "26m total (4m walk \u2192 17m VTA Bus 56 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "26m total (4m walk → 17m VTA Bus 56 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3211,
     "oneBedMax": 3500,
-    "oneBedSqFt": "556\u2013640",
+    "oneBedSqFt": "556–640",
     "bestStartingRent": 3211,
     "recommendedUnit": "1BR ($3,211)",
     "parkingFee": 0,
@@ -163633,13 +163738,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.0,
     "reviewSource": "Google (4.0) / Apartments.com",
     "amenitiesHighlight": "Pool & hot tub, fitness center, quiet residential cul-de-sac, $0 parking",
-    "praise": "4.0\u2605 Equity Residential community tucked on a quiet cul-de-sac off Fair Oaks Ave with $0 included parking and fast Hwy 237/101 access to Cisco.",
+    "praise": "4.0★ Equity Residential community tucked on a quiet cul-de-sac off Fair Oaks Ave with $0 included parking and fast Hwy 237/101 access to Cisco.",
     "complaints": "Entry 1BR floor plan (556 sq ft) is compact.",
     "website": "https://www.equityapartments.com/san-francisco-bay/sunnyvale/briarwood-apartments",
-    "highlightTag": "4.0\u2605 Quiet Sunnyvale Cul-de-Sac + $0 Park",
+    "highlightTag": "4.0★ Quiet Sunnyvale Cul-de-Sac + $0 Park",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Briarwood%20Apartments%2C%20180%20Pasito%20Terrace%2C%20Sunnyvale%2C%20CA%2094086",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=180%20Pasito%20Terrace%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Briarwood%20Apartments%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/briarwood-sunnyvale-ca/v07q4kg/",
     "zillowUrl": "https://www.zillow.com/homes/180%20Pasito%20Terrace%2C%20Sunnyvale%2C%20CA%2094086_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -165740,7 +165845,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Fair Oaks VTA Station \u2192 VTA Bus 56 North -> VTA Orange Line to Cisco Way (17m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Fair Oaks VTA Station → VTA Bus 56 North -> VTA Orange Line to Cisco Way (17m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -167146,7 +167251,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=180%20Pasito%20Terrace%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "spruce-sunnyvale",
@@ -167161,13 +167267,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.2,
     "driveMins": 15,
     "transitMins": 29,
-    "transitMode": "29m total (3m walk \u2192 21m VTA Bus 56 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "29m total (3m walk → 21m VTA Bus 56 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": 2610,
     "studioMax": 3110,
-    "studioSqFt": "416\u2013480",
+    "studioSqFt": "416–480",
     "oneBedMin": 3400,
     "oneBedMax": 3800,
-    "oneBedSqFt": "546\u2013676",
+    "oneBedSqFt": "546–676",
     "bestStartingRent": 2610,
     "recommendedUnit": "Studio ($2,610) or 1BR ($3,400)",
     "parkingFee": 0,
@@ -167192,13 +167298,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.0,
     "reviewSource": "Google (4.0) / Apartments.com",
     "amenitiesHighlight": "Resort pool & spa, modern gym, clubhouse, $0 parking, 5 mins to Downtown Sunnyvale",
-    "praise": "4.0\u2605 Prometheus management with Studios starting at $2,610 and $0 free parking near Downtown Sunnyvale.",
-    "complaints": "Fair Oaks Ave traffic during commute hours; studios are cozy (416\u2013480 sq ft).",
-    "website": "https://prometheusapartments.com/ca/sunnyvale-apartments/spruce/",
-    "highlightTag": "4.0\u2605 Prometheus Mgmt + $2,610 Studio ($0 Park)",
+    "praise": "4.0★ Prometheus management with Studios starting at $2,610 and $0 free parking near Downtown Sunnyvale.",
+    "complaints": "Fair Oaks Ave traffic during commute hours; studios are cozy (416–480 sq ft).",
+    "website": "https://prometheusapartments.com/ca/sunnyvale-apartments/spruce",
+    "highlightTag": "4.0★ Prometheus Mgmt + $2,610 Studio ($0 Park)",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Spruce%20Apartments%2C%20655%20S%20Fair%20Oaks%20Ave%2C%20Sunnyvale%2C%20CA%2094086",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=655%20S%20Fair%20Oaks%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Spruce%20Apartments%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/spruce-apartments-sunnyvale-ca/prxrltv/",
     "zillowUrl": "https://www.zillow.com/homes/655%20S%20Fair%20Oaks%20Ave%2C%20Sunnyvale%2C%20CA%2094086_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -169359,7 +169465,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Fair Oaks VTA Station \u2192 VTA Bus 56 North -> VTA Orange Line to Cisco Way (21m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Fair Oaks VTA Station → VTA Bus 56 North -> VTA Orange Line to Cisco Way (21m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -170989,7 +171095,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=655%20S%20Fair%20Oaks%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "arbor-terrace-sunnyvale",
@@ -171004,7 +171111,7 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.4,
     "driveMins": 15,
     "transitMins": 31,
-    "transitMode": "31m total (4m walk \u2192 22m VTA Bus 56 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "31m total (4m walk → 22m VTA Bus 56 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": 2550,
     "studioMax": 2750,
     "studioSqFt": "400",
@@ -171041,7 +171148,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "$2,550 Sunnyvale Studio + $0 Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Arbor%20Terrace%2C%20555%20E%20El%20Camino%20Real%2C%20Sunnyvale%2C%20CA%2094087",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=555%20E%20El%20Camino%20Real%2C%20Sunnyvale%2C%20CA%2094087&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Arbor%20Terrace%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/arbor-terrace-sunnyvale-ca/z3qzypx/",
     "zillowUrl": "https://www.zillow.com/homes/555%20E%20El%20Camino%20Real%2C%20Sunnyvale%2C%20CA%2094087_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -173306,7 +173413,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Fair Oaks VTA Station \u2192 VTA Bus 56 North -> VTA Orange Line to Cisco Way (22m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Fair Oaks VTA Station → VTA Bus 56 North -> VTA Orange Line to Cisco Way (22m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -175040,7 +175147,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=555%20E%20El%20Camino%20Real%2C%20Sunnyvale%2C%20CA%2094087&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "magnolia-square-sunnyvale",
@@ -175055,13 +175163,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 8.8,
     "driveMins": 15,
     "transitMins": 32,
-    "transitMode": "32m total (5m walk \u2192 22m VTA Bus 55 -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "32m total (5m walk → 22m VTA Bus 55 -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3467,
     "oneBedMax": 3657,
-    "oneBedSqFt": "734\u2013735",
+    "oneBedSqFt": "734–735",
     "bestStartingRent": 3467,
     "recommendedUnit": "1BR ($3,467)",
     "parkingFee": 0,
@@ -175092,7 +175200,7 @@ const DEFAULT_APARTMENTS = [
     "highlightTag": "Quiet West Sunnyvale + $0 Parking",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Magnolia%20Square%2C%20107%20S%20Mary%20Ave%2C%20Sunnyvale%2C%20CA%2094086",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=107%20S%20Mary%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Magnolia%20Square%20Sunnyvale",
+    "listingUrl": "https://www.apartments.com/magnolia-square-sunnyvale-ca/zstdbqz/",
     "zillowUrl": "https://www.zillow.com/homes/107%20S%20Mary%20Ave%2C%20Sunnyvale%2C%20CA%2094086_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -176925,7 +177033,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Lockheed Martin VTA Station \u2192 VTA Bus 55 -> VTA Orange Line to Cisco Way (22m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Lockheed Martin VTA Station → VTA Bus 55 -> VTA Orange Line to Cisco Way (22m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -178291,7 +178399,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=107%20S%20Mary%20Ave%2C%20Sunnyvale%2C%20CA%2094086&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "pavona-japantown",
@@ -178306,13 +178415,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.1,
     "driveMins": 11,
     "transitMins": 24,
-    "transitMode": "24m total (6m walk \u2192 13m VTA Blue Line \u2192 5m walk)",
+    "transitMode": "24m total (6m walk → 13m VTA Blue Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3052,
     "oneBedMax": 3350,
-    "oneBedSqFt": "531\u2013808",
+    "oneBedSqFt": "531–808",
     "bestStartingRent": 3052,
     "recommendedUnit": "1BR ($3,052)",
     "parkingFee": 50,
@@ -178337,13 +178446,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.9,
     "reviewSource": "Google (3.9) / Apartments.com",
     "amenitiesHighlight": "Heated year-round pool & hot tub, 24-hr gym, lush Japantown courtyards, free guest parking lot",
-    "praise": "Peaceful, lushly landscaped courtyards in walkable Japantown right next to Sixth & Jackson for ~$100\u2013$200/mo less; rare free guest parking lot!",
+    "praise": "Peaceful, lushly landscaped courtyards in walkable Japantown right next to Sixth & Jackson for ~$100–$200/mo less; rare free guest parking lot!",
     "complaints": "Union Pacific train tracks nearby (pick an interior courtyard-facing apartment).",
-    "website": "https://www.windsorcommunities.com/properties/pavona/",
+    "website": "https://www.windsorcommunities.com/properties/pavona-apartments/",
     "highlightTag": "Walkable Japantown + Rare Free Guest Lot",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pavona%20Apartments%2C%20760%20N%207th%20St%2C%20San%20Jose%2C%20CA%2095112",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=760%20N%207th%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Pavona%20Apartments%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/pavona-apartments-san-jose-ca/qf6de5z/",
     "zillowUrl": "https://www.zillow.com/homes/760%20N%207th%20St%2C%20San%20Jose%2C%20CA%2095112_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -179840,7 +179949,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (6m) to Japantown / Ayer VTA Station \u2192 VTA Blue Line (Northbound from Japantown/Ayer to Cisco Way) (13m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (6m) to Japantown / Ayer VTA Station → VTA Blue Line (Northbound from Japantown/Ayer to Cisco Way) (13m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -180390,7 +180499,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=760%20N%207th%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "cannery-park-windsor",
@@ -180405,13 +180515,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.1,
     "driveMins": 11,
     "transitMins": 25,
-    "transitMode": "25m total (7m walk \u2192 13m VTA Blue Line \u2192 5m walk)",
+    "transitMode": "25m total (7m walk → 13m VTA Blue Line → 5m walk)",
     "studioMin": 2900,
     "studioMax": 3200,
-    "studioSqFt": "561\u2013572",
+    "studioSqFt": "561–572",
     "oneBedMin": 3450,
     "oneBedMax": 3800,
-    "oneBedSqFt": "678\u2013834",
+    "oneBedSqFt": "678–834",
     "bestStartingRent": 2900,
     "recommendedUnit": "Studio ($2,900) or 1BR ($3,450)",
     "parkingFee": 40,
@@ -180436,13 +180546,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.3,
     "reviewSource": "Google (4.3) / Apartments.com",
     "amenitiesHighlight": "35,000+ sq ft courtyard, resort pool, yoga lawn, Schlage smart locks, low $40/mo parking",
-    "praise": "4.3\u2605 newer luxury construction (2019) in Japantown with Studios under $3,000, low $40/mo parking, and 35,000 sq ft of courtyard amenities.",
+    "praise": "4.3★ newer luxury construction (2019) in Japantown with Studios under $3,000, low $40/mo parking, and 35,000 sq ft of courtyard amenities.",
     "complaints": "Occasional footstep noise between wood-framed floors (choose a top-floor unit).",
     "website": "https://www.windsorcommunities.com/properties/cannery-park-by-windsor/",
-    "highlightTag": "4.3\u2605 Japantown Luxury + $2,900 Studio",
+    "highlightTag": "4.3★ Japantown Luxury + $2,900 Studio",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cannery%20Park%20by%20Windsor%2C%20415%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=415%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Cannery%20Park%20by%20Windsor%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/cannery-park-by-windsor-san-jose-ca/43ekybk/",
     "zillowUrl": "https://www.zillow.com/homes/415%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -182043,7 +182153,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (7m) to Japantown / Ayer VTA Station \u2192 VTA Blue Line (Northbound from Japantown/Ayer to Cisco Way) (13m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (7m) to Japantown / Ayer VTA Station → VTA Blue Line (Northbound from Japantown/Ayer to Cisco Way) (13m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -182841,7 +182951,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=415%20E%20Taylor%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "villa-torino",
@@ -182856,13 +182967,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 5.8,
     "driveMins": 11,
     "transitMins": 19,
-    "transitMode": "19m total (1m walk \u2192 13m VTA Blue Line \u2192 5m walk)",
+    "transitMode": "19m total (1m walk → 13m VTA Blue Line → 5m walk)",
     "studioMin": 2625,
     "studioMax": 2850,
     "studioSqFt": "540",
     "oneBedMin": 2940,
     "oneBedMax": 3280,
-    "oneBedSqFt": "720\u2013840",
+    "oneBedSqFt": "720–840",
     "bestStartingRent": 2625,
     "recommendedUnit": "Studio ($2,625) or 1BR ($2,940)",
     "parkingFee": 75,
@@ -182889,11 +183000,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Courtyard pool & spa, fitness center, Japantown walkability, Japantown/Ayer VTA station at front door",
     "praise": "Japantown/Ayer VTA Blue Line station sits literally at the front steps (direct train ride up N. 1st St to Cisco Way); both Studios ($2,625) and 1BRs ($2,940) are under $3,000!",
     "complaints": "Light rail bell audible on N 1st St-facing units (request courtyard side).",
-    "website": "https://www.apartments.com/villa-torino-san-jose-ca/",
+    "website": "https://www.villatorinoapts.com/",
     "highlightTag": "VTA Station at Front Door + 1BR Under $2,950",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Torino%2C%20655%20N%201st%20St%2C%20San%20Jose%2C%20CA%2095112",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=655%20N%201st%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Villa%20Torino%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/villa-torino-san-jose-ca/40372th/",
     "zillowUrl": "https://www.zillow.com/homes/655%20N%201st%20St%2C%20San%20Jose%2C%20CA%2095112_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -183958,7 +184069,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (1m) to Japantown / Ayer VTA Station \u2192 VTA Blue Line (Direct Northbound from front door to Cisco Way) (13m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (1m) to Japantown / Ayer VTA Station → VTA Blue Line (Direct Northbound from front door to Cisco Way) (13m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -184204,7 +184315,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=655%20N%201st%20St%2C%20San%20Jose%2C%20CA%2095112&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "360-residences",
@@ -184219,13 +184331,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.1,
     "driveMins": 13,
     "transitMins": 27,
-    "transitMode": "27m total (2m walk \u2192 20m VTA Blue Line \u2192 5m walk)",
+    "transitMode": "27m total (2m walk → 20m VTA Blue Line → 5m walk)",
     "studioMin": 2990,
     "studioMax": 3250,
     "studioSqFt": "610",
     "oneBedMin": 3400,
     "oneBedMax": 3750,
-    "oneBedSqFt": "817\u2013960",
+    "oneBedSqFt": "817–960",
     "bestStartingRent": 2990,
     "recommendedUnit": "Studio ($2,990) or 1BR ($3,400)",
     "parkingFee": 150,
@@ -184249,14 +184361,14 @@ const DEFAULT_APARTMENTS = [
     "legitimacy": "Verified Active Community (Essex Property Trust)",
     "rating": 4.0,
     "reviewSource": "Google (4.0) / Apartments.com",
-    "amenitiesHighlight": "23-story concrete high-rise, elevated lap pool & cabanas, 24-hr gym, huge 817\u2013960 sq ft 1BRs",
-    "praise": "Concrete high-rise soundproofing with huge 817\u2013960 sq ft 1BR layouts right across from Convention Center VTA station.",
+    "amenitiesHighlight": "23-story concrete high-rise, elevated lap pool & cabanas, 24-hr gym, huge 817–960 sq ft 1BRs",
+    "praise": "Concrete high-rise soundproofing with huge 817–960 sq ft 1BR layouts right across from Convention Center VTA station.",
     "complaints": "$150/mo downtown garage fee.",
     "website": "https://www.essexapartmenthomes.com/apartments/san-jose/360-residences",
-    "highlightTag": "Concrete High-Rise + 817\u2013960 Sq Ft 1BRs",
+    "highlightTag": "Concrete High-Rise + 817–960 Sq Ft 1BRs",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=360%20Residences%20%28High-Rise%29%2C%20360%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=360%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=360%20Residences%20%28High-Rise%29%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/360-residences-san-jose-ca/xx7h13n/",
     "zillowUrl": "https://www.zillow.com/homes/360%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -185805,7 +185917,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (2m) to Convention Center VTA Station \u2192 VTA Blue Line (Direct Northbound from Convention Ctr to Cisco Way) (20m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (2m) to Convention Center VTA Station → VTA Blue Line (Direct Northbound from Convention Ctr to Cisco Way) (20m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -186363,11 +186475,12 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=360%20S%20Market%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-fay",
-    "name": "The Fay (SoFA Luxury Tower)",
+    "name": "Flow San Jose (formerly The Fay)",
     "subarea": "Downtown San Jose (SoFA District)",
     "region": "Japantown & Downtown",
     "address": "600 S 1st St, San Jose, CA 95113",
@@ -186378,13 +186491,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.6,
     "driveMins": 14,
     "transitMins": 29,
-    "transitMode": "29m total (4m walk \u2192 20m VTA Blue Line \u2192 5m walk)",
+    "transitMode": "29m total (4m walk → 20m VTA Blue Line → 5m walk)",
     "studioMin": 2850,
     "studioMax": 3300,
-    "studioSqFt": "475\u2013520",
+    "studioSqFt": "475–520",
     "oneBedMin": 3500,
     "oneBedMax": 3955,
-    "oneBedSqFt": "520\u2013650",
+    "oneBedSqFt": "520–650",
     "bestStartingRent": 2850,
     "recommendedUnit": "Studio ($2,850) or 1BR ($3,500)",
     "parkingFee": 175,
@@ -186393,7 +186506,7 @@ const DEFAULT_APARTMENTS = [
     "estUtilitiesAndFees": 220,
     "trueMonthlyMin": 3245,
     "trueMonthly1BR": 3895,
-    "moveInSpecial": "Up to 6\u20138 weeks free on new leases",
+    "moveInSpecial": "Up to 6–8 weeks free on new leases",
     "specialCreditMonthly": 380,
     "effectiveNetRent": 2470,
     "effectiveTrueMonthly": 2865,
@@ -186409,13 +186522,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.4,
     "reviewSource": "Google (4.4) / Apartments.com",
     "amenitiesHighlight": "Rooftop sky pool, co-working floor, state-of-the-art gym, brand-new 2024 SoFA tower",
-    "praise": "4.4\u2605 brand-new luxury tower with rooftop sky pool, Studios under $2,900, and massive 6\u20138 weeks free lease specials (-$380/mo).",
+    "praise": "4.4★ brand-new luxury tower with rooftop sky pool, Studios under $2,900, and massive 6–8 weeks free lease specials (-$380/mo).",
     "complaints": "$175/mo downtown garage parking fee.",
-    "website": "https://www.thefaysj.com/",
-    "highlightTag": "4.4\u2605 Rooftop Sky Pool + 6\u20138 Wks Free",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Fay%20%28SoFA%20Luxury%20Tower%29%2C%20600%20S%201st%20St%2C%20San%20Jose%2C%20CA%2095113",
+    "website": "https://flow.life/en/properties/san-jose",
+    "highlightTag": "4.4★ Rooftop Sky Pool + 6–8 Wks Free",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flow%20San%20Jose%20%28formerly%20The%20Fay%29%2C%20600%20S%201st%20St%2C%20San%20Jose%2C%20CA%2095113",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=600%20S%201st%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Fay%20%28SoFA%20Luxury%20Tower%29%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/flow-san-jose-san-jose-ca/12knvq5/",
     "zillowUrl": "https://www.zillow.com/homes/600%20S%201st%20St%2C%20San%20Jose%2C%20CA%2095113_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -188008,7 +188121,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to 1st & San Carlos \u2192 VTA Blue Line (Northbound up 1st St to Cisco Way) (20m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to 1st & San Carlos → VTA Blue Line (Northbound up 1st St to Cisco Way) (20m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -188630,7 +188743,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=600%20S%201st%20St%2C%20San%20Jose%2C%20CA%2095113&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-pierce",
@@ -188645,13 +188759,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.3,
     "driveMins": 13,
     "transitMins": 29,
-    "transitMode": "29m total (4m walk \u2192 20m VTA Blue Line \u2192 5m walk)",
+    "transitMode": "29m total (4m walk → 20m VTA Blue Line → 5m walk)",
     "studioMin": 3250,
     "studioMax": 3450,
-    "studioSqFt": "580\u2013625",
+    "studioSqFt": "580–625",
     "oneBedMin": 3490,
     "oneBedMax": 3800,
-    "oneBedSqFt": "700\u2013825",
+    "oneBedSqFt": "700–825",
     "bestStartingRent": 3250,
     "recommendedUnit": "Studio ($3,250) or 1BR ($3,490)",
     "parkingFee": 125,
@@ -188675,14 +188789,14 @@ const DEFAULT_APARTMENTS = [
     "legitimacy": "Verified Active Community (CRC Companies)",
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com",
-    "amenitiesHighlight": "Zero-edge pool & courtyard, two-story gym, bike caf\u00e9, walk to SoFA dining & VTA",
-    "praise": "4.1\u2605 rating in the vibrant SoFA arts/dining district; instant I-280/Hwy 87 access for a 13-min commute to Cisco.",
+    "amenitiesHighlight": "Zero-edge pool & courtyard, two-story gym, bike café, walk to SoFA dining & VTA",
+    "praise": "4.1★ rating in the vibrant SoFA arts/dining district; instant I-280/Hwy 87 access for a 13-min commute to Cisco.",
     "complaints": "$125/mo parking fee; weekend nightlife activity along S 1st St.",
     "website": "https://www.thepierce.com/",
-    "highlightTag": "4.1\u2605 SoFA Arts District + 1 Month Free",
+    "highlightTag": "4.1★ SoFA Arts District + 1 Month Free",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Pierce%2C%202%20Pierce%20Ave%2C%20San%20Jose%2C%20CA%2095110",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2%20Pierce%20Ave%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Pierce%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/the-pierce-san-jose-ca/533ct9n/",
     "zillowUrl": "https://www.zillow.com/homes/2%20Pierce%20Ave%2C%20San%20Jose%2C%20CA%2095110_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -190367,7 +190481,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Convention Center VTA Station \u2192 VTA Blue Line (Northbound from Convention Ctr to Cisco Way) (20m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Convention Center VTA Station → VTA Blue Line (Northbound from Convention Ctr to Cisco Way) (20m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -191061,14 +191175,15 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=2%20Pierce%20Ave%2C%20San%20Jose%2C%20CA%2095110&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "diridon-west",
     "name": "Diridon West (Hanover Diridon)",
     "subarea": "Diridon Station / Whole Foods",
     "region": "Midtown & West SJ",
-    "address": "715 W Julian St, San Jose, CA 95126",
+    "address": "717 W Julian St, San Jose, CA 95126",
     "city": "San Jose",
     "zip": "95126",
     "lat": 37.3328,
@@ -191076,13 +191191,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.9,
     "driveMins": 12,
     "transitMins": 33,
-    "transitMode": "33m total (4m walk \u2192 24m VTA Green -> Blue Line \u2192 5m walk)",
+    "transitMode": "33m total (4m walk → 24m VTA Green -> Blue Line → 5m walk)",
     "studioMin": 2800,
     "studioMax": 3300,
-    "studioSqFt": "490\u2013570",
+    "studioSqFt": "490–570",
     "oneBedMin": 3100,
     "oneBedMax": 3700,
-    "oneBedSqFt": "550\u2013800",
+    "oneBedSqFt": "550–800",
     "bestStartingRent": 2800,
     "recommendedUnit": "Studio ($2,800) or 1BR ($3,100)",
     "parkingFee": 150,
@@ -191091,7 +191206,7 @@ const DEFAULT_APARTMENTS = [
     "estUtilitiesAndFees": 215,
     "trueMonthlyMin": 3165,
     "trueMonthly1BR": 3465,
-    "moveInSpecial": "Up to 4\u20136 weeks free on select 12+ mo leases",
+    "moveInSpecial": "Up to 4–6 weeks free on select 12+ mo leases",
     "specialCreditMonthly": 250,
     "effectiveNetRent": 2550,
     "effectiveTrueMonthly": 2915,
@@ -191107,13 +191222,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com",
     "amenitiesHighlight": "Resort pool courtyard, screening room, fitness center, directly across from Whole Foods & Diridon",
-    "praise": "Walk across the street to Whole Foods Market, SAP Center, and Diridon Station; Studios start at $2,800 with 4\u20136 weeks free.",
+    "praise": "Walk across the street to Whole Foods Market, SAP Center, and Diridon Station; Studios start at $2,800 with 4–6 weeks free.",
     "complaints": "$150/mo parking fee; SAP Center event traffic on game nights.",
-    "website": "https://www.diridonwest.com/",
+    "website": "https://diridonwest.com/",
     "highlightTag": "Across from Whole Foods + $2,800 Studio",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Diridon%20West%20%28Hanover%20Diridon%29%2C%20715%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095126",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=715%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Diridon%20West%20%28Hanover%20Diridon%29%20San%20Jose",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Diridon%20West%20%28Hanover%20Diridon%29%2C%20717%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095126",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=717%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/diridon-west-san-jose-ca/l194cvd/",
     "zillowUrl": "https://www.zillow.com/homes/715%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -192534,7 +192649,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Diridon VTA Station \u2192 VTA Green -> Blue Line (from Diridon Station to Cisco Way) (24m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Diridon VTA Station → VTA Green -> Blue Line (from Diridon Station to Cisco Way) (24m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -193116,11 +193231,12 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=717%20W%20Julian%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "modera-the-alameda",
-    "name": "Modera The Alameda",
+    "name": "787 The Alameda (formerly Modera The Alameda)",
     "subarea": "The Alameda (Whole Foods / SAP Center)",
     "region": "Midtown & West SJ",
     "address": "787 The Alameda, San Jose, CA 95126",
@@ -193131,13 +193247,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.1,
     "driveMins": 13,
     "transitMins": 34,
-    "transitMode": "34m total (5m walk \u2192 24m VTA Green -> Blue Line \u2192 5m walk)",
+    "transitMode": "34m total (5m walk → 24m VTA Green -> Blue Line → 5m walk)",
     "studioMin": 2895,
     "studioMax": 3150,
     "studioSqFt": "555",
     "oneBedMin": 3250,
     "oneBedMax": 3620,
-    "oneBedSqFt": "715\u2013835",
+    "oneBedSqFt": "715–835",
     "bestStartingRent": 2895,
     "recommendedUnit": "Studio ($2,895) or 1BR ($3,250)",
     "parkingFee": 125,
@@ -193162,13 +193278,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.2,
     "reviewSource": "Google (4.2) / Apartments.com",
     "amenitiesHighlight": "Rooftop deck, hotel-inspired pool, club-quality gym, next door to Whole Foods on The Alameda",
-    "praise": "4.2\u2605 rating right next door to Whole Foods on The Alameda; high-end Mill Creek finishes and walkable to Diridon Station.",
+    "praise": "4.2★ rating right next door to Whole Foods on The Alameda; high-end Mill Creek finishes and walkable to Diridon Station.",
     "complaints": "$125/mo parking fee; The Alameda arterial traffic.",
-    "website": "https://www.millcreekplaces.com/community/modera-the-alameda/",
-    "highlightTag": "4.2\u2605 Next Door to Whole Foods on The Alameda",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Modera%20The%20Alameda%2C%20787%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126",
+    "website": "https://www.787thealameda.com/",
+    "highlightTag": "4.2★ Next Door to Whole Foods on The Alameda",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=787%20The%20Alameda%20%28formerly%20Modera%20The%20Alameda%29%2C%20787%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=787%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Modera%20The%20Alameda%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/787-the-alameda-san-jose-ca/7f64s5w/",
     "zillowUrl": "https://www.zillow.com/homes/787%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -194701,7 +194817,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Diridon VTA Station \u2192 VTA Green -> Blue Line (from Diridon Station to Cisco Way) (24m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Diridon VTA Station → VTA Green -> Blue Line (from Diridon Station to Cisco Way) (24m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -195395,11 +195511,12 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=787%20The%20Alameda%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "avalon-morrison-park",
-    "name": "Avalon Morrison Park",
+    "name": "Bell Diridon (formerly Avalon Morrison Park)",
     "subarea": "The Alameda / Morrison Park",
     "region": "Midtown & West SJ",
     "address": "355 Stockton Ave, San Jose, CA 95126",
@@ -195410,13 +195527,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 6.9,
     "driveMins": 12,
     "transitMins": 34,
-    "transitMode": "34m total (5m walk \u2192 24m VTA Green -> Blue Line \u2192 5m walk)",
+    "transitMode": "34m total (5m walk → 24m VTA Green -> Blue Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3000,
     "oneBedMax": 3450,
-    "oneBedSqFt": "700\u2013950",
+    "oneBedSqFt": "700–950",
     "bestStartingRent": 3000,
     "recommendedUnit": "1BR ($3,000)",
     "parkingFee": 100,
@@ -195441,13 +195558,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.2,
     "reviewSource": "Google (4.2) / Apartments.com",
     "amenitiesHighlight": "Heated pool & spa, fitness center, courtyard BBQ, 2 blocks to Whole Foods & Diridon",
-    "praise": "4.2\u2605 AvalonBay community with huge 700\u2013950 sq ft 1BRs starting right at $3,000/mo, two blocks from Whole Foods.",
+    "praise": "4.2★ AvalonBay community with huge 700–950 sq ft 1BRs starting right at $3,000/mo, two blocks from Whole Foods.",
     "complaints": "Train horn near Diridon Station if windows are open.",
-    "website": "https://www.avaloncommunities.com/california/san-jose-apartments/avalon-morrison-park/",
-    "highlightTag": "4.2\u2605 AvalonBay + $3,000 1BR by Whole Foods",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Avalon%20Morrison%20Park%2C%20355%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126",
+    "website": "https://www.belldiridon.com/",
+    "highlightTag": "4.2★ AvalonBay + $3,000 1BR by Whole Foods",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bell%20Diridon%20%28formerly%20Avalon%20Morrison%20Park%29%2C%20355%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=355%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Avalon%20Morrison%20Park%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/bell-diridon-san-jose-ca/q9197cx/",
     "zillowUrl": "https://www.zillow.com/homes/355%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -196904,7 +197021,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Diridon VTA Station \u2192 VTA Green -> Blue Line (from Diridon Station to Cisco Way) (24m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Diridon VTA Station → VTA Green -> Blue Line (from Diridon Station to Cisco Way) (24m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -197598,7 +197715,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=355%20Stockton%20Ave%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "meridian-midtown",
@@ -197613,13 +197731,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 8.6,
     "driveMins": 15,
     "transitMins": 36,
-    "transitMode": "36m total (6m walk \u2192 25m VTA Green -> Blue Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "36m total (6m walk → 25m VTA Green -> Blue Line to Cisco Way → 5m walk)",
     "studioMin": 2999,
     "studioMax": 3200,
     "studioSqFt": "540",
     "oneBedMin": 3110,
     "oneBedMax": 3550,
-    "oneBedSqFt": "737\u2013800",
+    "oneBedSqFt": "737–800",
     "bestStartingRent": 2999,
     "recommendedUnit": "Studio ($2,999) or 1BR ($3,110)",
     "parkingFee": 100,
@@ -197646,11 +197764,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Pool & spa courtyard, fitness center, clubroom, walk to Safeway & Race St VTA",
     "praise": "Modern Midtown apartments walkable to Safeway and Race St VTA station with Studios under $3,000 and 737+ sq ft 1BRs.",
     "complaints": "W. San Carlos St traffic noise on exterior units.",
-    "website": "https://www.meridianmidtown.com/",
+    "website": "https://meridianmidtown.com/",
     "highlightTag": "Walk to Midtown Safeway + $2,999 Studio",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Meridian%20at%20Midtown%2C%201432%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1432%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Meridian%20at%20Midtown%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/meridian-at-midtown-san-jose-ca/ezyhf1m/",
     "zillowUrl": "https://www.zillow.com/homes/1432%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -199703,7 +199821,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (6m) to Diridon VTA Station \u2192 VTA Green -> Blue Line to Cisco Way (25m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (6m) to Diridon VTA Station → VTA Green -> Blue Line to Cisco Way (25m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -201029,7 +201147,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1432%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "elements-midtown",
@@ -201044,13 +201163,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 8.1,
     "driveMins": 15,
     "transitMins": 35,
-    "transitMode": "35m total (4m walk \u2192 26m VTA Green Line \u2192 5m walk)",
+    "transitMode": "35m total (4m walk → 26m VTA Green Line → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 3240,
     "oneBedMax": 3640,
-    "oneBedSqFt": "861\u2013904",
+    "oneBedSqFt": "861–904",
     "bestStartingRent": 3240,
     "recommendedUnit": "1BR ($3,240)",
     "parkingFee": 75,
@@ -201074,14 +201193,14 @@ const DEFAULT_APARTMENTS = [
     "legitimacy": "Verified Active Community (Greystar)",
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com",
-    "amenitiesHighlight": "Pool & hot tub, fitness center, huge 861\u2013904 sq ft 1BRs, steps to Race VTA station",
-    "praise": "4.1\u2605 rating with some of the largest 1-Bedroom floor plans in Midtown (861\u2013904 sq ft) and easy I-280/I-880 access.",
+    "amenitiesHighlight": "Pool & hot tub, fitness center, huge 861–904 sq ft 1BRs, steps to Race VTA station",
+    "praise": "4.1★ rating with some of the largest 1-Bedroom floor plans in Midtown (861–904 sq ft) and easy I-280/I-880 access.",
     "complaints": "$75/mo parking fee; occasional guest parking crunch.",
-    "website": "https://www.elementsmidtown.com/",
-    "highlightTag": "4.1\u2605 Huge 861\u2013904 Sq Ft 1BRs in Midtown",
+    "website": "https://www.elementsapts.com/",
+    "highlightTag": "4.1★ Huge 861–904 Sq Ft 1BRs in Midtown",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Elements%20at%20Midtown%2C%201201%20Parkmoor%20Ave%2C%20San%20Jose%2C%20CA%2095126",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=1201%20Parkmoor%20Ave%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Elements%20at%20Midtown%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/elements-san-jose-ca/v3ky8zd/",
     "zillowUrl": "https://www.zillow.com/homes/1201%20Parkmoor%20Ave%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -203110,7 +203229,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (4m) to Diridon VTA Station \u2192 VTA Green Line (Race St) -> Blue Line to Cisco Way (26m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (4m) to Diridon VTA Station → VTA Green Line (Race St) -> Blue Line to Cisco Way (26m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -204412,7 +204531,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=1201%20Parkmoor%20Ave%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "808-west",
@@ -204427,13 +204547,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.5,
     "driveMins": 13,
     "transitMins": 35,
-    "transitMode": "35m total (6m walk \u2192 24m Walk to Diridon -> VTA Blue/Green Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "35m total (6m walk → 24m Walk to Diridon -> VTA Blue/Green Line to Cisco Way → 5m walk)",
     "studioMin": 3030,
     "studioMax": 3150,
     "studioSqFt": "558",
     "oneBedMin": 3170,
     "oneBedMax": 3380,
-    "oneBedSqFt": "772\u2013806",
+    "oneBedSqFt": "772–806",
     "bestStartingRent": 3030,
     "recommendedUnit": "Studio ($3,030) or 1BR ($3,170)",
     "parkingFee": 100,
@@ -204458,13 +204578,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 3.6,
     "reviewSource": "Google (3.6) / Apartments.com",
     "amenitiesHighlight": "Courtyard pool & spa, sky deck, fitness center, 5-min walk to Diridon & Midtown dining",
-    "praise": "Spacious 772\u2013806 sq ft 1BRs starting at $3,170 (under $2,950 net effective after 4 weeks free) right between Midtown and Diridon.",
+    "praise": "Spacious 772–806 sq ft 1BRs starting at $3,170 (under $2,950 net effective after 4 weeks free) right between Midtown and Diridon.",
     "complaints": "Garage gate repairs can occasionally take a few days.",
     "website": "https://www.808west-apts.com/",
     "highlightTag": "Net Effective <$2,950 1BR Near Diridon",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=808%20West%20Apartments%2C%20808%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=808%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=808%20West%20Apartments%20San%20Jose",
+    "listingUrl": "https://www.apartments.com/808-west-apartments-san-jose-ca/402fkjh/",
     "zillowUrl": "https://www.zillow.com/homes/808%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -206165,7 +206285,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (6m) to Diridon VTA Station \u2192 Walk to Diridon -> VTA Blue/Green Line to Cisco Way (24m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (6m) to Diridon VTA Station → Walk to Diridon -> VTA Blue/Green Line to Cisco Way (24m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -207139,7 +207259,8 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=808%20W%20San%20Carlos%20St%2C%20San%20Jose%2C%20CA%2095126&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "embark-warm-springs",
@@ -207154,13 +207275,13 @@ const DEFAULT_APARTMENTS = [
     "distanceMiles": 7.5,
     "driveMins": 15,
     "transitMins": 24,
-    "transitMode": "24m total (5m walk \u2192 14m BART \u2192 5m walk)",
+    "transitMode": "24m total (5m walk → 14m BART → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 2935,
     "oneBedMax": 3370,
-    "oneBedSqFt": "613\u2013778",
+    "oneBedSqFt": "613–778",
     "bestStartingRent": 2935,
     "recommendedUnit": "1BR ($2,935)",
     "parkingFee": 50,
@@ -207169,7 +207290,7 @@ const DEFAULT_APARTMENTS = [
     "estUtilitiesAndFees": 210,
     "trueMonthlyMin": 3195,
     "trueMonthly1BR": 3195,
-    "moveInSpecial": "Up to 4\u20136 weeks free on select 12\u201315 mo leases",
+    "moveInSpecial": "Up to 4–6 weeks free on select 12–15 mo leases",
     "specialCreditMonthly": 245,
     "effectiveNetRent": 2690,
     "effectiveTrueMonthly": 2950,
@@ -207185,13 +207306,13 @@ const DEFAULT_APARTMENTS = [
     "rating": 4.1,
     "reviewSource": "Google (4.1) / Apartments.com",
     "amenitiesHighlight": "Resort lap pool, two-story fitness center, co-working lounges, steps from Warm Springs BART",
-    "praise": "4.1\u2605 newer luxury build with 1BRs starting under $2,950 ($2,935) and direct BART -> VTA Orange Line access to Cisco Way.",
+    "praise": "4.1★ newer luxury build with 1BRs starting under $2,950 ($2,935) and direct BART -> VTA Orange Line access to Cisco Way.",
     "complaints": "11-minute highway hop down I-880 S to Tasman Dr.",
     "website": "https://www.embarkapartments.com/",
-    "highlightTag": "4.1\u2605 Sub-$2,950 1BR at Warm Springs BART",
+    "highlightTag": "4.1★ Sub-$2,950 1BR at Warm Springs BART",
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Embark%20Apartments%20%28Warm%20Springs%20BART%29%2C%2044762%20Old%20Warm%20Springs%20Blvd%2C%20Fremont%2C%20CA%2094538",
     "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=44762%20Old%20Warm%20Springs%20Blvd%2C%20Fremont%2C%20CA%2094538&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Embark%20Apartments%20%28Warm%20Springs%20BART%29%20Fremont",
+    "listingUrl": "https://www.apartments.com/embark-apartments-fremont-ca/c2hfn5g/",
     "zillowUrl": "https://www.zillow.com/homes/44762%20Old%20Warm%20Springs%20Blvd%2C%20Fremont%2C%20CA%2094538_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -208280,7 +208401,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Milpitas BART / Transit Center VTA \u2192 BART (1 stop South to Milpitas) -> VTA Orange Line to Cisco Way (14m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Milpitas BART / Transit Center VTA → BART (1 stop South to Milpitas) -> VTA Orange Line to Cisco Way (14m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -208446,33 +208567,34 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=44762%20Old%20Warm%20Springs%20Blvd%2C%20Fremont%2C%20CA%2094538&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "amara-tasman-east",
-    "name": "Amara at Tasman East",
+    "name": "Marina Playa Apartment Homes",
     "subarea": "North Santa Clara (Tasman East / Lick Mill VTA)",
     "region": "Santa Clara (SVP Utility)",
-    "address": "2233 Calle Del Mundo, Santa Clara, CA 95054",
+    "address": "3500 Granada Ave, Santa Clara, CA 95051",
     "city": "Santa Clara",
-    "zip": "95054",
+    "zip": "95051",
     "lat": 37.4084,
     "lng": -121.9652,
     "distanceMiles": 2.8,
     "driveMins": 6,
     "transitMins": 18,
-    "transitMode": "18m total (5m walk \u2192 8m VTA Orange Line \u2192 5m walk)",
+    "transitMode": "18m total (5m walk → 8m VTA Orange Line → 5m walk)",
     "studioMin": 2995,
     "studioMax": 3220,
-    "studioSqFt": "510\u2013555",
+    "studioSqFt": "510–555",
     "oneBedMin": 3350,
     "oneBedMax": 3690,
-    "oneBedSqFt": "670\u2013760",
+    "oneBedSqFt": "670–760",
     "bestStartingRent": 2995,
     "recommendedUnit": "Studio ($2,995) or 1BR ($3,350)",
     "parkingFee": 100,
     "parkingNote": "Gated garage parking (~$100/mo)",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 125,
     "trueMonthlyMin": 3220,
     "trueMonthly1BR": 3575,
@@ -208487,18 +208609,18 @@ const DEFAULT_APARTMENTS = [
     "meetsAllCriteria": true,
     "under3000Option": true,
     "tier": "Top Pick",
-    "management": "Greystar",
+    "management": "UDR",
     "legitimacy": "Verified Active Community (Greystar)",
     "rating": 4.3,
     "reviewSource": "Google (4.3) / Apartments.com",
     "amenitiesHighlight": "Resort pool terrace, sky lounge, fitness studio, cheap Santa Clara SVP power, 2.5 mi to Cisco",
-    "praise": "4.3\u2605 Tasman East luxury with Studios starting under $3,000, cheap SVP municipal electric, and a 6-minute drive down Tasman Dr to Cisco.",
+    "praise": "4.3★ Tasman East luxury with Studios starting under $3,000, cheap SVP municipal electric, and a 6-minute drive down Tasman Dr to Cisco.",
     "complaints": "Unbundled $100/mo parking fee.",
-    "website": "https://www.greystar.com/",
-    "highlightTag": "4.3\u2605 Tasman East + Studio Under $3,000 (SVP)",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amara%20at%20Tasman%20East%2C%202233%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2233%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=Amara%20at%20Tasman%20East%20Santa%20Clara",
+    "website": "https://www.udr.com/san-francisco-bay-area-apartments/santa-clara/marina-playa/",
+    "highlightTag": "4.3★ Tasman East + Studio Under $3,000 (SVP)",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marina%20Playa%20Apartment%20Homes%2C%203500%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=3500%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/marina-playa-santa-clara-ca/d6tg4dk/",
     "zillowUrl": "https://www.zillow.com/homes/2233%20Calle%20Del%20Mundo%2C%20Santa%20Clara%2C%20CA%2095054_rb/",
     "userStatus": "shortlist",
     "userNotes": "",
@@ -209375,7 +209497,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (5m) to Great America VTA Station \u2192 VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (8m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (5m) to Great America VTA Station → VTA Orange Line (Eastbound on Tasman Dr to Cisco Way) (8m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -209549,33 +209671,34 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=3500%20Granada%20Ave%2C%20Santa%20Clara%2C%20CA%2095051&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   },
   {
     "id": "the-carlyle-santa-clara",
     "name": "The Carlyle Apartments",
     "subarea": "Santa Clara (Monroe / Central Park)",
     "region": "Santa Clara (SVP Utility)",
-    "address": "2250 Monroe St, Santa Clara, CA 95050",
+    "address": "4500 Carlyle Ct, Santa Clara, CA 95054",
     "city": "Santa Clara",
-    "zip": "95050",
+    "zip": "95054",
     "lat": 37.3502,
     "lng": -121.9615,
     "distanceMiles": 5.7,
     "driveMins": 12,
     "transitMins": 29,
-    "transitMode": "29m total (3m walk \u2192 21m VTA Bus 59 North -> VTA Orange Line to Cisco Way \u2192 5m walk)",
+    "transitMode": "29m total (3m walk → 21m VTA Bus 59 North -> VTA Orange Line to Cisco Way → 5m walk)",
     "studioMin": null,
     "studioMax": null,
     "studioSqFt": "N/A",
     "oneBedMin": 2985,
     "oneBedMax": 3290,
-    "oneBedSqFt": "740\u2013810",
+    "oneBedSqFt": "740–810",
     "bestStartingRent": 2985,
     "recommendedUnit": "1BR ($2,985)",
     "parkingFee": 0,
     "parkingNote": "1 assigned covered parking stall included free",
-    "utilityProvider": "Silicon Valley Power (~$0.18/kWh \u2014 60% cheaper!)",
+    "utilityProvider": "Silicon Valley Power (~$0.18/kWh — 60% cheaper!)",
     "estUtilitiesAndFees": 120,
     "trueMonthlyMin": 3105,
     "trueMonthly1BR": 3105,
@@ -209597,11 +209720,11 @@ const DEFAULT_APARTMENTS = [
     "amenitiesHighlight": "Heated pool & spa, fitness center, Central A/C, In-Unit W/D, $0 parking + SVP electric",
     "praise": "True sub-$3,000 1BR ($2,985) in Santa Clara with $0 included parking and 60% cheaper Silicon Valley Power electricity!",
     "complaints": "Older garden-style exterior than Tasman East high-rises, though interiors are updated.",
-    "website": "https://www.apartments.com/the-carlyle-santa-clara-ca/",
+    "website": "https://www.thecarlyle-apartments.com/",
     "highlightTag": "Sub-$3,000 Santa Clara 1BR + SVP + $0 Park",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Carlyle%20Apartments%2C%202250%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095050",
-    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=2250%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095050&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
-    "listingUrl": "https://www.apartments.com/search/?query=The%20Carlyle%20Apartments%20Santa%20Clara",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Carlyle%20Apartments%2C%204500%20Carlyle%20Ct%2C%20Santa%20Clara%2C%20CA%2095054",
+    "googleDirectionsUrl": "https://www.google.com/maps/dir/?api=1&origin=4500%20Carlyle%20Ct%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=driving",
+    "listingUrl": "https://www.apartments.com/carlyle-santa-clara-ca/j7b5mj7/",
     "zillowUrl": "https://www.zillow.com/homes/2250%20Monroe%20St%2C%20Santa%20Clara%2C%20CA%2095050_rb/",
     "userStatus": "none",
     "userNotes": "",
@@ -210610,7 +210733,7 @@ const DEFAULT_APARTMENTS = [
         37.40716
       ]
     ],
-    "transitSummary": "Walk (3m) to Lick Mill VTA Station \u2192 VTA Bus 59 North -> VTA Orange Line to Cisco Way (21m) \u2192 Walk (5m) to 3625 Cisco Way",
+    "transitSummary": "Walk (3m) to Lick Mill VTA Station → VTA Bus 59 North -> VTA Orange Line to Cisco Way (21m) → Walk (5m) to 3625 Cisco Way",
     "transitLegs": {
       "walkStart": [
         [
@@ -210752,12 +210875,13 @@ const DEFAULT_APARTMENTS = [
         -121.92889,
         37.40716
       ]
-    ]
+    ],
+    "googleTransitUrl": "https://www.google.com/maps/dir/?api=1&origin=4500%20Carlyle%20Ct%2C%20Santa%20Clara%2C%20CA%2095054&destination=3625%20Cisco%20Way%2C%20San%20Jose%2C%20CA%2095134&travelmode=transit"
   }
 ];
 
-const STORAGE_KEY_DATA = "sj_residence_data_v4";
-const STORAGE_KEY_PREFS = "sj_residence_prefs_v4";
+const STORAGE_KEY_DATA = "sj_residence_data_v5";
+const STORAGE_KEY_PREFS = "sj_residence_prefs_v5";
 
 const TOUR_STATUS_OPTIONS = [
   "Not Contacted",
@@ -210794,6 +210918,7 @@ const state = {
   },
   favorites: new Set(["north-park", "crescent-village", "viridian", "estancia-santa-clara", "santa-clara-square", "anton-aspire", "sixth-and-jackson"]),
   selectedId: "north-park",
+  lastSelectedId: "north-park",
   compareIds: new Set(),
   is3DPitched: true,
   routeMode: "both" // "both" | "car" | "transit" | "none"
@@ -210841,7 +210966,6 @@ function buildLinksForApt(apt) {
   const qLoc = encodeURIComponent(`${apt.name}, ${apt.address}`);
   const qOrigin = encodeURIComponent(apt.address);
   const qDest = encodeURIComponent(CISCO_HQ.address);
-  const qList = encodeURIComponent(`${apt.name} ${apt.city || "San Jose"} CA`);
 
   if (!apt.googleMapsUrl) {
     apt.googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${qLoc}`;
@@ -210852,8 +210976,14 @@ function buildLinksForApt(apt) {
   if (!apt.googleTransitUrl) {
     apt.googleTransitUrl = `https://www.google.com/maps/dir/?api=1&origin=${qOrigin}&destination=${qDest}&travelmode=transit`;
   }
-  if (!apt.listingUrl) {
-    apt.listingUrl = `https://www.apartments.com/search/?query=${qList}`;
+  if (!apt.listingUrl || String(apt.listingUrl).includes("/search/?query=")) {
+    const slug = `${apt.name || "apartments"} ${apt.city || "san-jose"} ca`
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+    apt.listingUrl = apt.website && String(apt.website).includes("apartments.com/")
+      ? apt.website
+      : `https://www.apartments.com/${slug}/`;
   }
   if (!apt.tourStatus) {
     apt.tourStatus = "Not Contacted";
@@ -210927,7 +211057,7 @@ function buildCostBreakdownHtml(apt) {
 // --- Load & Save State ---
 function loadPersistedState() {
   try {
-    const rawPrefs = localStorage.getItem(STORAGE_KEY_PREFS) || localStorage.getItem("sj_residence_prefs_v2");
+    const rawPrefs = localStorage.getItem(STORAGE_KEY_PREFS) || localStorage.getItem("sj_residence_prefs_v4") || localStorage.getItem("sj_residence_prefs_v2");
     if (rawPrefs) {
       const p = JSON.parse(rawPrefs);
       if (p.theme) state.theme = p.theme;
@@ -210945,12 +211075,12 @@ function loadPersistedState() {
   const baseDefaults = JSON.parse(JSON.stringify(DEFAULT_APARTMENTS)).map(buildLinksForApt);
 
   try {
-    const rawData = localStorage.getItem(STORAGE_KEY_DATA) || localStorage.getItem("sj_residence_data_v2");
+    const rawData = localStorage.getItem(STORAGE_KEY_DATA) || localStorage.getItem("sj_residence_data_v4") || localStorage.getItem("sj_residence_data_v2");
     if (rawData) {
       const parsed = JSON.parse(rawData);
       if (Array.isArray(parsed) && parsed.length > 0) {
         const savedMap = new Map(parsed.map((a) => [a.id, a]));
-        // Merge saved user edits onto all 42 default apartments + preserve any custom user-added listings
+        // Merge saved user edits onto all 91 default apartments while always enforcing fresh verified URLs
         const merged = baseDefaults.map((fresh) => {
           const savedApt = savedMap.get(fresh.id);
           if (!savedApt) return fresh;
@@ -210963,7 +211093,12 @@ function loadPersistedState() {
             trueMonthly1BR: savedApt.trueMonthly1BR ?? fresh.trueMonthly1BR,
             under3000Option: savedApt.under3000Option ?? fresh.under3000Option,
             tourStatus: savedApt.tourStatus ?? fresh.tourStatus ?? "Not Contacted",
-            userNotes: savedApt.userNotes ?? fresh.userNotes ?? ""
+            userNotes: savedApt.userNotes ?? fresh.userNotes ?? "",
+            website: fresh.website,
+            listingUrl: fresh.listingUrl,
+            googleMapsUrl: fresh.googleMapsUrl,
+            googleDirectionsUrl: fresh.googleDirectionsUrl,
+            googleTransitUrl: fresh.googleTransitUrl
           });
         });
         parsed.forEach((savedApt) => {
@@ -211685,12 +211820,19 @@ function updateMapMarkersAndArcs() {
   const showTransit = state.routeMode === "both" || state.routeMode === "transit";
   const selectedApt = state.selectedId ? state.filtered.find((a) => a.id === state.selectedId) : null;
   const hasSelection = Boolean(selectedApt);
+  if (selectedApt) {
+    state.lastSelectedId = selectedApt.id;
+  }
 
-  // Sync "Show All Pins" button state
+  // Sync "Show All Pins" toggle button state
   const clearBtn = document.getElementById("clear-selection-btn");
   if (clearBtn) {
     clearBtn.classList.toggle("active", !hasSelection);
+    clearBtn.setAttribute("aria-pressed", String(!hasSelection));
     clearBtn.textContent = hasSelection ? "Show All Pins" : "All Pins Shown";
+    clearBtn.title = hasSelection
+      ? "Un-dim all apartment pins on the map"
+      : "Click again to untoggle and isolate the selected apartment pin";
   }
 
   // 1. Add Cisco HQ Anchor Marker
@@ -211780,12 +211922,14 @@ function updateMapMarkersAndArcs() {
 
     el.addEventListener("click", () => {
       if (state.selectedId === apt.id) {
+        state.lastSelectedId = apt.id;
         state.selectedId = null;
         renderCards();
         renderMapInspector(apt);
         updateMapMarkersAndArcs();
       } else {
         state.selectedId = apt.id;
+        state.lastSelectedId = apt.id;
         renderCards();
         renderMapInspector(apt);
         updateMapMarkersAndArcs();
@@ -212193,6 +212337,7 @@ function openCompareModal() {
       <p style="font-size:0.78rem; color:var(--text-secondary);"><strong>Watch-out:</strong> ${escapeHtml(apt.complaints)}</p>
       <div class="external-links-strip" style="margin-top:10px;">
         <a href="${escapeHtml(apt.googleMapsUrl)}" target="_blank" rel="noopener" class="ext-link">📍 Map</a>
+        <a href="${escapeHtml(apt.listingUrl)}" target="_blank" rel="noopener" class="ext-link">🏢 Listing</a>
         <a href="${escapeHtml(apt.website)}" target="_blank" rel="noopener" class="ext-link">🌐 Site ↗</a>
       </div>
     </div>
@@ -212425,23 +212570,37 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("clear-selection-btn")?.addEventListener("click", () => {
-    state.selectedId = null;
-    renderCards();
-    updateMapMarkersAndArcs();
-    const firstApt = state.filtered[0] || state.apartments[0];
-    if (firstApt) renderMapInspector(firstApt);
-    map?.flyTo({
-      center: [-121.92889, 37.392],
-      zoom: 11.7,
-      pitch: state.is3DPitched ? 50 : 0,
-      bearing: state.is3DPitched ? -12 : 0,
-      duration: 650
-    });
+    if (state.selectedId !== null) {
+      state.lastSelectedId = state.selectedId;
+      state.selectedId = null;
+      renderCards();
+      updateMapMarkersAndArcs();
+      const firstApt = state.filtered.find((a) => a.id === state.lastSelectedId) || state.filtered[0] || state.apartments[0];
+      if (firstApt) renderMapInspector(firstApt);
+      map?.flyTo({
+        center: [-121.92889, 37.392],
+        zoom: 11.7,
+        pitch: state.is3DPitched ? 50 : 0,
+        bearing: state.is3DPitched ? -12 : 0,
+        duration: 650
+      });
+    } else {
+      const restoreApt = state.filtered.find((a) => a.id === state.lastSelectedId) || state.filtered[0] || state.apartments[0];
+      if (restoreApt) {
+        state.selectedId = restoreApt.id;
+        state.lastSelectedId = restoreApt.id;
+        renderCards();
+        renderMapInspector(restoreApt);
+        updateMapMarkersAndArcs();
+        fitMapToApartmentRoute(restoreApt);
+      }
+    }
   });
 
   function selectApartmentAndSpotlight(apt, shouldScrollToMap = true) {
     if (!apt) return;
     state.selectedId = apt.id;
+    state.lastSelectedId = apt.id;
     renderCards();
     renderMapInspector(apt);
     updateMapMarkersAndArcs();
@@ -212618,6 +212777,7 @@ document.addEventListener("DOMContentLoaded", () => {
     state.apartments.unshift(newApt);
     state.favorites.add(newApt.id);
     state.selectedId = newApt.id;
+    state.lastSelectedId = newApt.id;
     saveAllToStorage(`Added ${newApt.name}`);
     runFilterAndRender();
     fetchLiveOSRMRouteForApt(newApt);
@@ -212638,6 +212798,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("reset-storage-btn")?.addEventListener("click", () => {
     localStorage.removeItem(STORAGE_KEY_DATA);
     localStorage.removeItem(STORAGE_KEY_PREFS);
+    localStorage.removeItem("sj_residence_data_v4");
+    localStorage.removeItem("sj_residence_prefs_v4");
     localStorage.removeItem("sj_residence_data_v2");
     localStorage.removeItem("sj_residence_prefs_v2");
     state.apartments = JSON.parse(JSON.stringify(DEFAULT_APARTMENTS)).map(buildLinksForApt);
