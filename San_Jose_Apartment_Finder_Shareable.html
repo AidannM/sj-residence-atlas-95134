@@ -74074,10 +74074,24 @@ function fitMapToApartmentRoute(apt) {
     if (lat > maxLat) maxLat = lat;
   });
   if (isFinite(minLng) && isFinite(maxLng)) {
-    map.fitBounds(
-      [[minLng, minLat], [maxLng, maxLat]],
-      { padding: { top: 76, bottom: 96, left: 112, right: 112 }, maxZoom: 14.1, pitch: state.is3DPitched ? 48 : 0, duration: 750 }
-    );
+    const midLng = (minLng + maxLng) / 2;
+    const midLat = (minLat + maxLat) / 2;
+    const span = Math.max(maxLng - minLng, (maxLat - minLat) * 1.35);
+    let targetZoom = 13.6;
+    if (span > 0.11) targetZoom = 11.3;
+    else if (span > 0.075) targetZoom = 11.8;
+    else if (span > 0.05) targetZoom = 12.3;
+    else if (span > 0.03) targetZoom = 12.8;
+    else if (span > 0.018) targetZoom = 13.4;
+    else targetZoom = 14.0;
+
+    map.flyTo({
+      center: [midLng, midLat],
+      zoom: targetZoom,
+      pitch: state.is3DPitched ? 48 : 0,
+      bearing: state.is3DPitched ? -12 : 0,
+      duration: 650
+    });
   }
 }
 
